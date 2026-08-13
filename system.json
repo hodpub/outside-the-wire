@@ -1,0 +1,156 @@
+{
+  "id": "outside-the-wire",
+  "title": "Outside the Wire",
+  "description": "The official Outside the Wire system for FoundryVTT!",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.365"
+  },
+  "authors": [
+    {
+      "name": "Cussa Mitre [Hod Publishing]",
+      "url": "https://hodpub.com/",
+      "discord": "CussaMitre"
+    }
+  ],
+  "url": "https://github.com/hodpub/outside-the-wire",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/hodpub/outside-the-wire/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/outside-the-wire/assets/outside-the-wire.webp",
+      "thumbnail": "systems/outside-the-wire/assets/outside-the-wire.webp"
+    }
+  ],
+  "esmodules": [
+    "system/outside-the-wire.mjs"
+  ],
+  "styles": [
+    "css/outside-the-wire.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "rolltables",
+      "label": "Roll Tables",
+      "path": "packs/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "outside-the-wire"
+    },
+    {
+      "name": "quickstart",
+      "label": "Quickstart",
+      "path": "packs/quickstart",
+      "type": "Adventure",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "outside-the-wire"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Outside the Wire",
+      "sorting": "m",
+      "color": "#7b620a",
+      "packs": [
+        "quickstart"
+      ]
+    }
+  ],
+  "socket": false,
+  "manifest": "https://github.com/hodpub/outside-the-wire/releases/latest/download/system.json",
+  "download": "https://github.com/hodpub/outside-the-wire/releases/latest/download/system.zip",
+  "background": "systems/outside-the-wire/assets/outside-the-wire.webp",
+  "grid": {
+    "type": 1,
+    "distance": 1,
+    "units": "m",
+    "diagonals": 0
+  },
+  "documentTypes": {
+    "Actor": {
+      "soldier": {
+        "htmlFields": [
+          "biography"
+        ]
+      },
+      "insurgent": {
+        "htmlFields": [
+          "biography"
+        ]
+      }
+    },
+    "Item": {
+      "specialty": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "school": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "deployment": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "deploymentDetail": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "background": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "equipment": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "weapon": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "explosive": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "css",
+        "lang",
+        "templates"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<section class='tab attributes {{tab.cssClass}}' data-group='primary' data-tab='attributes'>
+  <h1>{{localize "OUTSIDE_THE_WIRE.Attributes.label"}}</h1>
+  {{#unless data.attributes.choice}}
+  <div class="grid buttons">
+    <button type="button" data-action="attributeRoll">Roll Attributes</button>
+    <button type="button" data-action="attributeFill">Fill Attributes<br>(22 points)</button>
+  </div>
+  {{else}}
+
+  <h2 {{{data.attributes.status}}}>
+    {{#if (eq data.attributes.choice "fill")}}
+    Fill Mode: {{data.attributes.currentPoints}} / {{data.attributes.maxPoints}}
+    {{else}}
+    Roll Mode
+    {{/if}}
+  </h2>
+  {{#each config.ACTOR.ATTRIBUTES as | attribute |}}
+  {{#with (lookup ../actor.attributes attribute)}}
+  <div class="square-field">
+    <div class="form-group">
+      <label>{{localize (concat "OUTSIDE_THE_WIRE.Attributes." attribute)}}</label>
+      <div class="form-fields up-down-buttons">
+        {{#if (eq @root.data.attributes.choice "roll")}}
+        <button type="button" data-action="attributeUp" data-current-attribute="{{attribute}}" {{ifThen
+          @first "disabled" "" }}><i class="fa-solid fa-up-from-bracket"></i></button>
+        <button type="button" data-action="attributeDown" data-current-attribute="{{attribute}}" {{ifThen
+          @last "disabled" "" }}><i class="fa-solid fa-down-from-bracket"></i></button>
+        {{/if}}
+        <input type="number" min="3" max="10" step="1" name="attributes.{{attribute}}.value" value="{{value}}" {{ifThen (eq @root.data.attributes.choice "roll") "disabled" ""}}>
+      </div>
+    </div>
+  </div>
+  {{/with}}
+  {{/each}}
+  {{/unless}}
+
+  <div class="footer">
+    <button type="button" data-action="movePrevious">Previous</button>
+    <button type="button" data-action="moveNext" {{ifThen data.attributes.ready "" "disabled" }}>Next</button>
+  </div>
+</section>

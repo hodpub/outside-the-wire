@@ -1,0 +1,44 @@
+<section class='tab personal scrollable {{tab.cssClass}}' data-group='primary' data-tab='personal'>
+  <label class="title">{{{localize "OUTSIDE_THE_WIRE.Actor.Tabs.Personal"}}}</label>
+  {{formGroup systemFields.serviceBranch value=system.serviceBranch disabled=(not system.editMode)
+  choices=config.ACTOR.SERVICE_BRANCHE_CHOICES localize=true}}
+  <div class="form-group">
+    <label>{{localize "OUTSIDE_THE_WIRE.Actor.base.FIELDS.initialRank.label"}}</label>
+    <div class="form-fields">
+      <select name="system.initialRank" {{ifThen system.editMode "" "disabled" }}>
+        {{getRanks system.nationality system.serviceBranch system.initialRank}}
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>{{localize "OUTSIDE_THE_WIRE.Actor.base.FIELDS.rank.value.label"}}</label>
+    <div class="form-fields">
+      <input type="text" disabled="" value="{{system.rank.total}}">
+    </div>
+  </div>
+  {{formGroup systemFields.nickname value=system.nickname disabled=(not system.editMode)}}
+  <div class="form-group">
+    {{#if system.editMode}}
+    <label>{{localize "OUTSIDE_THE_WIRE.Actor.base.FIELDS.age.value.label"}}</label>
+    <div class="form-fields">
+      <input type="number" name="system.age.value" min="17" max="30" value="{{system.age.value}}">
+    </div>
+    {{else}}
+    <label>{{localize "OUTSIDE_THE_WIRE.Actor.base.FIELDS.age.total.label"}}</label>
+    <div class="form-fields">
+      <input type="text" disabled value="{{system.age.total}}">
+    </div>
+    {{/if}}
+  </div>
+  {{formGroup systemFields.tours value=system.tours disabled=(not system.editMode)}}
+  {{formGroup systemFields.nationality value=system.nationality disabled=(not system.editMode)}}
+  {{formGroup systemFields.physicalDescription value=system.physicalDescription disabled=(not system.editMode) elementType="textarea" rows=2}}
+  {{formGroup systemFields.height value=system.height disabled=(not system.editMode)}}
+  {{formGroup systemFields.weight value=system.weight disabled=(not system.editMode)}}
+  {{formGroup systemFields.languages value=system.languages disabled=(not system.editMode)}}
+  {{formGroup systemFields.motivation value=system.motivation disabled=(not system.editMode)}}
+  {{formGroup systemFields.trademark value=system.trademark disabled=(not system.editMode)}}
+  {{formGroup systemFields.conflict value=system.conflict disabled=(not system.editMode) elementType="textarea" rows=2}}
+  {{formGroup systemFields.hook value=system.hook disabled=(not system.editMode) elementType="textarea"
+  rows=2}}
+</section>

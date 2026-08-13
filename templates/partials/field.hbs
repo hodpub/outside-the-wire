@@ -1,0 +1,10 @@
+<div class="square-field">
+  <div class="form-group">
+    <label {{#unless (or no_roll system.editMode)}} class="rollable" data-action="roll" data-label="{{localize (concat "OUTSIDE_THE_WIRE." group "." fieldName)}}" data-target="{{value.total}}" {{/unless}}>{{localize (concat "OUTSIDE_THE_WIRE." group "."
+      fieldName)}}</label>
+    <div class="form-fields">
+      <input type="number" min="0" max="10" step="1"  {{#if @root.system.editMode}}
+        name="{{fieldPath}}" value="{{value.value}}" {{else}} value="{{value.total}}" disabled {{/if}}>
+    </div>
+  </div>
+</div>

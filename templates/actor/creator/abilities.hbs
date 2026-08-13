@@ -1,0 +1,16 @@
+<section class='tab abilities {{tab.cssClass}}' data-group='primary' data-tab='abilities'>
+  <h1>{{localize "OUTSIDE_THE_WIRE.Abilities.label"}}</h1>
+
+  {{!-- {{#each this.aptitudes}} {{#if this.show}}
+  <div class="aptitude-entry">
+    <div class="aptitude-label">{{this.label}}</div>
+    <div class="aptitude-trait">{{this.trait}}</div>
+    <div class="aptitude-die">{{this.totalRanks}}d{{this.die}}</div>
+  </div>
+  {{/if}} {{/each}} --}}
+
+  <div class="footer">
+    <button type="button" data-action="movePrevious">Previous</button>
+    <button type="button" data-action="moveNext" {{ifThen data.abilities.ready "" "disabled" }}>Next</button>
+  </div>
+</section>

@@ -1,0 +1,246 @@
+{
+  "name": "Damage Resolution",
+  "_id": "LfJtDBYPkJqBJ9NC",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "ae6GqZdCbDScJAfl",
+      "name": "Head",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Instant Down (Unconscious/Dying)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603683026,
+        "modifiedTime": 1786603696389,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.ae6GqZdCbDScJAfl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "rWm95hkWCu8lRTIL",
+      "name": "Head Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Instant Down (Concussion/Knockout)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603701266,
+        "modifiedTime": 1786603718223,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.rWm95hkWCu8lRTIL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "kpd4RvtADndem2xK",
+      "name": "Torso",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Severe (Out of fight, needs Evac)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603722480,
+        "modifiedTime": 1786603734024,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.kpd4RvtADndem2xK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "8OdNe4g96jB1oGZn",
+      "name": "Torso Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Severe (Broken ribs/Internal injury)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603741676,
+        "modifiedTime": 1786603750753,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.8OdNe4g96jB1oGZn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "4oDGIF0WJ0jPi8a7",
+      "name": "Leg",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Mobility Kill (Cannot move, -DRM to actions)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603767242,
+        "modifiedTime": 1786603781798,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.4oDGIF0WJ0jPi8a7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "Mdt5DspP7RaoEDnk",
+      "name": "Arm",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Mobility Kill (Cannot use weapon)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603800445,
+        "modifiedTime": 1786603806336,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.Mdt5DspP7RaoEDnk"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "_id": "jP3IS83CXr7GQIM7",
+      "name": "Stun",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Loss of Turn (Pinned/Shock)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603812766,
+        "modifiedTime": 1786603844599,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.jP3IS83CXr7GQIM7"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "_id": "9dYq22Us6sRLJHdZ",
+      "name": "Superficial",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Move Only (Flesh wound)</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786603829021,
+        "modifiedTime": 1786603844601,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!LfJtDBYPkJqBJ9NC.9dYq22Us6sRLJHdZ"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "BDvzKkO2QU6Ny6CT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1786603680609,
+    "modifiedTime": 1786603844598,
+    "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "_key": "!tables!LfJtDBYPkJqBJ9NC"
+}

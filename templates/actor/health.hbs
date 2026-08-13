@@ -1,0 +1,14 @@
+{{! Effects Tab }}
+<section class='tab health flexcol scrollable {{tab.cssClass}}' data-group='primary' data-tab='health'>
+  <label class="title">{{{localize "OUTSIDE_THE_WIRE.Actor.Tabs.Health"}}}</label>
+
+  <div class="grid grid-3col">
+    {{#each statusEffects }}
+    <div>
+      <img class="condition rollable" src="{{this.img}}" data-action="toggleStatusEffect" data-value="{{this.id}}"
+        data-tootip-text="{{localize this.name}}" style="opacity: {{ifThen (has ../actor.statuses this.id) " 100%" "20%" }}">
+      <p style="text-align: center;">{{localize this.name}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>

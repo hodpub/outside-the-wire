@@ -1,0 +1,9 @@
+<section class='tab scrollable bonuses {{tab.cssClass}}' data-group='primary' data-tab='bonuses'>
+  {{> "systems/outside-the-wire/templates/partials/full-values.hbs"}}
+  <div class="grid">
+    <div class="grid-span-2">
+      {{formGroup systemFields.rank.fields.value value=system.rank.value
+      choices=config.OUTSIDE_THE_WIRE.ITEMS.DEPLOYMENT_PROMOTION_CHOICES localize=true}}
+    </div>
+  </div>
+</section>

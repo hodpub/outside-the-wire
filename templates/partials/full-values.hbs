@@ -1,0 +1,98 @@
+<div>
+  <div class="grid">
+    <div class="grid-span-2">
+      <label>Attributes /</label>
+    </div>
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Attributes"
+    fieldName=systemFields.attributes.fields.strength.name
+    fieldPath="system.attributes.strength.value"
+    value=system.attributes.strength}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Attributes"
+    fieldName=systemFields.attributes.fields.agility.name
+    fieldPath="system.attributes.agility.value"
+    value=system.attributes.agility}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Attributes"
+    fieldName=systemFields.attributes.fields.wisdom.name
+    fieldPath="system.attributes.wisdom.value"
+    value=system.attributes.wisdom}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Attributes"
+    fieldName=systemFields.attributes.fields.knowledge.name
+    fieldPath="system.attributes.knowledge.value"
+    value=system.attributes.knowledge}}
+  </div>
+  <div class="grid">
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Actor.base.FIELDS"
+    fieldName="combatExperience.label"
+    fieldPath="system.combatExperience.value"
+    no_roll=true
+    value=system.combatExperience}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Actor.base.FIELDS"
+    fieldName="trainingExperience.label"
+    fieldPath="system.trainingExperience.value"
+    no_roll=true
+    value=system.trainingExperience}}
+  </div>
+  <div class="grid">
+    <div class="grid-span-2">
+      <label>Abilities //</label>
+    </div>
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Abilities" fieldName="prowess"
+    fieldPath="system.abilities.prowess.value"
+    value=system.abilities.prowess}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Abilities" fieldName="shooting"
+    fieldPath="system.abilities.shooting.value"
+    value=system.abilities.shooting}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Abilities" fieldName="instincts"
+    fieldPath="system.abilities.instincts.value"
+    value=system.abilities.instincts}}
+    {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Abilities" fieldName="tactics"
+    fieldPath="system.abilities.tactics.value"
+    value=system.abilities.tactics}}
+  </div>
+  <div class="grid">
+    <div class="grid-span-2">
+      <label>Skills ///</label>
+    </div>
+    {{!-- <div> --}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.smallArms.value"
+      fieldName="smallArms"
+      value=system.skills.smallArms}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.heavyArms.value"
+      fieldName="heavyArms"
+      value=system.skills.heavyArms}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.firstAid.value"
+      fieldName="firstAid"
+      value=system.skills.firstAid}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.communications.value"
+      fieldName="communications"
+      value=system.skills.communications}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.civilAffairs.value"
+      fieldName="civilAffairs"
+      value=system.skills.civilAffairs}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.spying.value"
+      fieldName="spying"
+      value=system.skills.spying}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.fires.value"
+      fieldName="fires"
+      value=system.skills.fires}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.signalsIntel.value"
+      fieldName="signalsIntel"
+      value=system.skills.signalsIntel}}
+      {{> "systems/outside-the-wire/templates/partials/field.hbs" group="Skills"
+      fieldPath="system.skills.explosives.value"
+      fieldName="explosives"
+      value=system.skills.explosives}}
+      {{!-- </div>
+    <div>
+
+    </div> --}}
+  </div>
+</div>

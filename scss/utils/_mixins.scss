@@ -1,0 +1,42 @@
+@mixin element-invisible {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@mixin hide {
+  display: none;
+}
+
+
+@mixin button {
+  color: var(--otw-c-dark);
+  width: 100%;
+  // font-family: Comic, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0;
+  box-shadow: 3px 3px 0px 0px var(--otw-c-dark);
+  border: 0;
+
+  &[disabled] {
+    filter: sepia(0.5) contrast(0.75) opacity(0.4);
+  }
+
+  &:not([disabled]):hover {
+    background: --otw-c-dark;
+    color: --otw-c-white;
+  }
+}
+
+@mixin title {
+  font-size: var(--font-size-32);
+  color: var(--otw-c-dark);
+}

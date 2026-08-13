@@ -1,0 +1,33 @@
+<section class='tab services scrollable {{tab.cssClass}}' data-group='primary' data-tab='services'>
+  <label class="title">{{{localize "OUTSIDE_THE_WIRE.Actor.Tabs.Services"}}}</label>
+  <div class="table services">
+    <div class="header">
+      <div>Type</div>
+      <div>Info</div>
+      <div>
+        <a class='effect-control' data-action='createDoc' data-tooltip='{{localize "DOCUMENT.Create" type=' Deployment'}}' data-type="deployment" data-document-class="Item">
+          <i class='fas fa-earth-africa'></i>
+        </a>
+        <a class='effect-control' data-action='createDoc' data-tooltip='{{localize "DOCUMENT.Create" type=' Specialty'}}' data-type="specialty" data-document-class="Item">
+          <i class='fas fa-sitemap' style="rotate: 90deg"></i>
+        </a>
+      </div>
+    </div>
+    {{#each services as | service | }}
+    <div class="item" data-document-class="Item" data-item-id="{{service.id}}">
+      <div>{{localize (concat "TYPES.Item." service.type)}}</div>
+      <div>{{service.name}}</div>
+      <div class='effect-controls flexrow'>
+        <a class='effect-control' data-action='viewDoc' data-tooltip='{{localize "DOCUMENT.Update" type=' Item'}}'>
+          <i class='fas fa-edit'></i>
+        </a>
+        {{#if @root.editable}}
+        <a class='effect-control' data-action='deleteDoc' data-tooltip='{{localize "DOCUMENT.Delete" type=' Item'}}'>
+          <i class='fas fa-trash'></i>
+        </a>
+        {{/if}}
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</section>

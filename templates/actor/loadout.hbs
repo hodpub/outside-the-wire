@@ -1,0 +1,42 @@
+{{! Gear Tab }}
+<section class='tab loadout scrollable {{tab.cssClass}}' data-group='primary' data-tab='loadout'>
+  <label class="title">{{{localize "OUTSIDE_THE_WIRE.Actor.Tabs.Loadout"}}}</label>
+  <ol class='loadout-list'>
+    {{#each config.EQUIPMENT.LOADOUT}}
+    <li class="header">
+      <div class="header-name">
+        {{localize (concat "OUTSIDE_THE_WIRE.Item.Equipment.FIELDS.type." this ".label")}}
+      </div>
+      <ol class='loadout-list'>
+        {{#each (lookup @root.loadout this) as | equipment |}}
+        <li class='loadout-item flexrow draggable' data-item-id='{{equipment.id}}' data-document-class="Item">
+          <div class='loadout-name flexrow'>
+            <img class='loadout-image' src='{{equipment.img}}' height="24" width="24" />
+            <label>
+              {{ifThen (and equipment.system.usable (ne equipment.type "weapon")) (concat "[" equipment.system.quantity "]") ""}}
+              {{equipment.name}}
+              {{#if (eq equipment.type "weapon")}}
+              [Rounds: {{equipment.system.quantity}}]
+              {{/if}}
+            </label>
+          </div>
+          <div class='loadout-controls'>
+            <a class='loadout-control' data-action='roll' data-roll-type="item">
+              <i class='fas {{ifThen equipment.system.test "fa-dice" "fa-comment"}}'></i>
+            </a>
+            <a class='loadout-control' data-action='viewDoc' data-tooltip='{{localize "DOCUMENT.Update" type=' Item'}}'>
+              <i class='fas fa-edit'></i>
+            </a>
+            {{#if @root.editable}}
+            <a class='effect-control' data-action='deleteDoc' data-tooltip='{{localize "DOCUMENT.Delete" type=' Item'}}'>
+              <i class='fas fa-trash'></i>
+            </a>
+            {{/if}}
+          </div>
+        </li>
+        {{/each}}
+      </ol>
+    </li>
+    {{/each}}
+  </ol>
+</section>

@@ -1,0 +1,40 @@
+<section class='tab scrollable deployments {{tab.cssClass}}' data-group='primary' data-tab='deployments'>
+  <h1>{{localize "OUTSIDE_THE_WIRE.Creator.tab.deployments"}}</h1>
+  {{log data.deployment}}
+  <div class="grid buttons">
+    <h5 class="grid-span-2">Create Tour</h5>
+    <button type="button" data-action="deploymentRollOnlyNumber">Roll only<br>deployment number</button>
+    <button type="button" data-action="deploymentRollEverything">Roll everything</button>
+  </div>
+
+  {{#each data.tours}}
+  <h3>Tour #{{add @index 1}}</h3>
+  <p>{{this.choice}}</p>
+  <p>{{this.numbers}}</p>
+
+  <div class="backgrounds">
+    {{#each this.deployments as | deployment | }}
+    <div class="item">
+      <label>{{deployment.name}}</label>
+      {{#if deployment.system.location}}
+      <p>{{localize "OUTSIDE_THE_WIRE.Item.Deployment.FIELDS.awards.label"}}: {{deployment.system.awards}}</p>
+      <p>{{localize "OUTSIDE_THE_WIRE.Item.Deployment.FIELDS.school.label"}}: {{deployment.system.schoolName}}</p>
+      {{/if}}
+      <p>{{localize "OUTSIDE_THE_WIRE.Item.DeploymentDetail.FIELDS.rank.value.label"}}:
+        {{localize (concat "OUTSIDE_THE_WIRE.Item.DeploymentDetail.FIELDS.rank." concat deployment.system.rank.value
+        ".label")}}</p>
+      <div class="description">
+        {{{deployment.system.description}}}
+      </div>
+      {{deployment.system.changes}}
+    </div>
+    {{/each}}
+  </div>
+  <hr>
+  {{/each}}
+
+  <div class="footer">
+    <button type="button" data-action="movePrevious">Previous</button>
+    <button type="submit" {{ifThen data.deployment.ready "" "disabled" }}>Finish</button>
+  </div>
+</section>

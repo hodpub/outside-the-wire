@@ -1,0 +1,3722 @@
+{
+  "folder": "Y5oLmESOcYsq9BCZ",
+  "name": "Armando Suarez",
+  "type": "soldier",
+  "_id": "pWoeiYUqAuyu4NhO",
+  "img": "systems/outside-the-wire/assets/pregens/armani.webp",
+  "system": {
+    "attributes": {
+      "strength": {
+        "value": 4
+      },
+      "agility": {
+        "value": 8
+      },
+      "wisdom": {
+        "value": 8
+      },
+      "knowledge": {
+        "value": 5
+      }
+    },
+    "nickname": "Armani",
+    "age": {
+      "value": 28
+    },
+    "nationality": "USA",
+    "height": "",
+    "weight": "",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "motivation": "Duty and Service",
+    "trademark": "Catholic cross",
+    "hook": "the squads shield - duty to protect",
+    "conflict": "Intense obligation to Squad, saving them",
+    "serviceBranch": "army",
+    "combatExperience": {
+      "value": 0
+    },
+    "trainingExperience": {
+      "value": 0
+    },
+    "abilities": {
+      "prowess": {
+        "value": 0
+      },
+      "shooting": {
+        "value": 0
+      },
+      "instincts": {
+        "value": 0
+      },
+      "tactics": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "smallArms": {
+        "value": 0
+      },
+      "heavyArms": {
+        "value": 0
+      },
+      "firstAid": {
+        "value": 0
+      },
+      "communications": {
+        "value": 0
+      },
+      "civilAffairs": {
+        "value": 0
+      },
+      "spying": {
+        "value": 0
+      },
+      "fires": {
+        "value": 0
+      },
+      "signalsIntel": {
+        "value": 0
+      },
+      "explosives": {
+        "value": 0
+      }
+    },
+    "health": {
+      "stun": false,
+      "mobility": false,
+      "mobilityArm": false,
+      "mobilityLeg": false,
+      "unconscious": false,
+      "dead": false
+    },
+    "editMode": false,
+    "biography": "<p>Ranger graduate who stayed with the Platoon for one more deployment out of duty. Stoic and hard. Ham radio enthusiast. Demanding of the squad and attachments. Never without his Catholic cross, feels it’s his duty to protect the squad. Recently deployed to the Philippines, earning a Silver Star and Ranger school. Iraq Veteran.</p>",
+    "physicalDescription": "Pit bull, burly",
+    "initialRank": 3,
+    "tours": 0
+  },
+  "prototypeToken": {
+    "name": "Armando Suarez",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "depth": 1,
+    "texture": {
+      "src": "systems/outside-the-wire/assets/pregens/armani.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "derived.health"
+    },
+    "bar2": {
+      "attribute": "derived.resolve"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "4fR82AbtOZVRJAbA",
+      "name": "Ham Radio enthusiast",
+      "type": "background",
+      "_id": "BvN6fSOCkDcfmrh1",
+      "img": "systems/outside-the-wire/assets/icons/background.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 1
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Rifleman",
+      "type": "specialty",
+      "_id": "CKjTAzrMc9kVsgY6",
+      "img": "systems/outside-the-wire/assets/icons/specialty.svg",
+      "system": {
+        "description": "<p>Riflemen are the backbone of any military force, the essential soldier whose skills, endurance, and adaptability define the success of a patrol. In Outside the Wire, this archetype represents the foundation of military play as characters who are reliable, versatile, and always in the action’s thick. The Rifleman doesn’t lead from the map or issue orders from the rear; they’re the first in and the last out, shaping the fight through discipline, precision, and raw willpower. Every engagement, from street-to-street combat to jungle ambushes or desert patrols, relies on the Rifleman’s steadiness under fire.</p>",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 1
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 3
+          },
+          "heavyArms": {
+            "value": 1
+          },
+          "firstAid": {
+            "value": 1
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "rank": {
+          "value": 0
+        },
+        "hookTable": "RollTable.BLBxaF9vCzCe22Er",
+        "initial": true,
+        "active": true,
+        "usedHook": false
+      },
+      "effects": [],
+      "folder": "bdzIqRbrxhmnKZtc",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Deployment #1 to Iraq",
+      "type": "deployment",
+      "_id": "SgyHd2nRFCq6nBXN",
+      "img": "systems/outside-the-wire/assets/icons/deployment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 1
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 1
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 1
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 1
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "school": "Actor.pWoeiYUqAuyu4NhO.Item.DJYvFZ0puHYVJoCY",
+        "location": "Iraq",
+        "awards": "Commendation",
+        "survival": "",
+        "schoolName": "Ranger"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "u06f73ilpGTadP9E",
+      "name": "Ranger",
+      "type": "school",
+      "_id": "DJYvFZ0puHYVJoCY",
+      "img": "systems/outside-the-wire/assets/icons/school.svg",
+      "system": {
+        "description": "Ranger School is an endurance crucible\nthat tests leadership, survival, and\nsmall-unit tactics under exhaustion,\nhunger, and constant field pressure.\nStudents cycle through phases, woodland,\nmountain, and swamp, executing patrols,\nambushes, raids, and reconnaissance\nmissions with minimal sleep. Every\naction is graded, forcing candidates to\nplan, navigate, lead, and fight while\ndepleted. The course forges adaptable\nfighters who thrive in uncertainty and\nexecute missions even when conditions\ncollapse. A Ranger-trained character\nbrings elite field craft, discipline,\nand unbreakable willpower to an Outside\nthe Wire, often anchoring high-risk\noperations or steadying less experienced\nteammates when everything goes wrong.\nGraduates of this school gain Knowledge\n+1 and Strength +1. Every Ranger graduate\nis offered an opportunity to join SOF.",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 1
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 1
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Deployment #2 to Phillippines",
+      "type": "deployment",
+      "_id": "nNWFSn3dvuFuqmGk",
+      "img": "systems/outside-the-wire/assets/icons/deployment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 1
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 1
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 3
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 1
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "school": "Actor.pWoeiYUqAuyu4NhO.Item.nizrpPRcX86G9oMH",
+        "location": "Phillippines",
+        "awards": "Silver Star",
+        "survival": "",
+        "schoolName": "Air Assault"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "u06f73ilpGTadP9E",
+      "name": "Air Assault",
+      "type": "school",
+      "_id": "nizrpPRcX86G9oMH",
+      "img": "systems/outside-the-wire/assets/icons/school.svg",
+      "system": {
+        "description": "<p>Air Assault School is an intense, fast-paced program that trains soldiers to insert, maneuver, and operate with helicopters under extreme pressure. Students endure demanding physical conditioning, master aircraft safety and rapid loading/unloading procedures, and learn to rig and inspect sling loads while working beneath hovering helicopters in blinding rotor wash. The school equips a character with expertise in air mobile tactics, fast-rope or LZ operations, sling-load handling, and rapid reaction skills, ideal for missions requiring speed, coordination, and insertion behind enemy lines. Graduates of this school perform air mobile operations and gain Strength +1.</p>",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 1
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "UXeQcb45ROn61yFx",
+      "name": "Helmet with infra squad comms, plus NVGs.",
+      "type": "equipment",
+      "_id": "gqG6BXnWKebMsmYq",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "head",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "r6wXr31xGcyAlqpj",
+      "name": "Boots",
+      "type": "equipment",
+      "_id": "a7Ee3Clr6lWNMyHw",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "clothing",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "r6wXr31xGcyAlqpj",
+      "name": "Gloves",
+      "type": "equipment",
+      "_id": "x0XF37KWCNQpE3Np",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "clothing",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "r6wXr31xGcyAlqpj",
+      "name": "Jacket",
+      "type": "equipment",
+      "_id": "6T321fUMaJOoLpXJ",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "clothing",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "r6wXr31xGcyAlqpj",
+      "name": "Standard Issue",
+      "type": "equipment",
+      "_id": "DhSkqUgVbINwAzDS",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "clothing",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "r6wXr31xGcyAlqpj",
+      "name": "Uniform",
+      "type": "equipment",
+      "_id": "Tb2PYOueNXbtwDgM",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "clothing",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "GMaklucIWIEEo2ol",
+      "name": "Canteens",
+      "type": "equipment",
+      "_id": "ZfZEUdgt2BDUc0fX",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "loadBearingVest",
+        "usable": true,
+        "quantity": 2,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "GMaklucIWIEEo2ol",
+      "name": "First Aid Kit",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "loadBearingVest",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "ZcmUy0qnrzF2AJFW"
+    },
+    {
+      "folder": "GMaklucIWIEEo2ol",
+      "name": "IFAK",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "loadBearingVest",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "4hy2ehzAABTYH5pp"
+    },
+    {
+      "folder": "GMaklucIWIEEo2ol",
+      "name": "Map Holder",
+      "type": "equipment",
+      "_id": "Mwxt4nD2aO9ejcvw",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "loadBearingVest",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "GMaklucIWIEEo2ol",
+      "name": "Fraq",
+      "type": "equipment",
+      "_id": "X4TTS85B5hJY9wWH",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "loadBearingVest",
+        "usable": true,
+        "quantity": 2,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "GMaklucIWIEEo2ol",
+      "name": "Ammo pouches",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "loadBearingVest",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "dQOob2XX6U1s8QYm"
+    },
+    {
+      "folder": "IwA0GWK2dPmsUgSP",
+      "name": "Radio",
+      "type": "equipment",
+      "_id": "QDF5OdSc4gDl9417",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "daypack",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "IwA0GWK2dPmsUgSP",
+      "name": "Gun cleaning kit",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "daypack",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "LSt2BjaVo0qAINqw"
+    },
+    {
+      "folder": "IwA0GWK2dPmsUgSP",
+      "name": "IR Beam",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "daypack",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "kMRnXMhphEoQfpWG"
+    },
+    {
+      "folder": "IwA0GWK2dPmsUgSP",
+      "name": "Spare batteries",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "daypack",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "9rXtvyMFewHDemm3"
+    },
+    {
+      "folder": "IwA0GWK2dPmsUgSP",
+      "name": "Spare flashlight",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "daypack",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "lkuS9j2MulkbYCz5"
+    },
+    {
+      "folder": "IwA0GWK2dPmsUgSP",
+      "name": "Snacks",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "daypack",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "wcbs60uC1cZMlVpG"
+    },
+    {
+      "folder": "iUT6AaRD56sO9hTn",
+      "name": "Meals",
+      "type": "equipment",
+      "_id": "MHL96m8GdL2AUWQ5",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "rucksack",
+        "usable": true,
+        "quantity": 0,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "iUT6AaRD56sO9hTn",
+      "name": "Sleeping bag",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "rucksack",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "VBYa0vtbEAqDGtPv"
+    },
+    {
+      "folder": "f54z25AY3W0cCBa6",
+      "name": "Pressure Bandage",
+      "type": "equipment",
+      "_id": "Ma8lGTBX6go2eqZC",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "pockets",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "f54z25AY3W0cCBa6",
+      "name": "TQ",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "pockets",
+        "usable": false,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "eVXPBr6AoaZVITcB"
+    },
+    {
+      "folder": "f54z25AY3W0cCBa6",
+      "name": "Map",
+      "type": "equipment",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "pockets",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "r8GP80zWbjjLDzJD"
+    },
+    {
+      "folder": "ELBnjhmvTY7KzDuX",
+      "name": "M9",
+      "type": "weapon",
+      "_id": "LzydbQv4iVjRCvqJ",
+      "img": "systems/outside-the-wire/assets/icons/weapon.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "pistol",
+        "attachments": [],
+        "test": "skills.smallArms.total",
+        "quantity": 45,
+        "usable": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "gA3uElWGhPWfBgnq",
+      "name": "M4 Carbine",
+      "type": "weapon",
+      "img": "systems/outside-the-wire/assets/icons/weapon.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "rifle",
+        "attachments": [
+          "IR (PEQ)",
+          "Scope",
+          "flashlight"
+        ],
+        "test": "skills.smallArms.total",
+        "quantity": 239,
+        "usable": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "EzjWfv64TT2M5SRB"
+    },
+    {
+      "folder": "ahvL1Se4CX0N940h",
+      "name": "Smoke",
+      "type": "explosive",
+      "_id": "x2GnimAbAsuWzotK",
+      "img": "systems/outside-the-wire/assets/icons/explosive.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "explosives",
+        "usable": true,
+        "quantity": 2,
+        "test": "skills.explosives.total"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "ahvL1Se4CX0N940h",
+      "name": "Flashbang",
+      "type": "explosive",
+      "_id": "hOp7CQFjlSsBYYmQ",
+      "img": "systems/outside-the-wire/assets/icons/explosive.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "explosives",
+        "usable": true,
+        "quantity": 0,
+        "test": "skills.explosives.total"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "ahvL1Se4CX0N940h",
+      "name": "CS",
+      "type": "explosive",
+      "_id": "e4qcFJBN3ZXU32Z4",
+      "img": "systems/outside-the-wire/assets/icons/explosive.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "explosives",
+        "usable": true,
+        "quantity": 0,
+        "test": "skills.explosives.total"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "ahvL1Se4CX0N940h",
+      "name": "Frag",
+      "type": "explosive",
+      "_id": "Fpu4FX0tLVLMOeyS",
+      "img": "systems/outside-the-wire/assets/icons/explosive.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "explosives",
+        "usable": true,
+        "quantity": 2,
+        "test": "skills.explosives.total"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "ahvL1Se4CX0N940h",
+      "name": "Thermite",
+      "type": "explosive",
+      "_id": "mxRZWr6BiqViRn1R",
+      "img": "systems/outside-the-wire/assets/icons/explosive.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "explosives",
+        "usable": true,
+        "quantity": 0,
+        "test": "skills.explosives.total"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

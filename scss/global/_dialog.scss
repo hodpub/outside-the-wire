@@ -1,0 +1,62 @@
+@use "../utils/mixins" as mixins;
+
+.roll-application,
+.roll-dialog {
+  background-color: var(--otw-c-tan);
+  border-radius: 0;
+  --color-form-label: black;
+  --color-text-primary: black;
+  --color-form-label-hover: black;
+
+  gap: 0;
+
+  section.window-content {
+    background-color: var(--otw-c-beige);
+    border: 2px solid var(--otw-c-faint);
+    padding: 16px;
+    margin: 16px;
+  }
+
+  footer button {
+    @include mixins.button;
+    flex: 1 1 33%;
+  }
+
+  div.target {
+    font-size: var(--font-size-28);
+    text-align: center;
+    margin-bottom: 20px;
+
+    input {
+      width: 100px;
+      text-align: center;
+    }
+  }
+}
+
+.choices-dialog footer button {
+  @include mixins.button;
+  flex: 1 1 100%;
+}
+
+div.attribute-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  a.attribute-decrease,
+  a.attribute-increase {
+    font-size: var(--font-size-24);
+    text-align: center;
+
+    &[disabled] {
+      opacity: 0.25;
+      cursor: not-allowed;
+    }
+  }
+
+  input {
+    width: 30%;
+  }
+}

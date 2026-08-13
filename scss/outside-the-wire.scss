@@ -1,0 +1,38 @@
+// Import utilities.
+@use 'utils/typography';
+@use 'utils/colors';
+@use 'utils/mixins';
+@use 'utils/variables';
+
+/* Global styles */
+@use 'global/window';
+@use 'global/grid';
+@use 'global/flex';
+@use 'global/chat';
+@use 'global/dialog';
+@use 'global/icons';
+
+
+@use 'components/forms';
+@use 'components/resource';
+@use 'components/items';
+@use 'components/effects';
+@use 'components/sheets';
+@use 'components/sheets-actor';
+@use 'components/sheets-item';
+@use 'components/sheets-creator';
+@use 'components/automations';
+
+
+/* Styles limited to invincible sheets */
+.outside-the-wire {
+  @include forms.forms;
+  @include resource.resource;
+  @include items.items;
+  @include effects.effects;
+  @include sheets.sheets;
+  @include sheets-actor.sheets;
+  @include sheets-item.sheets;
+  @include sheets-creator.sheets;
+  @include automations.automations;
+}

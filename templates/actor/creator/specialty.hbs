@@ -1,0 +1,25 @@
+<section class='tab scrollable specialty {{tab.cssClass}}' data-group='primary' data-tab='specialty'>
+  <h1>{{localize "OUTSIDE_THE_WIRE.Creator.tab.specialty"}}</h1>
+
+  <div class="backgrounds">
+    {{#each data.specialty.specialties as | specialty | }}
+    <div class="item">
+      <input type="radio" name="specialty" id="{{specialty.uuid}}" value="{{specialty.uuid}}" {{ifThen (eq
+        @root.actor.specialty specialty.uuid) "checked" "" }}>
+      <label for="{{specialty.uuid}}">{{specialty.name}}</label>
+      <div class="description">
+        {{{specialty.system.description}}}
+      </div>
+      <div class="changes">
+        {{specialty.system.changes}}
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+
+  <div class="footer">
+    <button type="button" data-action="movePrevious">Previous</button>
+    <button type="button" data-action="moveNext" {{ifThen data.background.ready "" "disabled" }}>Next</button>
+  </div>
+</section>

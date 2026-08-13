@@ -1,0 +1,139 @@
+@use "../utils/_mixins" as mixin;
+
+@mixin sheets {
+
+  &.sheet.actor,
+  &.sheet.item,
+  &.roll-dialog {
+
+    border-radius: 0;
+    --color-text-primary: var(--otw-c-dark);
+    --color-shadow-primary: #{var(--otw-c-beige)};
+
+    .window-content {
+      backdrop-filter: unset;
+    }
+
+    .controls-dropdown {
+      --background: #{var(--otw-c-dark)};
+      z-index: 2;
+    }
+
+
+    .controls-dropdown .header-control>button,
+    .window-header button.header-control {
+      --button-focus-outline-color: #{var(--otw-c-beige)};
+      --button-hover-background-color: #{var(--otw-c-beige)};
+      --button-hover-text-color: black;
+    }
+
+    input,
+    textarea,
+    select {
+      resize: none;
+      border-radius: 0;
+
+      &:disabled {
+        border: none;
+        filter: brightness(1.3);
+      }
+    }
+
+    select {
+      font-size: var(--font-size-16);
+    }
+
+    input[type="checkbox"] {
+      --checkbox-checked-color: #{var(--otw-c-dark)};
+      --checkbox-background-color: #{var(--otw-c-faint)};
+
+      // &::before {
+      //   outline: 1px solid black;
+      // }
+    }
+
+    label.title {
+      @include mixin.title;
+
+      &.attribute {
+        position: relative;
+        margin-top: 10px;
+        display: block;
+        text-align: left;
+        margin-bottom: -20px;
+        z-index: 2;
+        top: 0;
+        left: 0;
+      }
+
+      &.dialog {
+        display: block;
+        position: static;
+        width: 100%;
+        margin: 0 auto 4px auto;
+        text-align: center;
+        font-size: var(--font-size-36);
+      }
+    }
+
+    div.powers-info,
+    div.talent-info,
+    div.gear-info,
+    div.injury-info {
+      font-family: Comic, sans-serif;
+      text-transform: uppercase;
+      font-size: var(--font-size-12);
+
+      label:first-child {
+        font-size: var(--font-size-18);
+        font-weight: bold;
+      }
+    }
+
+    div.powers-info:not(:last-child),
+    div.separator {
+      border-bottom: 2px solid var(--otw-c-faint);
+      margin-bottom: 16px;
+    }
+  }
+
+  div.table {
+    display: table;
+    gap: 2px;
+    // flex-direction: column;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+    &>div {
+      display: table-row;
+      width: auto;
+      clear: both;
+      border: 2px solid var(--otw-c-tan);
+
+      &>div {
+        padding: 4px;
+        display: table-cell;
+
+        &:last-child {
+          text-align: right;
+          width: 48px;
+
+          a {
+            font-family: "Signika", ui-sans-serif, sans-serif;
+          }
+        }
+      }
+    }
+
+    div.header {
+      background: var(--otw-c-tan);
+      --color-text-primary: var(--otw-c-white);
+      color: var(--otw-c-white);
+    }
+
+    div.item {
+      color: var(--otw-c-dark);
+    }
+  }
+}

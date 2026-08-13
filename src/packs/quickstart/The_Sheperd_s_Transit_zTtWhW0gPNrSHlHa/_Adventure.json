@@ -1,0 +1,40 @@
+{
+  "name": "The Sheperd's Transit",
+  "img": null,
+  "caption": "",
+  "description": "",
+  "sort": 0,
+  "actors": [
+    "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/Al_Grant_ZbzuPKTUtpGBbKRF.json",
+    "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/Armando_Suarez_pWoeiYUqAuyu4NhO.json",
+    "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/Carlos_Torres_JSrxErXPSpNvJO2Q.json",
+    "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/Marcus_Dempsey_jjKTqwukugsvQBM8.json",
+    "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/Regular_Insurgents_plGqQ5pNbXT3yPzX.json"
+  ],
+  "combats": [],
+  "items": [],
+  "journal": [],
+  "scenes": [],
+  "tables": [],
+  "macros": [],
+  "cards": [],
+  "playlists": [],
+  "folders": [
+    "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/_Folder.json"
+  ],
+  "_id": "zTtWhW0gPNrSHlHa",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1786652011690,
+    "modifiedTime": 1786652011690,
+    "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!adventures!zTtWhW0gPNrSHlHa"
+}

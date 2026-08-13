@@ -1,0 +1,36 @@
+<li class="chat-message message flexcol {{cssClass}}" data-message-id="{{message._id}}" {{#if
+    borderColor}}style="border-color:{{borderColor}}" {{/if}}>
+    <header class="message-header flexrow">
+        <span class="message-metadata">
+            <time class="message-timestamp">{{timeSince message.timestamp}}</time>
+            <i class="fa-solid fa-user-secret message-type" data-tooltip="{{localize "CHAT.MODES.gm"}}"></i>
+            <i class="fa-solid fa-eye-slash message-type" data-tooltip="{{localize "CHAT.MODES.blind"}}"></i>
+            {{#if canDelete}}
+            <a aria-label="{{localize 'Delete'}}" class="message-delete" data-action="deleteMessage">
+                <i class="fa-solid fa-trash" inert></i>
+            </a>
+            {{/if}}
+            {{#if canClose}}
+            <a aria-label="{{ localize " CHAT.Dismiss" }}" class="message-dismiss" data-action="dismissMessage">
+                <i class="fa-solid fa-xmark" inert></i>
+            </a>
+            {{/if}}
+        </span>
+        <div class="sender">
+            {{#if speakerActor}}
+            <img class="avatar" src="{{speakerActor.img}}" />
+            {{/if}}
+            {{#if message.flavor}}
+            <h4 class="flavor-text">{{{message.flavor}}}</h4>
+            {{/if}}
+            <h4 class="message-sender">{{alias}}</h4>
+        </div>
+
+        {{#if isWhisper}}
+        <span class="whisper-to">{{localize 'CHAT.To'}}: {{whisperTo}}</span>
+        {{/if}}
+    </header>
+    <div class="message-content">
+        {{{message.content}}}
+    </div>
+</li>

@@ -1,0 +1,504 @@
+{
+  "folder": "Y5oLmESOcYsq9BCZ",
+  "name": "Regular Insurgents",
+  "type": "insurgent",
+  "_id": "plGqQ5pNbXT3yPzX",
+  "img": "systems/outside-the-wire/assets/icons/insurgent.svg",
+  "system": {
+    "attributes": {
+      "strength": {
+        "value": 0
+      },
+      "agility": {
+        "value": 0
+      },
+      "wisdom": {
+        "value": 0
+      },
+      "knowledge": {
+        "value": 0
+      }
+    },
+    "nickname": "",
+    "age": {
+      "value": 17
+    },
+    "tours": 0,
+    "nationality": "USA",
+    "height": "",
+    "weight": "",
+    "languages": [],
+    "motivation": "",
+    "trademark": "",
+    "hook": "",
+    "conflict": "",
+    "serviceBranch": "army",
+    "initialRank": 0,
+    "combatExperience": {
+      "value": 0
+    },
+    "trainingExperience": {
+      "value": 0
+    },
+    "abilities": {
+      "prowess": {
+        "value": 7
+      },
+      "shooting": {
+        "value": 0
+      },
+      "instincts": {
+        "value": 6
+      },
+      "tactics": {
+        "value": 6
+      }
+    },
+    "skills": {
+      "smallArms": {
+        "value": 9
+      },
+      "heavyArms": {
+        "value": 8
+      },
+      "firstAid": {
+        "value": 0
+      },
+      "communications": {
+        "value": 0
+      },
+      "civilAffairs": {
+        "value": 7
+      },
+      "spying": {
+        "value": 0
+      },
+      "fires": {
+        "value": 0
+      },
+      "signalsIntel": {
+        "value": 0
+      },
+      "explosives": {
+        "value": 5
+      }
+    },
+    "health": {
+      "stun": false,
+      "mobility": false,
+      "mobilityArm": false,
+      "mobilityLeg": false,
+      "unconscious": false,
+      "dead": false
+    },
+    "editMode": false,
+    "biography": "<p>THREAT ASSESSMENT</p><p>Threat Level: MODERATE</p><ul><li><p>Dressed in local garb — blend with the population until engagement</p></li><li><p>Armed with AK-pattern rifles, 2-3 magazines</p></li><li><p>Arrive in two sedans — mobile, can quickly reinforce or withdraw</p></li><li><p>Better trained: Small Arms (9), Heavy Weapons (8)</p></li><li><p>Civil Affairs (7) and Explosives (5) — can set IEDs</p></li></ul>",
+    "physicalDescription": ""
+  },
+  "prototypeToken": {
+    "name": "Regular Insurgents",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "depth": 1,
+    "texture": {
+      "src": "systems/outside-the-wire/assets/icons/insurgent.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -2,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "gA3uElWGhPWfBgnq",
+      "name": "AK-Pattern",
+      "type": "weapon",
+      "img": "systems/outside-the-wire/assets/icons/weapon.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "rifle",
+        "attachments": [],
+        "test": "skills.smallArms.total",
+        "quantity": 240,
+        "usable": true
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786652011690,
+        "modifiedTime": 1786652011690,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "NeMeIUJShFev6DAB"
+    },
+    {
+      "folder": "obZ5lVliZdEn7SNr",
+      "name": "Magazine",
+      "type": "equipment",
+      "_id": "eZZmdR9kkg8LZImv",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "munitions",
+        "usable": true,
+        "quantity": 3,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786652011690,
+        "modifiedTime": 1786652011690,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "r6wXr31xGcyAlqpj",
+      "name": "Local clothing",
+      "type": "equipment",
+      "_id": "om3QXr7IPLjk15Ek",
+      "img": "systems/outside-the-wire/assets/icons/equipment.svg",
+      "system": {
+        "description": "",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 0
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 0
+          },
+          "communications": {
+            "value": 0
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "type": "clothing",
+        "usable": false,
+        "quantity": 1,
+        "test": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1786652011690,
+        "modifiedTime": 1786652011690,
+        "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

@@ -1,0 +1,23 @@
+<section class='tab scrollable background {{tab.cssClass}}' data-group='primary' data-tab='background'>
+  <h1>{{localize "OUTSIDE_THE_WIRE.Creator.tab.background"}}</h1>
+
+  <div class="backgrounds">
+    {{#each data.background.backgrounds as | background | }}
+    <div class="item">
+      <input type="radio" name="background" id="{{background.uuid}}" value="{{background.uuid}}" {{ifThen (eq
+        @root.actor.background background.uuid) "checked" "" }}>
+      <label for="{{background.uuid}}">{{background.name}}</label>
+      <div class="description">
+        {{{background.system.description}}}
+      </div>
+      {{background.system.changes}}
+    </div>
+    {{/each}}
+  </div>
+
+
+  <div class="footer">
+    <button type="button" data-action="movePrevious">Previous</button>
+    <button type="button" data-action="moveNext" {{ifThen data.background.ready "" "disabled" }}>Next</button>
+  </div>
+</section>

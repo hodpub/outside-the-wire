@@ -1,0 +1,95 @@
+:root {
+  interpolate-size: allow-keywords;
+}
+
+* {
+  --color-scrollbar: var(--otw-c-dark);
+}
+
+#token-hud .status-effects {
+  --effect-columns: 3;
+}
+
+div.form-group label.rollable,
+.rollable {
+
+  &:hover,
+  &:focus {
+    color: var(--otw-c-white);
+    text-shadow: 0 0 10px var(--otw-c-black);
+    cursor: pointer;
+  }
+}
+
+.combat-sidebar .combat-tracker .token-initiative .initiative-input {
+  display: none;
+}
+
+
+div.foundry-info {
+  border: solid 2px var(--otw-c-dark);
+  border-radius: 16px;
+  margin: 32px 16px;
+  padding: 16px;
+
+  position: relative;
+
+  p {
+    text-align: start;
+
+    &.title {
+      font-weight: bold;
+      font-size: 120%;
+    }
+
+    .fa,
+    .fa-brands,
+    .fa-classic,
+    .fa-duotone,
+    .fa-light,
+    .fa-regular,
+    .fa-sharp,
+    .fa-sharp-solid,
+    i.fa-solid,
+    .fa-thin,
+    .fab,
+    .fad,
+    .fal,
+    .far,
+    .fas,
+    .fasl,
+    .fasr,
+    .fass,
+    .fat {
+      display: inline;
+    }
+
+    &:first-child {
+      text-indent: 30px !important;
+    }
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    height: 51px;
+    width: 51px;
+    background: url("../assets/fvtt-d20.webp");
+    background-size: 100% 100%;
+  }
+}
+
+.hide-item-description .item-description {
+  display: none;
+}
+
+h1.divider,
+h2.divider,
+h3.divider,
+h4.divider {
+  text-wrap: auto;
+  text-align: center;
+}

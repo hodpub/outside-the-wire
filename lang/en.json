@@ -1,0 +1,231 @@
+{
+  "OUTSIDE_THE_WIRE": {
+    "Attributes": {
+      "label": "Attributes",
+      "strength": "Strength",
+      "agility": "Agility",
+      "wisdom": "Wisdom",
+      "knowledge": "Knowledge"
+    },
+    "Abilities": {
+      "label": "Abilities",
+      "prowess": "Prowess",
+      "shooting": "Shooting",
+      "instincts": "Instincts",
+      "tactics": "Tactics"
+    },
+    "Skills": {
+      "label": "Skills",
+      "smallArms": "Small Arms",
+      "heavyArms": "Heavy Arms",
+      "firstAid": "First Aid",
+      "communications": "Communications",
+      "civilAffairs": "Civil Affairs",
+      "spying": "Spying",
+      "fires": "Fires",
+      "signalsIntel": "Signals Intel",
+      "explosives": "Explosives"
+    },
+    "editMode": {
+      "true": "Change to Play Mode",
+      "false": "Change to Edit Mode"
+    },
+    "SheetLabels": {
+      "Actor": "Outside the Wire Actor Sheet",
+      "Item": "Outside the Wire Item Sheet"
+    },
+    "Actor": {
+      "Tabs": {
+        "Biography": "Biography",
+        "Portrait": "Portrait",
+        "Personal": "Personal Stuff",
+        "Powers": "Powers & Boosts",
+        "Talents": "Talents & Drawbacks",
+        "Injuries": "Critical Injuries",
+        "Gear": "Gear",
+        "Spells": "Spells",
+        "Effects": "Effects",
+        "Services": "Services",
+        "Health": "Health",
+        "Loadout": "Loadout"
+      },
+      "base": {
+        "FIELDS": {
+          "biography": {
+            "label": "Biography"
+          },
+          "nickname.label": "Nickname",
+          "age.value.label": "Initial Age",
+          "age.total.label": "Age",
+          "tours.label": "Tours",
+          "nationality.label": "Nationality",
+          "physicalDescription.label": "Physical Description",
+          "height.label": "Height",
+          "weight.label": "Weight",
+          "languages.label": "Languages",
+          "rank.value.label": "Rank",
+          "motivation.label": "Motivation",
+          "trademark.label": "Trademark",
+          "conflict.label": "Conflict",
+          "hook.label": "Hook",
+          "serviceBranch": {
+            "label": "Service Branch",
+            "army.label": "Army",
+            "marines.label": "Marines",
+            "navy.label": "Navy"
+          },
+          "initialRank.label": "Initial Rank",
+          "combatExperience.label": "Combat EXP",
+          "trainingExperience.label": "Training EXP",
+          "rank.label": "Rank",
+          "health": {
+            "stun.label": "Stunned",
+            "mobility.label": "Mobility",
+            "mobilityArm.label": "Mobility - Arm",
+            "mobilityLeg.label": "Mobility - Leg",
+            "unconscious.label": "Unconscious",
+            "dead.label": "Dead"
+          }
+        }
+      }
+    },
+    "Item": {
+      "Tabs": {
+        "Configuration": "Configuration",
+        "Description": "Description",
+        "Effects": "Effects",
+        "Bonuses": "Bonuses",
+        "Automations": "Auto"
+      },
+      "base": {
+        "FIELDS": {
+          "rank.value.label": "Rank Promotion"
+        }
+      },
+      "Specialty": {
+        "FIELDS": {
+          "initial.label": "Initial Specialty",
+          "hookTable.label": "Hook Table",
+          "active.label": "Active"
+        },
+        "ConvertToSof": "Convert to SOF"
+      },
+      "Deployment": {
+        "FIELDS": {
+          "location.label": "Location",
+          "awards.label": "Awards",
+          "schoolName.label": "School",
+          "schoolName.hint": "Drop the School item on the sheet.",
+          "sof.label": "SOF",
+          "survival.label": "Survival"
+        }
+      },
+      "DeploymentDetail": {
+        "FIELDS": {
+          "type": {
+            "label": "Type"
+          },
+          "rank.value.label": "Rank Promotion",
+          "rank": {
+            "value.label": "Rank Promotion",
+            "0.label": "No Promotion",
+            "1.label": "Promotion",
+            "2.label": "Officer Promotion"
+          }
+        }
+      },
+      "Equipment": {
+        "FIELDS": {
+          "type": {
+            "label": "Type",
+            "head.label": "Head",
+            "clothing.label": "Clothing",
+            "loadBearingVest.label": "Load Bearing Vest",
+            "daypack.label": "Daypack",
+            "rucksack.label": "Rucksack",
+            "pockets.label": "Pockets",
+            "munitions.label": "Munitions",
+            "rifle.label": "Rifle",
+            "pistol.label": "Pistol",
+            "explosives.label": "Grenades"
+          },
+          "usable.label": "Usable",
+          "quantity.label": "Quantity",
+          "test.label": "Test"
+        }
+      },
+      "Weapon": {
+        "FIELDS": {
+          "type": {
+            "label": "Type",
+            "rifle.label": "Rifle",
+            "pistol.label": "Pistol"
+          },
+          "quantity.label": "Rounds",
+          "attachments.label": "Attachments"
+        }
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    },
+    "Chat": {},
+    "Creator": {
+      "tab": {
+        "background": "Background",
+        "specialty": "Specialty",
+        "deployments": "Deployments"
+      }
+    },
+    "Health": {
+      "mobility": "Mobility",
+      "mobilityArm": "Mobility - Arm",
+      "mobilityLeg": "Mobility - Leg"
+    },
+    "Roll": {
+      "Target": "Target",
+      "TargetBonus": "Target Bonus",
+      "RollBonus": "Roll Bonus"
+    },
+    "Settings": {
+      "showItemDescription": {
+        "label": "Show Item Description",
+        "hint": "Show/hide the item description on the actors sheet."
+      },
+      "motivationTable.label": "Motivation Table",
+      "trademarkTable.label": "Trademark Table",
+      "conflictsTable.label": "Conflicts Table",
+      "deploymentsNumberTable.label": "Deployments - Number Table",
+      "deploymentsAwardsTable.label": "Deployments - Awards Table",
+      "deploymentsLocationTable.label": "Deployments - Location Table",
+      "deploymentsSchoolTable.label": "Deployments - School Table",
+      "deploymentsSofTable.label": "Deployments - SOF Table",
+      "deploymentsSurvivalTable.label": "Deployments - Survival Table",
+      "sofItem.label": "SOF Item",
+      "eodItem.label": "EOD Item",
+      "jtacItem.label": "JTAC Item",
+      "spyItem.label": "Spy Item",
+      "rangerItem.label": "Ranger Item"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "soldier": "Soldier",
+      "insurgent": "Insurgent"
+    },
+    "Item": {
+      "specialty": "Specialty",
+      "school": "School",
+      "deployment": "Deployment",
+      "deploymentDetail": "Deployment Detail",
+      "background": "Background",
+      "equipment": "Equipment",
+      "weapon": "Weapon",
+      "explosive": "Grenades"
+    }
+  }
+}

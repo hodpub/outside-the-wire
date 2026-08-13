@@ -1,0 +1,71 @@
+<div class="dice-infos">
+  {{#if roll.successCount}}
+  {{#if (gt roll.attackDamage 0)}}
+  <div class="roll-damage">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.DAMAGE"}}: </span>
+    <span class="result">{{roll.options.damage}}</span>
+  </div>
+  <div class="roll-damage">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.RANGE"}}: </span>
+    <span class="result">{{roll.options.minRange}} - {{roll.options.maxRange}}</span>
+  </div>
+  {{#if (gte roll.attackDamage roll.options.critical)}}
+  <div class="roll-critical">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.CRITICAL"}}: </span>
+    <span class="result">{{roll.options.critical}}</span>
+  </div>
+  {{/if}}
+  {{/if}}
+
+  {{#if roll.options.armor}}
+  <div class="roll-damage">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.ARMOR"}}: </span>
+    <span class="result">{{roll.successCount}}</span>
+  </div>
+  {{/if}}
+
+  {{#if roll.options.despair}}
+  <div class="roll-despair">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.DESPAIR"}}: </span>
+    <span class="result">{{roll.options.despair}}</span>
+  </div>
+  {{/if}}
+
+  {{#if roll.options.blight}}
+  <div class="roll-blight">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.BLIGHT"}}: </span>
+    <span class="result">{{roll.options.blight}}</span>
+  </div>
+  {{/if}}
+  {{/if}}
+
+  {{#if roll.options.stressCost}}
+  <div class="dice-info roll-trauma">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.Trauma"}}: </span>
+    <span class="result">{{roll.options.stressCost}}</span>
+  </div>
+  {{/if}}
+
+  {{#if roll.stunts}}
+  <div class="roll-damage">
+    <span class="label">{{localize "YZUR.CHAT.ROLL.ATTACK.STUNTS"}}: </span>
+    <span class="result">{{roll.stunts}}</span>
+  </div>
+  <ul>
+    {{#each roll.options.stuntsList as | item |}}
+    <li>{{item}}</li>
+    {{/each}}
+  </ul>
+  {{/if}}
+
+  <ul>
+    {{#each roll.options.effects as | item|}}
+    {{log item}}
+    <li data-tooltip-html="{{{item.description}}}"><strong>[{{localize (concat "TYPES.Item." item.type)}}] {{item.name}}</strong></li>
+    {{/each}}
+    {{#if roll.options.conditionToApply}}
+    <li><strong>Condition</strong>: {{{roll.options.conditionText}}}</li>
+    {{/if}}
+  </ul>
+
+</div>

@@ -1,0 +1,16 @@
+{{log this}}
+<div class="main-sheet">
+  {{! Sheet Header }}
+  <header class='sheet-header'>
+    <div class="bg-sheet"></div>
+    <div class='header-fields'>
+      <div class="form-group">
+        <div class="form-fields">
+          <input name='name' type='text' value='{{actor.name}}' placeholder='Name'
+            style="font-size: var(--font-size-28); text-align: center;" />
+        </div>
+      </div>
+      {{> "systems/outside-the-wire/templates/partials/full-values.hbs"}}
+    </div>
+  </header>
+</div>
