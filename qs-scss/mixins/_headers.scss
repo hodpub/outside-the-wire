@@ -1,0 +1,12 @@
+@mixin defaultHeader {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+@mixin phaseHeader {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  text-align: center;
+  color: white;
+}

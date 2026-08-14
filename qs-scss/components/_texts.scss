@@ -1,0 +1,68 @@
+@use "../mixins/headers" as headers;
+
+@mixin texts {
+
+  // ↱ GENERIC DEFINITIOS
+  * {
+    text-align: left;
+    font-family: "Lato"; // WIP, will need to be changed into the system variable
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
+  // ↱ SPECIFIC CLASSES
+  P {
+
+    &,
+    span {
+      &.caps-black {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      &.green-color {
+        color: #178066;
+        font-family: "Oswald";
+        font-size: 1rem;
+      }
+    }
+  }
+
+  span {
+    &.start {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  }
+
+  // HIGHLIGHTS
+  // a,
+  // span.page-num {
+  //   background-color: gold;
+
+  //   &.page-num {
+  //     background-color: chartreuse !important;
+  //   }
+
+  //   &.content-link {
+  //     &[data-type="Macro"] {
+  //       background-color: #56CBF9 !important;
+  //     }
+
+  //     background-color: blueviolet !important;
+  //   }
+
+  //   &.content-link.broken {
+  //     background-color: red !important;
+  //   }
+
+  //   &.inline-roll,
+  //   &.roll-link,
+  //   &.enricher-action {
+  //     background-color: hotpink !important;
+  //   }
+  // }
+}

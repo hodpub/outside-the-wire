@@ -1,0 +1,46 @@
+@use "../mixins/headers" as headers;
+
+@mixin headers {
+
+  h1,
+  p.h1 {
+    @include headers.defaultHeader;
+    border-bottom: 2px black solid;
+    font-weight: normal;
+    font-size: 2.3rem;
+
+    &.dilemma {
+      color: white;
+      text-align: center;
+      border: none;
+
+      &.orange {
+        background-color: #ca7c33ab;
+      }
+
+      &.brown {
+        background-color: #55412cd5;
+      }
+    }
+  }
+
+  h2,
+  p.h2 {
+    @include headers.defaultHeader;
+    font-size: 1.3rem;
+    border-bottom: 2px black solid;
+    line-height: 1.3rem;
+  }
+
+  h3,
+  p.h3 {
+    @include headers.defaultHeader;
+    text-transform: none;
+    font-size: 1rem;
+
+
+    a {
+      color: unset;
+    }
+  }
+}

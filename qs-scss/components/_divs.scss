@@ -1,0 +1,454 @@
+@mixin divs {
+  div {
+    margin: 1rem 0;
+
+    // ↱ DEFAULT DIVS CLASSES 
+    &.toc {
+      margin-bottom: 2rem;
+
+      h1.hidden-header {
+        display: none;
+      }
+
+      p {
+        &.h1 {
+          font-size: 2rem;
+          font-family: "Oswald";
+          margin-top: 0;
+
+          a {
+            color: unset;
+            text-decoration: none;
+            text-underline-offset: none;
+
+            i {
+              color: #57417a;
+            }
+          }
+        }
+
+        &.h2 {
+          font-family: "Oswald";
+          text-transform: uppercase;
+          font-size: 1.2rem;
+          margin-bottom: -0.3rem;
+        }
+      }
+    }
+
+    &.no-margin {
+      p {
+        margin: 0;
+      }
+    }
+
+    &.foundry-info {
+      background-color: #ebebe0;
+      border-color: #3a4c4d;
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 17px;
+      // line-height: 1.333;
+      margin: 15px;
+      padding: 15px;
+
+      &::before {
+        content: url("../assets/fvtt-d20.webp");
+        position: relative;
+        top: -300px;
+        left: -300px;
+        display: block;
+        zoom: 10%;
+        height: 0px;
+      }
+
+      p:first-child {
+        text-indent: 30px;
+      }
+
+      p.title {
+        color: #4a5b5c;
+        font-weight: bold;
+        font-size: 120%;
+      }
+
+      .fa,
+      .fa-brands,
+      .fa-classic,
+      .fa-duotone,
+      .fa-light,
+      .fa-regular,
+      .fa-sharp,
+      .fa-sharp-solid,
+      .fa-solid,
+      .fa-thin,
+      .fab,
+      .fad,
+      .fal,
+      .far,
+      .fas,
+      .fasl,
+      .fasr,
+      .fass,
+      .fat {
+        display: inline;
+      }
+    }
+
+    // ↱ SPECIFIC DIV CLASSES - WARNING: ts is dumb af
+    &.gray-box {
+      &.var1 {
+        background-color: #c2c4c6;
+        padding: 0.5rem 1rem;
+
+        h2 {
+          border-bottom: 2px black solid;
+          width: fit-content;
+          margin: auto;
+          text-transform: uppercase;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
+      &.var2 {
+        border: 1px #dbd7cf solid;
+        padding: 0.2rem;
+
+        table {
+          margin: 0;
+        }
+
+        div {
+          background-color: #a29d9475;
+          padding: 0.5rem 1rem;
+          margin: 10px;
+
+          span.caps-black {
+            font-size: 1rem;
+            font-family: "BlackOps";
+            text-transform: uppercase;
+            font-weight: normal;
+          }
+
+          p:last-child {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+
+    &.plain-box {
+      p.h1 {
+        margin-top: 0;
+      }
+
+      background-color: #f1f1f2;
+      border: 1px #c2c4c6 solid;
+      padding: 1rem 2rem;
+
+      &.var {
+
+        background-color: #e1dbd2;
+        border: 1px #b17e5e solid;
+      }
+    }
+
+    &.tracks {
+      padding: 0.5rem 1rem;
+      border: 1px #cdbfac solid;
+      background-color: #eae0cd;
+    }
+
+    &:has(div.ref) {
+      border: 1px #a18e78 solid;
+      padding: 0.5rem;
+
+      h3 {
+        text-align: center;
+        background-color: #d9c7b2;
+        margin-bottom: 0;
+      }
+    }
+
+    &.ref {
+      background-color: #d9c7b2;
+      margin: 0;
+      display: flex;
+      padding: 0.5rem;
+
+      div {
+        flex: 1;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+
+        &:nth-child(2) {
+          background-color: #cbb49a;
+
+        }
+
+        span.ref-header {
+          font-size: 1rem;
+          font-family: "BlackOps";
+        }
+
+        p {
+          text-align: center;
+          flex: 1;
+        }
+      }
+    }
+
+    &.solo-sheet {
+      div.box {
+
+        >p:first-child {
+          font-family: "Oswald";
+          text-transform: uppercase;
+          font-size: 1.3rem;
+        }
+
+        p {
+          margin: 0;
+
+          &.grey {
+            color: #7f8c90;
+            font-style: italic;
+          }
+        }
+
+        &.blue>p:first-child {
+          color: #1a5490;
+        }
+
+        &.beige {
+          background-color: #fef9e6;
+          padding: 1rem;
+
+          p:not(:first-child) {
+            text-align: center;
+          }
+        }
+
+        &.green {
+          background-color: #e8f5e9;
+          padding: 1rem;
+
+          p {
+            &:first-child {
+              color: #2aad60;
+            }
+
+            &:last-child {
+              text-align: center;
+              font-weight: bold;
+              font-style: italic;
+            }
+          }
+
+          span.grey {
+            color: #7f8c90;
+            font-style: italic;
+            text-transform: none;
+            font-family: "Lato";
+            font-size: 1rem;
+          }
+        }
+
+        &.purple {
+          >p {
+            &:first-child {
+              color: #8e44ae;
+            }
+          }
+        }
+      }
+    }
+
+    &.prog-flow {
+      border: 1px #7e7a73 solid;
+      margin: 0;
+
+      div.head {
+        background-color: #92908b7a;
+        padding: 0.5rem;
+        margin-bottom: 0.1rem;
+        margin-top: 0;
+
+        &:not(:first-child) {
+          margin-top: 1rem;
+        }
+
+        p {
+          margin: 0;
+
+          &:not(:last-child) {
+            text-align: center;
+          }
+        }
+      }
+
+      div:not(.head) {
+        margin-bottom: 0;
+
+        p {
+          margin: 0;
+          padding: 0 0.5rem;
+
+          &:last-child {
+            background-color: #92908b7a;
+          }
+        }
+      }
+
+      &~p {
+        &.yellow-bg {
+          background-color: #dcd6ad;
+          padding: 0.3rem;
+        }
+
+        &.gray-bg {
+          background-color: #92908b7a;
+          padding: 0.3rem;
+        }
+
+        &.blue-bg {
+          background-color: #d1d3d4;
+          padding: 0.3rem;
+        }
+      }
+    }
+
+    &.handwritten {
+      background-color: #fffdeb;
+      padding: 3rem 2rem;
+
+      p {
+        font-family: "Caveat";
+        font-size: 1.2rem;
+
+        &:first-child {
+          font-family: "Lato";
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          margin-top: -1rem;
+        }
+      }
+    }
+
+    &.scenario {
+      p:first-child {
+        font-size: 3rem;
+        font-family: "Oswald";
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      div.title {
+        border-top: 3px black solid;
+        border-bottom: 3px black solid;
+        background-color: #ad8c4d71;
+      }
+
+      div.infos {
+        width: 80%;
+        margin: auto;
+        background-color: #e9e9ea;
+        border: 20px #d3d3d4 solid;
+        padding: 0.5rem;
+
+        div {
+          p {
+            text-align: center;
+
+            &.table-header {
+              font-family: "BlackOps";
+              border-bottom: 1px black solid;
+              width: fit-content;
+              margin: auto;
+              text-transform: uppercase;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+
+    &.title {
+      border-bottom: 3px black solid;
+
+      p {
+        text-align: center;
+
+        font-family: "Oswald";
+        text-transform: uppercase;
+        font-size: 2rem;
+        line-height: 3rem;
+
+        strong {
+          font-family: "Oswald";
+          font-size: 4rem;
+        }
+
+        span {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    &.dialogues {
+      border: 1px #dbd7cf solid;
+      padding: 1rem;
+
+      div.dialogue-box {
+        p {
+          font-weight: bold;
+        }
+      }
+    }
+
+    &.dialogue-box {
+      // padding: 1rem;
+      border: 1em solid;
+      border-image-source: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" fill="%23c0bcb0"><path d="M1 0 0 1v1l1 1h1l1-1V1L2 0H1Z"/></svg>');
+      border-image-slice: 1 fill;
+
+      &:not(.gray) {
+        border-image-source: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" fill="%23ddcbb4"><path d="M1 0 0 1v1l1 1h1l1-1V1L2 0H1Z"/></svg>');
+
+        p {
+          text-indent: 2rem;
+        }
+      }
+    }
+
+    &.time {
+      display: flex;
+      border: 1px #b4aea3 solid;
+
+      div {
+        flex: 1;
+
+        p {
+          text-align: center;
+          margin: 0;
+
+          &:first-child {
+            font-family: "BlackOps";
+            font-size: 1.45rem;
+          }
+        }
+
+      }
+
+      &+p.line-box {
+        border: 1px #ad7753 solid;
+        padding: 0.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

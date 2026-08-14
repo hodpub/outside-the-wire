@@ -1,0 +1,419 @@
+@use "../mixins/headers" as headers;
+
+@mixin tables {
+  table {
+    background-color: transparent;
+
+    &.red-header {
+      tr {
+        background-color: transparent;
+
+        &:nth-child(even) {
+          background-color: #aca9a2c0;
+        }
+
+        &:first-of-type {
+          background-color: #b03325;
+
+          p {
+            @include headers.defaultHeader;
+            font-weight: normal;
+            font-size: 1rem;
+            color: white;
+
+            a,
+            i {
+              color: white;
+
+            }
+          }
+        }
+      }
+
+      &:not(.ai-card) {
+        td p {
+          font-family: "Oswald";
+        }
+      }
+
+      &.ai-card {
+        border: 2px #b03325 solid;
+
+        tr {
+          border-top: 1px #b2b8bc solid;
+          border-bottom: 1px #b2b8bc solid;
+
+          &:not(:first-child) {
+            background-color: #f1f1f2;
+
+          }
+
+          &:first-child p {
+            text-align: center;
+            font-size: 1.4rem;
+            margin: 0;
+
+            &:not(:first-child) {
+              font-family: "Lato";
+              text-transform: none;
+              font-size: 0.9rem;
+            }
+          }
+
+          &:nth-child(2) {
+            background-color: #c8e7da;
+
+            strong {
+              color: #28a466;
+            }
+          }
+
+          &:nth-child(4) {
+            background-color: #f1e6d5;
+
+            strong {
+              color: #d9774f;
+            }
+          }
+
+          &:nth-child(n+6) {
+            background-color: #f1dee2;
+
+            strong {
+              color: #c63c2a;
+            }
+          }
+        }
+      }
+    }
+
+    &.sunlight {
+      tr {
+        border: 1px #f39d13 solid;
+
+        background-color: #fffef7;
+
+        &:nth-child(even) {
+          background-color: #f1f1f2;
+        }
+
+        &:nth-child(6) {
+          background-color: #e8f5e9;
+        }
+
+        &:last-child {
+          background-color: #fef9e6;
+        }
+
+        &:first-child {
+          background-color: #fef9e6;
+
+          p {
+            text-align: center;
+            font-style: italic;
+
+            &:first-child {
+              @include headers.defaultHeader;
+              font-weight: normal;
+              font-size: 1.3rem;
+              color: #f39d13;
+              font-style: normal;
+            }
+          }
+        }
+      }
+    }
+
+    &.vehicle {
+      border: 2px #9a5f43 solid;
+
+      tr {
+        background-color: transparent;
+
+        p:first-child {
+          font-weight: bold;
+        }
+
+        td {
+          border: 1px #afb1ac solid;
+
+        }
+
+        &:first-of-type {
+          background-color: #279e54;
+          border: 2px #9a5f43 solid;
+
+          p {
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-style: italic;
+
+            &:first-of-type {
+              font-family: "Oswald";
+              font-size: 1.4rem;
+              font-style: normal;
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          background-color: #f1d9d1;
+
+          p {
+            font-weight: bold;
+          }
+
+          strong {
+            color: #ca7e56;
+          }
+        }
+
+        &:nth-child(6) {
+          background-color: #d9e0cb;
+
+          strong {
+            color: #329d72;
+          }
+        }
+
+        &:last-child {
+          p {
+            font-weight: normal;
+            font-style: italic;
+
+            &+p {
+              text-transform: uppercase;
+              font-style: normal;
+              text-align: center;
+            }
+          }
+
+          em {
+            color: #777f85;
+          }
+        }
+      }
+
+      &+h2 {
+        border-bottom: unset;
+        background-color: #c3c0b8;
+        padding: 0.5rem;
+        text-align: center;
+      }
+    }
+
+    &.table-001 {
+      background-color: transparent;
+      border: 2px #9a5f43 solid;
+
+      p {
+        &:first-child {
+          font-weight: bold;
+        }
+      }
+
+      tr {
+        border-bottom: 2px #b1b3ad solid;
+
+        &:first-of-type {
+          background-color: #9a5f43;
+          border: none;
+
+          p {
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-style: italic;
+
+            &:first-of-type {
+              font-family: "Oswald";
+              font-size: 1.4rem;
+              font-style: normal;
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          background-color: #d9e0cb;
+
+          p {
+            &:first-child span {
+              color: #279e54;
+            }
+
+            &:nth-child(2) {
+              strong {
+                color: #1770be;
+              }
+            }
+          }
+        }
+
+        &:nth-child(even) {
+          background-color: #ede3c7;
+
+          p {
+            &:first-child span {
+              color: #d6810e;
+            }
+
+            &:nth-child(2) {
+              strong {
+                color: #279e54;
+              }
+            }
+
+            &:nth-child(3) {
+              strong {
+                color: #c63c2a;
+              }
+            }
+          }
+
+        }
+      }
+    }
+
+    &.blue-header {
+      border: 2px #9a5f43 solid;
+
+      tr {
+        background-color: transparent;
+
+        &:first-of-type {
+          background-color: #314352;
+          border: 2px #9a5f43 solid;
+
+          p {
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-style: italic;
+
+            &:first-of-type {
+              font-family: "Oswald";
+              font-size: 1.4rem;
+              font-style: normal;
+            }
+          }
+        }
+      }
+
+      &.var1 {
+
+        td p {
+          text-align: center;
+
+          &:first-child {
+            strong {
+              color: #279e54;
+            }
+
+            &+p {
+              font-style: italic;
+              color: #279e54;
+
+            }
+          }
+
+          &:nth-child(3) {
+            strong {
+              color: #b03325;
+            }
+
+            &+p {
+              font-style: italic;
+              color: #b03325;
+
+            }
+          }
+        }
+      }
+
+      &.var2 {
+        p {
+          &:first-child {
+            font-style: italic;
+          }
+
+          span {
+            &.veasy {
+              color: #279e54;
+            }
+
+            &.easy {
+              color: #1770be;
+            }
+
+            &.avg {
+              font-weight: bold;
+            }
+
+
+            &.trick {
+              color: #d6810e;
+            }
+
+            &.hard {
+              color: #b03325;
+            }
+
+          }
+
+          &:has(span:not(.avg))+p {
+            color: #7888a5;
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+    &.table-003 {
+      border: 2px #9a5f43 solid;
+
+      tr {
+        background-color: transparent;
+
+        td {
+          border: 1px #afb0ab solid;
+
+          p {
+            margin: 0;
+
+            span {
+              color: #d6810e;
+            }
+          }
+        }
+
+        &:first-of-type {
+          background-color: #d8741e;
+          border: 2px #9a5f43 solid;
+
+          td {
+            padding: 0 0.5rem;
+          }
+
+          p {
+            color: white;
+            margin: 0;
+            font-style: italic;
+
+            &:first-of-type {
+              font-family: "Oswald";
+              font-size: 1.4rem;
+              font-style: normal;
+            }
+          }
+        }
+      }
+    }
+
+    tbody {
+      td {
+        padding: 0.4em 0.375em;
+      }
+    }
+  }
+}

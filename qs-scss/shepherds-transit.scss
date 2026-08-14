@@ -1,0 +1,25 @@
+@use 'components/typography';
+
+@use 'components/journal-sheet';
+
+@use 'components/texts';
+@use 'components/headers';
+@use 'components/divs';
+@use 'components/statblock';
+@use 'components/tables';
+@use 'components/lists';
+@use 'components/others'; 
+
+@use 'components/global';
+
+@include global.global;
+
+#tst {
+  @include statblock.statblock;
+  @include texts.texts;
+  @include headers.headers;
+  @include divs.divs;
+  @include tables.tables;
+  @include lists.lists;
+  @include others.others;
+}

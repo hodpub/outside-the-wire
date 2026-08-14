@@ -1,0 +1,15 @@
+@mixin lists {
+
+  ul,
+  ol {
+    li {
+      padding-left: 0.5rem;
+    }
+
+    ul li {
+      &::marker {
+        content: "⬕ ";
+      }
+    }
+  }
+}

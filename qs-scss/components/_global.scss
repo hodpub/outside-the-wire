@@ -1,0 +1,11 @@
+@mixin global {
+  li.level2 {
+    li.heading.h2 a {
+      text-indent: calc(var(--level-indent) * 2);
+    }
+
+    li.heading.h3 a {
+      text-indent: calc(var(--level-indent) * 3);
+    }
+  }
+}

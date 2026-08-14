@@ -1,0 +1,122 @@
+@use "../mixins/headers" as headers;
+
+.sheet.journal-entry:has(div#tst) {
+
+  --color-text-primary: black;
+  --color-text-emphatic: black;
+
+  .journal-header {
+    margin: 0;
+
+    .title {
+      @include headers.phaseHeader;
+      background-color: #58595b;
+      font-weight: normal;
+      border-radius: 0;
+      width: 106%;
+      margin-left: -2.5%;
+      padding: 2rem;
+    }
+  }
+
+  .journal-entry-content {
+    background-image: url(/modules/the-shepherds-transit/assets/elements/fundo-2.webp);
+    background-size: cover;
+  }
+
+  .journal-entry-page {
+    padding: 0 3rem;
+  }
+
+  &:not(:has(div.phase)) {
+    .journal-page-header h1 {
+      @include headers.defaultHeader;
+      border-bottom: 2px black solid;
+      font-weight: normal;
+      line-height: 2.3rem;
+    }
+  }
+
+  .journal-page-header h2 {
+    @include headers.defaultHeader;
+  }
+
+  .journal-entry-page.map [data-map-location-code]::before {
+    content: none;
+  }
+}
+
+.sheet.journal-entry:has(div#tst.brown) .journal-entry-content {
+  background-image: url(/modules/the-shepherds-transit/assets/elements/fundo-1.webp);
+
+  .journal-entry-page {
+    padding: 0 0rem;
+  }
+}
+
+.sheet:has(div#tst.phase) {
+  .journal-page-header h1 {
+    @include headers.phaseHeader;
+    background-color: #58595b;
+    font-weight: normal;
+    border-radius: 0;
+    width: 106%;
+    margin-left: -2.5%;
+    border-bottom: unset;
+  }
+}
+
+.sheet:has(div#tst.chapter) {
+  &.journal-entry {
+    .journal-header {
+      display: none;
+    }
+  }
+}
+
+// div.adventure-importer:has(div#tst) {
+//   .window-content {
+//     .adventure-header {
+//       margin: -12px 0 30px;
+//     }
+
+//     .adventure-banner {
+//       img {
+//         border: 0;
+//         height: 100%;
+//       }
+//     }
+//   }
+// }
+
+// div.adventure-importer:has(div#tst) {
+//   .window-content {
+//     background-image: url(../assets/elements/bg.webp);
+
+//     h2 {
+//       color: #16562c;
+//       font-size: 2rem;
+//     }
+
+//     p {
+//       font-family: "PTSerif";
+//     }
+
+//     .adventure-header {
+//       margin: 0;
+
+//       h1 {
+//         text-align: center;
+//         font-weight: bold;
+//         text-transform: uppercase;
+//         color: white;
+//         color: #16562c;
+//       }
+//     }
+
+//     .adventure-banner img {
+//       border: 0;
+//       height: 100%;
+//     }
+// }
+// }
