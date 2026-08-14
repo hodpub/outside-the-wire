@@ -34,6 +34,8 @@
       border-bottom: 2px black solid;
       font-weight: normal;
       line-height: 2.3rem;
+      margin-bottom: 2rem;
+      padding: 1rem
     }
   }
 
@@ -47,11 +49,15 @@
 }
 
 .sheet.journal-entry:has(div#tst.brown) .journal-entry-content {
-    background-image: url(/systems/outside-the-wire/assets/quickstart/elements/fundo-1.webp);
+  background-image: url(/systems/outside-the-wire/assets/quickstart/elements/fundo-1.webp);
 
   .journal-entry-page {
     padding: 0 0rem;
   }
+}
+
+.journal-entry-pages {
+  padding: 0;
 }
 
 .sheet:has(div#tst.phase) {
@@ -63,10 +69,22 @@
     width: 106%;
     margin-left: -2.5%;
     border-bottom: unset;
+    margin-bottom: 1rem;
+    padding: 0.5rem
   }
 }
 
 .sheet:has(div#tst.chapter) {
+  .journal-page-content {
+    padding-top: 0.8rem;
+
+    img:first-of-type {
+      max-width: fit-content;
+      width: 120%;
+      margin-left: -10%;
+    }
+  }
+
   &.journal-entry {
     .journal-header {
       display: none;
