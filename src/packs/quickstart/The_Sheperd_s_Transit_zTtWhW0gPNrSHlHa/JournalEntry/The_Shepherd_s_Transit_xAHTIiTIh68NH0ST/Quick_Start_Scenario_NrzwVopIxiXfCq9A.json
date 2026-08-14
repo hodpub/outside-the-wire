@@ -1,0 +1,404 @@
+{
+  "folder": "xAHTIiTIh68NH0ST",
+  "name": "Quick Start Scenario",
+  "_id": "NrzwVopIxiXfCq9A",
+  "pages": [
+    {
+      "name": "Quick Start Scenario",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"chapter brown\"><div class=\"scenario\"><p>Quick Start Scenario</p><div class=\"title\"><p>The<br><strong>Shepherd's</strong><br><span>Transit</span></p></div><div class=\"infos\"><div><p class=\"table-header\">Mission Type</p><p>Route Security / VIP Escort</p></div><div><p class=\"table-header\">Environment</p><p>Semi-rural MSR, agricultural fields, low compounds</p></div><div><p class=\"table-header\">Timeframe</p><p>Early Morning <span class=\"table-body\">→</span> Midday (2010)</p></div><div><p class=\"table-header\">Tone</p><p>Pressure, ambiguity, consequence</p></div><div><p class=\"table-header\">Session Length</p><p>1 Sandbox Turn (single session)</p></div><div><p class=\"table-header\">Players</p><p>2–4 PCs + NPC patrol or Solo</p></div></div></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "OaqlvECbcJZRNNz5",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Situation",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"brown\"><div class=\"plain-box\"><p class=\"h1\">Situation</p><p>A senior officer is scheduled to transit the AO under escort later today. The Main Supply Route (MSR) must be cleared of mines and potential ambush sites prior to his movement.</p><p>A patrol will deploy from <strong>Fort Qalat</strong>, insert a sniper overwatch team at <strong>Checkpoint 1 (CP1)</strong>, proceed to <strong>Checkpoint 2 (CP2)</strong> to link up with Company A, receive the VIP, and return via CP1 to recover the snipers.</p><p>Recent enemy activity indicates heightened insurgent interest along the route.</p><p>Civilian traffic remains present and unpredictable.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 1000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "jCzh4A4XVuVjnEmN",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Mission",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"brown\"><div class=\"plain-box\"><p class=\"h1\">Mission</p><p>1st Squad will:</p><ul><li><p>Sweep the MSR for mines and ambush indicators</p></li><li><p>Insert a four-man sniper overwatch team at CP1</p></li><li><p>Link up with Company A at CP2</p></li><li><p>Escort the VIP safely back to Fort Qalat</p></li><li><p>Recover the sniper team during exfiltration</p></li></ul><p><strong>Mission Success: </strong>The VIP reaches Fort Qalat alive. Nothing else is guaranteed.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 2000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "dKbMVGKw7qejTE3I",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Execution",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><div class=\"plain-box\"><p class=\"h1\">Execution</p><p>This mission is <strong>not scripted</strong>. Events will unfold based on:</p><ul><li><p>Patrol movement</p></li><li><p>Timing</p></li><li><p>Player decisions</p></li><li><p>Enemy reactions</p></li></ul><p>The Game Master should <strong>prepare events, not outcomes</strong>. Enemy forces operate independently and will exploit hesitation, predictability, and escalation. Quiet success is real success.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 3000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "PrUcN849iEoYDens",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Enemy Forces",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><div class=\"plain-box\"><p class=\"h1\">Enemy Forces</p><p>Local insurgent cells are active in the AO.</p><p>They:</p><ul><li><p>Blend with civilian populations</p></li><li><p>Employ surface-laid IEDs</p></li><li><p>Use small arms and light machine guns</p></li><li><p>Operate with motorcycles and light vehicles</p></li></ul><p>Enemy intent is <strong>observation and pressure</strong>, not decisive engagement.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 4000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "ELHUwDyrVo7b2DPw",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Friendly Forces",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><div class=\"plain-box\"><p class=\"h1\">Friendly Forces</p><ul><li><p>1st Squad (player-led patrol)</p></li><li><p>Attached sniper team</p></li><li><p>Company A (separate element, limited coordination)</p></li></ul><p>Fire support and CASEVAC are available but delayed.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 5000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "yHvtHsnDrHZVKAPl",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Civilians",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><div class=\"plain-box\"><p class=\"h1\">Civilians</p><p>Civilians are present along the MSR and in surrounding fields.</p><p>They may:</p><ul><li><p>Require aid</p></li><li><p>Obstruct movement</p></li><li><p>Provide intelligence</p></li><li><p>Be exploited by enemy forces</p></li></ul><p>Civilian interaction will affect <strong>Trust</strong> and long-term campaign outcomes.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 6000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "5YkwR4z6Iq7ym236",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Special Notes (Gm)",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><div class=\"plain-box var\"><p class=\"h1\">Special Notes (Gm)</p><ul><li><p>This scenario follows the events of <strong>Ambush at Dawn</strong></p></li><li><p>Enemy forces may be acting in response to prior patrol actions</p></li><li><p>The patrol may be <strong>deliberately herded</strong> into follow-on engagements</p></li><li><p>Escalation solves today and complicates tomorrow</p></li></ul><p>Track consequences. Let silence matter.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 7000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "XF0DkOA5WiQ1Kol2",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Mission Briefing",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n    <p><span class=\"caps-black\">(Read To Players)</span></p>\n    <p>Your chief, Captain Mayers, enters the tent. He’s in mid 30-s, bald and shaved, with a scar from fire on his neck. With a low and commanding voice, he says…</p>\n    <div class=\"dialogues\">\n        <div class=\"dialogue-box\">\n            <p>“Tomorrow evening, the Colonel will transit through our AO. Company A will escort him to Checkpoint 2 along the MSR.”</p>\n        </div>\n        <div class=\"dialogue-box\">\n            <p>“Your mission is to clear the MSR of mines, insert a sniper overwatch team, and link up with Company A to escort the Colonel back to the FOB.”</p>\n        </div>\n        <div class=\"dialogue-box\">\n            <p>“You will depart at 0300 with four armored vehicles. Proceed to CP1, insert the sniper team, then continue to CP2.”</p>\n        </div>\n        <div class=\"dialogue-box\">\n            <p>“Company A will arrive at CP2 by 1200 local.”</p>\n        </div>\n        <div class=\"dialogue-box\">\n            <p>“Fire support is limited. CASEVAC is 30 minutes. No ISR. Clear weather.”</p>\n        </div>\n        <div class=\"dialogue-box\">\n            <p>“Success equals escorting the VIP safely back to base.”</p>\n        </div>\n        <div class=\"dialogue-box\">\n            <p>“Any questions?”</p>\n        </div>\n    </div>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 7000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "4h4v2WigRBfoZLDX"
+    },
+    {
+      "name": "Pre-Mission Phase",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>Pre-Mission Phase <br><span class=\"caps-black\">(Player Agency)</span></p><p>Before departure, allow players to:</p><ul><li><p>Assign vehicles and seating.</p></li><li><p>Choose gunner positions.</p></li><li><p>Decide sniper distribution.</p></li><li><p>Conduct PCCs / PCIs.</p></li><li><p>Rehearse contingencies.</p></li></ul><h2>Vehicle Layout:</h2><p>Where players sit matters later. Who rides where determines exposure, casualties, and chaos.</p><table id=\"table-011\" class=\"vehicle\"><tbody><tr><td><p>VEHICLE 1</p><p>Command &amp; Alpha Fire Team</p></td></tr><tr><td><p><strong>VEHICLE COMMANDER</strong> SSgt Armando Suarez</p></td></tr><tr><td><p>DRIVER</p><p>Cpl Brad Ho (stays with vehicle)</p></td></tr><tr><td><p>GUNNER</p><p>Cpl Ethan Kline (stays with vehicle)</p></td></tr><tr><td><p>PASSENGERS</p><p>• Sgt Matt Blanco • PFC Brad Holstein</p></td></tr><tr><td><p><strong>DISMOUNT TEAM</strong></p><p>SSgt Suarez, Sgt Blanco, PFC Holstein</p></td></tr><tr><td><p><em>NOTES</em> Command element. Driver and gunner provide vehicle security while others dismount.</p><p>Should an open seat be needed, the squad will leave PFC Holstein behind for the VIP, Colonel.</p></td></tr></tbody></table><table id=\"table-014\" class=\"vehicle\"><tbody><tr><td><p>VEHICLE 2</p><p>Heavy Weapons Team</p></td></tr><tr><td><p><strong>VEHICLE COMMANDER</strong> Sgt Terry Cooper</p></td></tr><tr><td><p>DRIVER</p><p>LCpl Fred Lipski (stays with vehicle)</p></td></tr><tr><td><p>GUNNER</p><p>PFC Todd Smalls (stays with vehicle)</p></td></tr><tr><td><p>PASSENGERS</p><p>• HM3 Al Grant (Doc)</p><p>• Sniper Team Member (blends in)</p></td></tr><tr><td><p><strong>DISMOUNT TEAM</strong></p><p>Sgt Cooper (with M240 option), Doc Grant</p></td></tr><tr><td><p><em>NOTES</em> Heavy weapons capability. Corpsman available for casualties.</p></td></tr></tbody></table><table id=\"table-012\" class=\"vehicle\"><tbody><tr><td><p>VEHICLE 3</p><p>Bravo Fire Team</p></td></tr><tr><td><p><strong>VEHICLE COMMANDER</strong> Sgt Marcus Dempsey</p></td></tr><tr><td><p>DRIVER</p><p>PFC Derrick Hollis (stays with vehicle)</p></td></tr><tr><td><p>GUNNER</p><p>Spc Shawn Price ‘Not Right’ (stays with vehicle)</p></td></tr><tr><td><p>PASSENGERS</p><p>• Cpl Tony Whitfield</p><p>• Sniper Team Member (blends in)</p></td></tr><tr><td><p><strong>DISMOUNT TEAM</strong></p><p>Sgt Dempsey, Cpl Whitfield</p></td></tr><tr><td><p><em>NOTES</em> Breacher capability with Sgt Dempsey.</p></td></tr></tbody></table><table id=\"table-013\" class=\"vehicle\"><tbody><tr><td><p>VEHICLE 4</p><p>Charlie Fire Team</p></td></tr><tr><td><p><strong>VEHICLE COMMANDER</strong> Sgt Aaron Whitaker</p></td></tr><tr><td><p>DRIVER</p><p>PFC Travis Monroe (stays with vehicle)</p></td></tr><tr><td><p>GUNNER</p><p>Cpl Brian Littleton (stays with vehicle)</p></td></tr><tr><td><p>PASSENGERS</p><p>• Spc Devon Johnson</p><p>• HM3 Al Grant (Doc)</p></td></tr><tr><td><p><strong>DISMOUNT TEAM</strong></p><p>Sgt Whitaker, Spc Johnson</p></td></tr><tr><td><p><em>NOTES</em> Breacher capability with Sgt Whitaker.</p></td></tr></tbody></table><h2>Employment Doctrine</h2><ul><li><p><strong>Security Protocol:</strong> Driver and gunner always stay with the vehicle for security</p></li><li><p><strong>Sniper Integration</strong>: Three-man sniper team distributes across vehicles to blend in when dismounting</p></li><li><p><strong>Flexibility: </strong>Three open seats available across Vehicles 2, 3, and 4 for mission-specific attachments</p></li><li><p><strong>Fire Support: </strong>M240 GPMG can be dismounted with Sgt Cooper for heavy fire support</p></li></ul></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 7000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "VVueLDB5ZyCVunTA"
+    }
+  ],
+  "categories": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "folder": "xAHTIiTIh68NH0ST",
+  "name": "Introduction & Overview",
+  "_id": "sLgP2YoZ77Uh0mzc",
+  "pages": [
+    {
+      "name": "The Basics",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><img src=\"modules/the-shepherds-transit/assets/art/quickstart-3.webp\"><p class=\"h1\">The Basics</p><ul><li><p><span class=\"caps-black\">The System:</span> <em>Outside the Wire</em> (OTW) – 2d10 Operations System. This is a standalone Quickstart; all necessary lite mechanics, combat rules, and character sheets are located in this packet.</p></li><li><p><span class=\"caps-black\">Need to play:</span> 2 D10 dice (A third is best for a sunlight dial); pen and paper; color print maps; for skirmish play, mini model list on page 51); and solo play print the flowsheet and control sheet.</p></li><li><p><span class=\"caps-black\">The Setting: </span>This scenario takes place within a modern asymmetric conflict. Players are deployed on a counterinsurgency mission in a semi-rural district characterized by mud-brick homes, scattered farmland, and minimal civilian infrastructure, lacking reliable power, communications networks, and formal government services. All player actions unfold under the persistent observation of the local civilian population, where perception and conduct carry operational consequences.</p></li><li><p><span class=\"caps-black\">Lethality:</span> Grounded, lethal, and vulnerable. Players portray a standard military squad (1st Squad). They are heavily armed but operate under strict constraints. Combat is fast and deadly.</p></li><li><p><span class=\"caps-black\">Main Focus &amp; Theme:</span> Tension, pressure, and consequence. This is <em>not</em> a combat-optimization puzzle or a \"clear the map\" game. The core theme is decision-making under extreme ambiguity, where restraint is an active skill and escalation creates future problems.</p></li><li><p><span class=\"caps-black\">How to Run This: </span>Procedural and pressure-driven. Do not railroad the players into outcomes, but strictly enforce time constraints and consequences. For solo play, enemies act on procedural logic.</p></li><li><p><span class=\"caps-black\">Special Rules:</span> * <strong>Campaign Tracks (Trust, Insurgent Activity, Command):</strong> Tracked dynamically throughout the session (Pages 6-7).</p><ul><li><p><strong>Civilian Friction Dilemmas:</strong> High-stakes, timed moral choices (Pages 31).</p></li><li><p><strong>The Sunlight Clock:</strong> For solo play pacing and AI tracking (Page 15).</p></li></ul></li></ul></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": 1000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "OaqlvECbcJZRNNz5",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "The Narrative Context",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n<p><strong>What is happening in the region?</strong> The players are assisting local forces fight against an insurgent force. Recently, coalition forces eliminated a local insurgent mortar team. </p>\n<p><strong>What is happening today?</strong> A VIP (a senior Colonel) is scheduled to transit through the Area of Operations under the escort of Company A. Standard military doctrine dictates that the Main Supply Route (MSR) must be cleared of mines and ambush indicators before the VIP moves.</p>\n<p><strong>What is happening right now?</strong> It is 0300 (pre-dawn). The players (1st Squad) are deploying from Fort Qalat to secure the MSR, insert a sniper overwatch team at Checkpoint 1, and link up with Company A at Checkpoint 2 to bring the Colonel home.</p>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 2000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "77lQpRe5qxeLzpw1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Scenario Summary & Gm Focus",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p><strong>(🩻SPOILER WARNING FOR PLAYERS)</strong></p><p><strong>The Plot (The Next 3-4 Hours of Gameplay):</strong> The mission is a psychological trap. The insurgents know the VIP is moving and understand coalition escort doctrine perfectly. As the players sweep the road to Checkpoint 2, a \"Civilian Friction\" dilemmas in their path (e.g., a wounded child or a blocked road) that delay them, stress their timeline, and force them into hasty decisions.</p><p>Once the players turn back around, the trap springs. The insurgents believe that the VIP is with the players, and have established a hastily laid IED strike. The insurgents are trying to rush the players to a prepared killbox (near the player’s own sniper overwatch position).</p><h3>Where the GM Should Pay Attention:</h3><ul><li><p><span class=\"caps-black\">The Clock:</span> Time is your primary weapon. Use the 60-second and 90-second real-world decision timers during the Civilian Dilemma (Phase 3) and the Ambush (Phase 6). If players hesitate, penalize their \"Command\" track.</p></li><li><p><span class=\"caps-black\">Do Not Punish Empathy with Death:</span> If the players stop to help civilians, do not shoot them for it. Punish their <em>timeline</em> and <em>predictability</em>. Helping civilians builds Trust but allows the insurgents time to set a deadlier trap.</p></li><li><p><span class=\"caps-black\">The \"Quiet Success\":</span> Remind your players that if they manage to navigate the route, avoid civilian casualties, de-escalate, and extract the VIP without turning the MSR into a warzone, they have achieved the ultimate victory. If nothing dramatic happens, they did their job.</p></li></ul></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 3000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "5oqZOaaDnLsCkZxn",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "The Solo Play Loop",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>Every solo session follows the same loop:</p><ol><li><p><strong>Brief the Mission<br></strong>What are you trying to accomplish, and under what constraints?</p></li><li><p><strong>Move Through the Map<br></strong>Advance cautiously. Movement creates exposure.</p></li><li><p><strong>Resolve Contact<br></strong>Use Enemy AI and combat rules when opposition appears.</p></li><li><p><strong>Draw Events When Friction Occurs<br></strong>Hesitation, noise, or escalation invites complications.</p></li><li><p><strong>Adjust Campaign Tracks<br></strong>Your actions change Trust, Insurgent Activity, and Command Pressure.</p></li><li><p><strong>Extract, De-escalate, or Escalate<br></strong>You may always withdraw. Staying longer is a choice.</p></li></ol><p>As each event is resolved, repeat this loop as the players issue new goals (missions) and move between locations on the map.</p><div class=\"gray-box var2\"><div class=\"gray-box var1\"><h2>The Most Important Rule</h2><p><strong>If you are unsure what happens next, ask the Oracle.</strong></p></div></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 4000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "hSM2PQRLXpJe1pyB",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Solo - Core Oracles",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n<p><strong>Ask when unsure: </strong></p>\n<ul>\n<li>Is the area under observation? </li>\n<li>Do insurgents escalate or observe? </li>\n<li>Are civilians present? </li>\n<li>Does Command pressure increase? Answer using: <ul>\n<li>Insurgent Track </li>\n<li>Local Trust Track </li>\n<li>Command Track</li>\n</ul>\n</li>\n</ul>\n<p>It answers <strong>Yes / No</strong> questions with consequences.</p>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 5000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "Y3GBbiGVW2etwQpo",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Solo - Who Am I Playing Right Now",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n<p>A <strong>Role Focus Declaration</strong> per phase:</p>\n<ul>\n<li>Phase 1–3: Patrol Lead</li>\n<li>Phase 4: Sniper Lead</li>\n<li>Phase 5-6: Patrol Lead (Snipers as Asset)</li>\n</ul>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 6000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "rc77I58tv9AwtJGa",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Quiet Success",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n<p>A mission that ends:</p>\n<ul>\n<li>without contact</li>\n<li>without civilian harm</li>\n<li>without compromise</li>\n</ul>\n<p>…is often the <strong>best possible outcome</strong>.</p>\n<p>Withdrawal is not retreat. Withdrawal is decision-making under constraint.</p>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 7000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "BUHiIi24EnrcqPG1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Sandbox Campaign System",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>The core element of Outside the Wire is a sandbox design where the ecosystem follows from session to session.</p><h3>Gamemaster's Role</h3><p>As the Game Master, you are not guiding players down a pre-written path to a final boss fight. Instead, you manage a living ecosystem of pressure, politics, and violence.</p><div style=\"padding:0.5rem 1rem;border:1px #cdbfac solid\"><h3>Tracks</h3><p>The campaign dynamics revolve around three main tracks that players must navigate: Local Trust, Insurgent Activity, and Command Confidence. Each decision impacts these tracks, shaping the unfolding narrative. Each track goes from 0-10.</p></div><div class=\"tracks\"><ul><li><p><strong>Local Trust</strong> – the willingness of the population to cooperate, tolerate presence, or remain neutral. Low Trust means villagers may mislead or refuse assistance to patrols, while high Trust could lead to providing crucial intel or safe passage.</p></li><li><p><strong>Insurgent Activity</strong> – the ability of armed groups to operate, recruit, and adapt.High Insurgent Activity can lead to frequent ambushes or increased IED threats, while low might result in fewer attacks and easier patrol routes.</p></li><li><p><strong>Command Confidence</strong> – the degree to which higher headquarters tolerates risk, ambiguity, and restraint. Low Command Confidence might restrict resources and support, such as airstrikes or artillery, whereas high confidence ensures ample support and authority to carry out missions effectively.</p></li></ul></div><div><h3>Quick Reference Summary (With DRM)</h3><div id=\"Num-076\" class=\"ref\"><div><p><span class=\"ref-header\">LOCAL TRUST <br></span><strong>(0-10)</strong></p><p><strong>0-3: HOSTILE <br></strong>(-5 Social, shelters enemy)</p><p><strong>4-6: SUSPICIOUS<br></strong>(-2 Social, misleads)</p><p><strong>7-8: NEUTRAL <br></strong>(cautious cooperation)</p><p><strong>9-10: FRIENDLY <br></strong>(+2 Social, early warning)</p></div><div><p><span class=\"ref-header\">INSURGENT ACTIVITY <br></span><strong>(0-10)</strong></p><p><strong>0-3: DEGRADED <br></strong>(tactics +2, scattered)</p><p><strong>4-6: DEGRADED <br></strong>(hit-and-run only)</p><p><strong>7-8: ACTIVE <br></strong>(-2 tactics)</p><p><strong>9-10: CONTROLS AO <br></strong>(-5 tactics, adaptation)</p></div><div><p><span class=\"ref-header\">COMMAND CONFIDENCE <br></span><strong>(0-10)</strong></p><p><strong>0-3: RIP IMMINENT <br></strong>(no assets)</p><p><strong>4-6: LOW <br></strong>(basic only, no air/artillery)</p><p><strong>7-8: GOOD <br></strong>(mortars, standard support)</p><p><strong>9-10: PRIORITY <br></strong>(armor/air unlocked)</p></div></div></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 8000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "C6JkrNpFt02pxkHx",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "The Campaign Scoreboard",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>To clarify consequence resolution: once a decision is made, consequences will be tracked through narrative cues, shifts in player morale, or tactical advantages or setbacks.</p><p>For instance, if a player prioritizes civilian aid over mission objectives, Trust might increase (+1 on the Trust scale), while Command might suffer a -1 shift due to unmet mission objectives, creating a tangible trade-off. The GM will inform players of these developments through descriptive narration and direct updates to the tracking system. Implement a simple tracking system, such as tokens or tally marks, to visually track consequences, such as Trust or Command approval. As each phase progresses, allow players to see markers move, increasing their investment in the unfolding narrative and long-term fallout.</p><table id=\"table-005\" class=\"red-header\"><tbody><tr><td><p>TRIGGER EVENT</p></td><td><p>TRACK</p></td><td><p>EFFECT</p></td><td><p>WHY</p></td></tr><tr><td><p>Call Fires / CAS- EVAC</p></td><td><p>Command</p></td><td><p>-1</p></td><td><p>Expensive assets; invites scrutiny.</p></td></tr><tr><td><p>Vehicle damage</p></td><td><p>Command</p></td><td><p>-2</p></td><td><p>Loss of equipment.</p></td></tr><tr><td><p>Stop for civilians</p></td><td><p>Command</p></td><td><p>-1</p></td><td><p>Timeline violation.</p></td></tr><tr><td><p>Player Fires First</p></td><td><p>Insurgency</p></td><td><p>-1</p></td><td><p>Surprise</p></td></tr><tr><td><p>Fail Ambush Detect Roll</p></td><td><p>Insurgency</p></td><td><p>+2</p></td><td><p>Enemy propaganda victory.</p></td></tr><tr><td><p>Successful Sniper Overwatch</p></td><td><p>Insurgency</p></td><td><p>-1</p></td><td><p>Disrupting enemy observation.</p></td></tr><tr><td><p>Stop for civilians</p></td><td><p>Trust</p></td><td><p>+1</p></td><td><p>Validating local populace.</p></td></tr><tr><td><p>Ignore civilians</p></td><td><p>Trust</p></td><td><p>-1</p></td><td><p>delegitimize presence.</p></td></tr></tbody></table></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 9000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "Ovk7yvfCwGOZCquU",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Solo Control Sheet",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><div class=\"solo-sheet\"><div class=\"box blue\"><p>ACTIVE PLAYER ELEMENTS</p><p><strong>Player Character (Choose One)</strong></p><p>☐ Squad Leader (mounted patrol focus)</p><p>☐ Sniper Team Leader (overwatch focus)</p><p><strong>Player Unit</strong></p><p><strong>Squad Element</strong></p><p>Status: ☐ FOB ☐ Enroute ☐ Ambush</p><p><strong>Sniper Element</strong></p><p>Status: ☐ Hidden ☐ Limited ☐ Compromised ☐ Exfil</p></div><div class=\"box blue\"><p>CAMPAIGN TRACKS</p><p class=\"grey\">(Start: 5 / 5 / 5)</p><p><strong>Command</strong></p><p>☐0 ☐1 ☐2 ☐3 ☐4 ☐5 ☐6 ☐7 ☐8 ☐9 ☐10</p><p><strong>Local Trust</strong></p><p>☐0 ☐1 ☐2 ☐3 ☐4 ☐5 ☐6 ☐7 ☐8 ☐9 ☐10</p><p><strong>Insurgent Activity</strong></p><p>☐0 ☐1 ☐2 ☐3 ☐4 ☐5 ☐6 ☐7 ☐8 ☐9 ☐10</p></div><div class=\"box beige\"><p>SOLO DECISION PRIORITY RULE</p><p>When multiple reasonable options exist and no rule dictates priority: <strong>Choose the option that preserves ambiguity and limits escalation.</strong></p></div><div class=\"box green\"><p>ACT RESOLUTION LOOP <span class=\"grey\">(Use Every Act)</span></p><p>1. Resolve the Act’s core roll</p><p>2. Roll Insurgent Reaction (if applicable)</p><p>3. Adjust Campaign Tracks</p><p>4. Decide: Continue or Withdraw</p><p>Withdrawal is always allowed.</p></div><div class=\"box\"><p>CORE ORACLES</p><p class=\"grey\">(Replace GM Fiat)</p><p><strong>Ask when unsure:</strong></p><ul><li><p>Is the area under observation?</p></li><li><p>Do insurgents escalate or observe?</p></li><li><p>Are civilians present?</p></li><li><p>Does Command pressure increase?</p></li></ul><p><strong>Answer using:</strong></p><ul><li><p>Insurgent Table</p></li><li><p>Local Trust Table</p></li><li><p>Command Table</p></li></ul></div><div class=\"box purple\"><p>SOLO COMPRESSION RULE</p><p>If you feel overloaded by simultaneous threats, NPCs, or decisions, you may <strong>collapse an entire phase into a single roll.</strong></p><ul><li><p>Roll <strong>Tactics or Instinct</strong></p></li><li><p>On <span style=\"font-weight:bold;color:rgb(42, 173, 109)\"><strong>success</strong></span>: favorable outcome, limited escalation</p></li><li><p>On <span style=\"font-weight:bold;color:rgb(243, 159, 113)\"><strong>partial</strong></span>: mixed outcome, +1 Friction</p></li><li><p>On <span style=\"font-weight:bold;color:rgb(192, 62, 100)\"><strong>failure</strong></span>: enemy advantage or narrative complication</p></li></ul><p>Apply Campaign Track changes and move on.</p></div></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 10000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "3S2arPefVLytuJ6f",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Solo Variant: Sunlight Clock & AI",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>The sunlight clock serves to increase pressure on player actions. The Insurgent Activity AI card directly relates to each number on the sunlight die. While GMs have complete ability to act as the insurgents, the Insurgent Activity card provides solo play with a measured opponent.</p><table id=\"table-007\" class=\"red-header ai-card\"><tbody><tr><td><p>THE INSURGENT ACTIVITY AI CARD</p><p>Do not roll the Oracle to see what the enemy does. Use this behavior logic.</p></td></tr><tr><td><p>STATE: <strong>PASSIVE </strong><span class=\"grey\">(Sunlight 1-3)</span></p></td></tr><tr><td><p><strong>• If you are LOUD</strong> (Shooting/Vehicle): They place a “Spotter” token on your flank. +1 Insurgent Activity.</p><p><strong>• If you are QUIET:</strong> They remain hidden. You find only “Signs of passage” (footprints, casings).</p></td></tr><tr><td><p>STATE: <strong>ALERT </strong><span class=\"grey\">(Sunlight 4-8 OR After First Contact)</span></p></td></tr><tr><td><p><strong>• If you HOLD POSITION:</strong> They Flank. (Spawn 1d10 Militia on your side/rear)</p><p><strong>• If you ADVANCE:</strong> They Ambush. Attack from cover. They possess Initiative.</p><p><strong>• If you WITHDRAW:</strong> They Harass. (Sniper fire from distance, but they do not pursue)</p></td></tr><tr><td><p>STATE: <strong>AGGRESSIVE </strong><span class=\"grey\">(Sunlight 9-10)</span></p></td></tr><tr><td><p>• <strong>ALL ACTIONS:</strong> They launch a complex attack (Mortars + Small Arms). <strong>They want to pin you in the dark.</strong></p></td></tr></tbody></table><p>Loud actions are Player-initiated Gunfire or Explosions inside the patrol zone. Insertion vehicles do not count unless brought into the village</p><table class=\"sunlight\"><tbody><tr><td><p><strong>THE SUNLIGHT CLOCK</strong></p><p>You do not have a GM to tell you when the sun goes down.</p></td></tr><tr><td><p>Place a d10 on the table set to <span style=\"font-weight:bold;color:rgb(243, 157, 19)\"><strong>1</strong></span>. This is the <span style=\"font-weight:bold;color:rgb(243, 157, 19)\"><strong>Sunlight Die.</strong></span></p></td></tr><tr><td><p><span style=\"font-weight:bold;color:rgb(243, 157, 19)\"><strong>1-3: </strong></span><strong>SUNRISE</strong> Visibility -1, Cooler</p></td></tr><tr><td><p><span style=\"font-weight:bold;color:rgb(230, 126, 57)\"><strong>4-6: </strong></span><strong>LATE</strong> MORNING Full Visibility, foot traffic</p></td></tr><tr><td><p><span style=\"font-weight:bold;color:rgb(142, 68, 175)\"><strong>7-8: </strong></span><strong>NOON</strong> Full visibility, Hot, quiet</p></td></tr><tr><td><p><span style=\"font-weight:bold;color:rgb(192, 57, 104)\"><strong>9-10: </strong>AFTERNON <strong>Mission Failure if not with the VIP</strong></span></p></td></tr><tr><td><p><strong>ADVANCE THE SUNLIGHT DIE BY +1 WHEN:</strong></p><p><strong>1.</strong> You move between major terrain features (e.g., crossing the wadi to the village)</p><p><strong>2.</strong> You spend time interacting with locals</p><p><strong>3.</strong> You engage in combat for more than 3 rounds</p></td></tr></tbody></table></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 10000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "bXOasUsPwVWpQVAS"
+    },
+    {
+      "name": "Solo Procedure: Advancing The Sunlight Clock",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n<h3>Purpose:</h3>\n<p>The Sunlight Clock advances based on time spent, player tempo, and friction, not strict real-time tracking. A way for the battlefield to evolve without strict timekeeping. While created for solo play, GM's use allows the scenario to gain a sense of urgency.</p>\n<h3>Starting State:</h3>\n<p>Sunlight Clock begins at Morning (Full Light)</p>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 11000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "7XFiqVf2wSEsUISD",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Game Progression Flowchart — VIP Escort",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>Route: FOB → CP1 → CP2 → Return | VIP: Colonel | Threat: Herding Ambush</p><div class=\"prog-flow\"><div class=\"head\"><p><strong>ACT I — THE ROUTE</strong></p><p>0300–0600</p><p><em>Preparation · Insertion · Tension</em></p><p><strong>▸ ENTRY CONDITIONS</strong></p></div><div><p>Depart FOB pre-dawn. Four armored vehicles. Sniper team attached.</p><p>Mission: Clear MSR, insert snipers at CP1, link with Company A at CP2.</p><p><strong>1 PRE-MISSION PREP</strong></p><p><em>Where players sit determines exposure, casualties, and chaos.</em></p><p>☐ Assign vehicles and seating (matters later)</p><p>☐ Choose gunner positions</p><p>☐ Decide sniper distribution</p><p>☐ Conduct PCCs/PCIs</p><p><strong>2 MOVEMENT TO CP1</strong></p><p><em>The quiet is not peace. It's a held breath before the exhale.</em></p><p>☐ Mount up in darkness</p><p>☐ Blacked-out headlights, radio checks</p><p>☐ Fields and ditches slide past</p><p>☐ Nothing happens—this is deliberate</p><p><strong>3 SNIPER INSERT (CP1)</strong></p><p><em>Ask: \"What do the snipers do if you don't come back?\"</em></p><p>☐ Short halt, troops dismount casually</p><p>☐ Snipers fade into terrain</p><p>☐ Vehicles remount and depart</p><p>☐ Snipers go dark—eyes only unless it goes bad</p><p><strong>4 CONTINUE TO CP2</strong></p><p><em>Something important has been left behind. The road pulls you forward.</em></p><p>☐ Roll out from CP1</p><p>☐ Light is stronger now</p><p>☐ Ten minutes down the MSR... ☐ Civilian Friction triggers</p><p>➤ EXIT ACT I: Snipers inserted. Patrol en route. Then the dilemma appears.</p></div><div class=\"head\"><p><strong>ACT II — THE DILEMMA</strong></p><p>0600–0900</p><p><em>Decision · Delay · Manipulation</em></p><p><strong>▸ ENTRY CONDITIONS</strong></p></div><div><p>Civilian friction encountered. 60-second timer starts. Every delay costs.</p><p><strong>⬅ FRICTION LOOP — Decide or Lose Command</strong></p><p><strong>A ROLL CIVILIAN DILEMMA (1D10)</strong></p><p>1-2: Bleeding passenger</p><p>3-4: Blocked road</p><p>5-6: Injured child</p><p>7-8: Civilian mob</p><p>9-10: Broken CASEVAC vehicle</p><p><em>A child lies wounded. A man flees. No immediate threats detected.</em></p><p><strong>B 60-SECOND DECISION</strong></p><p>☐ Start real-world timer</p><p>☐ One primary action only</p><p>☐ One secondary task allowed</p><p>☐ No \"perfect coverage\" solutions</p><p><em>If no decision when timer ends </em>→<em> –1 Command AND –1 Trust immediately.</em></p><p><strong>C RESOLVE &amp; APPLY</strong></p><p>☐ Aid → Trust +1, Timeline breaks</p><p>☐ Ignore → Trust –1, Command +0</p><p>☐ Half-measures → Command –1</p><p>☐ One roll only: First Aid, Instinct, or Tactics</p><p><em>Whatever you do will be seen. The harm comes later.</em></p><p><strong>D SNIPER REPORT</strong></p><p>☐ Radio crackles—urgent edge</p><p>☐ Insurgents setting up near CP1</p><p>☐ PKMs, IEDs, motorcycles observed</p><p>☐ Roll Tactical (Easy –5) for hide site</p><p><em>\"This looks deliberate. Recommend reassessment.\"</em></p><p>➤ EXIT ACT II: Company A orders: \"Turn around, return to CP1.\"</p></div><div class=\"head\"><p><strong>ACT III — THE TRAP</strong></p><p>0900–1200</p><p><em>Ambush · Leadership · Consequence</em></p><p><strong>▸ ENTRY CONDITIONS</strong></p></div><div><p>Returning to CP1. Civilians fleeing MSR. Motorcycle scouts tracking you.</p><p><strong>1 IED AMBUSH CHECK</strong></p><p><em>The ruts aren't random. Daisy-chained. Seconds from where they want you.</em></p><p>☐ Roll Tactics (Hard +5) to spot daisy-chain</p><p>☐ Success → See the trap before it springs</p><p>☐ Failure → Hasty IED detonates</p><p>1D10: 1-3 Lead hit | 4-6 Lead+2nd | 7-9 Three | 10 All</p><p><strong>2 90-SECOND DECISION</strong></p><p><em>No hybrids. No sequencing. Choose one order to patrol, one to snipers.</em></p><p>☐ ASSAULT THROUGH → Tactics roll</p><p>☐ BREAK CONTACT → Tactics roll</p><p>☐ ANCHOR &amp; HOLD → Wait for Company A</p><p>☐ Snipers: ENGAGE or STAY HIDDEN?</p><p><strong>3 RESOLVE &amp; EXTRACT</strong></p><p><em>The insurgents believed the Colonel was already with you. You were herded.</em></p><p>☐ Success → Order works</p><p>☐ Failure → Partial success + arrival Company A</p><p>☐ If 3+ vehicles killed → Company A arrives</p><p>☐ \"We've got it from here.\" Patrol agency ends.</p><p><strong>OUTCOMES</strong></p><p>✔ VIP SAFE: Colonel reaches FOB. Route cleared. Snipers recovered.</p></div></div><p class=\"yellow-bg\">✖ EXTRACTED: VIP survives. Company A takes control. Casualties. Scrutiny.</p><p class=\"gray-bg\">✖ COLLAPSE: Mission fails. Casualties mount. Trust collapses. Command –2.</p><p class=\"blue-bg\"><strong>FINAL SOLO REMINDER:</strong> If nothing dramatic happens, the patrol probably did its job. Escalation solves today and ruins tomorrow. Ask: \"Was this worth it?\"</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 11000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "39C7gET3F1FB7U7e"
+    }
+  ],
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

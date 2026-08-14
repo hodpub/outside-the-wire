@@ -1,0 +1,101 @@
+{
+  "folder": "xAHTIiTIh68NH0ST",
+  "name": "The Shepherd's Transit",
+  "_id": "HpCJag8KOuvnj63y",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "The Shepherd's Transit",
+      "type": "text",
+      "_id": "Idvs4Y15DucDRDle",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"chapter\">\n    <img src=\"modules/the-shepherds-transit/assets/elements/capa.webp\">\n    <h1>Contents</h1>\n    <p></p>\n    <h1 style=\"margin-top:128px\">Recommended Modules</h1>\n    <ul>\n        <li>\n            <p><span class=\"bold\"><a href=\"https://foundryvtt.com/packages/dice-so-nice\">Dice So Nice</a></span>: This module for Foundry VTT adds the ability to show a 3D dice simulation when a roll is made.</p>\n        </li>\n        <li>\n            <p><span class=\"bold\"><a href=\"https://foundryvtt.com/packages/quick-insert\">Quick Insert</a></span>: A powerful tool for finding, controlling and inserting things in Foundry VTT.</p>\n        </li>\n        <li>\n            <p><span class=\"bold\"><a href=\"https://foundryvtt.com/packages/image-z00m\">Image Z00M</a></span>: This module adds a button to image windows that allows you to see that image on its real size and zoom them!</p>\n        </li>\n    </ul>\n    <h1 style=\"margin-top:128px\">Support</h1>\n    <img style=\"width:100%;border:0\" src=\"/modules/the/assets/hod-publishing.webp\" class=\"centered\">\n    <p class=\"drop-cap\">We sincerely hope you have a flawless experience with this module, but if you have any issues or bugs, please reach out and we will do our best to get things fixed!</p>\n    <p>Please, contact us using one of the following contact options:</p>\n    <ul>\n        <li>\n            <p><strong>Revel Tales: </strong><a href=\"mailto:reveltales@gmail.com\">reveltales@gmail.com</a></p>\n        </li>\n        <li>\n            <p><span class=\"bold\">Hod Publishing: </span><a href=\"mailto:support@hodpub.com\">support@hodpub.com</a></p>\n        </li>\n        <li>\n            <p><span class=\"bold\">Hod Publishing: </span><a href=\"https://hodpub.com/discord\" class=\"bold\">Discord Server</a></p>\n        </li>\n    </ul>\n</div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "8nYcl8M5pyYpCQqH": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "sort": 100000,
+      "name": "Acronyms and Terms",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n    <h1>Acronyms:</h1>\n    <p>AO - Area of Operations</p>\n    <p>BN - Battalion</p>\n    <p>CASEVAC - Casualty Evacuation</p>\n    <p>CK - Combat Knowledge</p>\n    <p>CLS - Combat Lifesaver</p>\n    <p>CP - Checkpoint</p>\n    <p>CW - Combat Wisdom</p>\n    <p>DIS - Dismount</p>\n    <p>DRM - Die Roll Modifier</p>\n    <p>DTG - Date-Time Group</p>\n    <p>FM - Frequency Modulation</p>\n    <p>FOB - Forward Operating Base</p>\n    <p>GPMG - General Purpose Machine Gun</p>\n    <p>GR - Grid Reference</p>\n    <p>HMG - Heavy Machine Gun</p>\n    <p>IED - Improvised Explosive Device</p>\n    <p>ISR - Intelligence, Surveillance, and Reconnaissance</p>\n    <p>MRE - Meal, Ready-to-Eat</p>\n    <p>MRAP - Mine-Resistant Ambush Protected (vehicle)</p>\n    <p>MSR - Main Supply Route</p>\n    <p>NET - Network</p>\n    <p>NPC - Non-Player Character</p>\n    <p>OPORD - Operation Order</p>\n    <p>PACE - Primary, Alternate, Contingency, Emergency (communications plan)</p>\n    <p>PAX - Personnel</p>\n    <p>PC - Player Character</p>\n    <p>PCC - Pre-Combat Checks</p>\n    <p>PCI - Pre-Combat Inspections</p>\n    <p>PKM - Kalashnikov Machine Gun</p>\n    <p>PL - Phase Line</p>\n    <p>ROE - Rules of Engagement</p>\n    <p>SNAFU - Situation Normal, All Fouled Up</p>\n    <p>SP - Start Point</p>\n    <p>TGT - Target</p>\n    <p>TIC - Troops in Contact</p>\n    <p>VIP - Very Important Person</p>\n    <p>VHF - Very High Frequency</p>\n    <p>WX - Weather</p>\n    <h1>Terms:</h1>\n    <p><strong>Ambush Geometry </strong>- The arrangement of terrain and positioning used to maximize the effectiveness of an ambush.</p>\n    <p><strong>Blacked-out Headlights</strong> - Vehicle headlights turned off for stealth during night operations.</p>\n    <p><strong>Civilian Friction</strong> - Situations involving civilians that create moral and operational dilemmas.</p>\n    <p><strong>Command Track</strong> - A system to track oversight, scrutiny, and political tolerance.</p>\n    <p><strong>Daisy-Chained IEDs</strong> - Multiple explosive devices connected together to detonate simultaneously or sequentially.</p>\n    <p><strong>Friction Relief Conditions </strong>- Conditions under which operational friction can be reduced.</p>\n    <p><strong>Herding Ambush</strong> - A tactic where the enemy manipulates movement to drive a patrol into a prepared ambush.</p>\n    <p><strong>Quiet Success</strong> - A mission outcome with no contact, no civilian harm, and no compromise.</p>\n    <p><strong>Sunlight Clock </strong>- A solo play pacing mechanism that tracks time, adjust pressure, and visibility during the mission.</p>\n    <p><strong>Tactical Feint</strong> - A deceptive maneuver to mislead the enemy.</p>\n    <p><strong>Timeline Pressure</strong> - The stress caused by time constraints during a mission.</p>\n    <p><strong>Withdrawal</strong> - A deliberate decision to retreat from an enemy under constraint.</p>\n</div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "8nYcl8M5pyYpCQqH": 3,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "eQA1WUG9f86jboK9"
+    }
+  ],
+  "categories": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

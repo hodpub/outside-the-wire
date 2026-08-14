@@ -1,0 +1,290 @@
+{
+  "folder": "xAHTIiTIh68NH0ST",
+  "name": "Fort Qalat Area of Operations",
+  "_id": "X2Z7DCe3KsMR6c7U",
+  "pages": [
+    {
+      "name": "Fort Qalat Area of Operations",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"chapter\"><p>a</p><p></p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "_id": "OaqlvECbcJZRNNz5",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "I. Regional Overview",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\">\n    <p>The route along the MSR west from Fort Qalat to CP1, then across the pass to CP2, takes the players through Hadran’s Pass. Here, the mountains rise hard and unforgiving in the north, their ridgelines cutting the sky into jagged teeth. Narrow valleys funnel travelers along ancient switchback roads, paths worn into stone by generations of caravans, patrols, and refugees. Beyond these roads, the land turns hostile, with sheer cliffs, rockslides, and weather that kills the careless.</p>\n    <p>The elders rule here. Not by proclamation or uniform, but by memory, kinship, and stubborn refusal to bend. Every family knows who truly decides matters, and it isn’t anyone sent from outside. Outsiders are tolerated only so long as they move carefully, speak little, and respect old arrangements.</p>\n    <p>Insurgents are already part of that arrangement. They do not wave flags or openly carry rifles. Instead, they quietly tax caravans passing through, collecting their due as if it were just another toll. Small observation teams sit high on the ridgelines, watching everything that moves.</p>\n    <p>Security is mostly symbolic. Criminals pass through as couriers, never staying long, never drawing attention. Everyone understands the truth: whoever controls the passes controls who enters the region at all.</p>\n    <p>Hadran Pass is isolated, conservative, and fiercely self-reliant.</p>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "YVbwx6YWdcQogAhk"
+    },
+    {
+      "name": "II. Population & Economic Reality",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><h2>Estimated Civilian Presence Along Route:</h2><p>400–700 (distributed farms &amp; compounds)</p><h2>Primary Livelihood:</h2><p>Agriculture, livestock, seasonal market trade</p><h2>Secondary Economy:</h2><p>Informal taxation, roadside services, courier movement</p><p>Civilians remain present along the MSR at all times. They are neither absent nor fully engaged. They watch.</p><h2>The population has adapted to:</h2><ul><li><p>Convoys</p></li><li><p>Sniper overwatch</p></li><li><p>Surface-laid IEDs</p></li><li><p>Motorcycle scouts</p></li><li><p>Delayed fire support</p></li></ul><h3>They understand that patrols operate under constraints:</h3><ul><li><p>Limited ISR coverage</p></li><li><p>Delayed CASEVAC</p></li><li><p>Timeline pressure from VIP movements</p></li></ul><h3>Civilians are not passive participants. Their behavior communicates:</h3><ul><li><p>Clearing the road abruptly</p></li><li><p>Gathering visibly</p></li><li><p>Offering aid or obstruction</p></li><li><p>Fleeing before contact</p></li></ul><p>A wounded child or broken vehicle is not merely an event.</p><p>It is a legitimacy test.</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "DGOJ4SCzPO0r0B7o"
+    },
+    {
+      "name": "III. Political & Security Disposition",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><h2>Insurgent Cells</h2><p><strong>Local insurgents:</strong></p><ul><li><p>Blend with the civilian population</p></li><li><p>Use surface-laid IEDs</p></li><li><p>Employ PKMs and light machine guns</p></li><li><p>Operate via motorcycles and sedans</p></li></ul></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "K3CmzfcGjAH8exxT"
+    },
+    {
+      "name": "IV. District Disposition Matrix",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><div class=\"gray-box var2\"><table id=\"table-010\" class=\"red-header\"><tbody><tr><td><p>Group</p></td><td><p>Disposition</p></td></tr><tr><td><p>Farmers Along MSR</p></td><td><p>Cautious, observant</p></td></tr><tr><td><p>Youth on Motorcycles</p></td><td><p>Opportunistic / Informational</p></td></tr><tr><td><p>Village Elders</p></td><td><p>Quietly transactional</p></td></tr><tr><td><p>Insurgent Cells</p></td><td><p>Patient, reactive</p></td></tr><tr><td><p>Company A</p></td><td><p>Doctrinal, risk-averse</p></td></tr></tbody></table></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "0Nz34z9eCMY4bi6g"
+    },
+    {
+      "name": "V. Consequence Environment",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>Track shifts in:</p><ul><li><p><strong>Local Trust</strong> (civilian handling)</p></li><li><p><strong>Insurgent Activity</strong> (enemy confidence)</p></li><li><p><strong>Command</strong> (scrutiny &amp; oversight)</p></li></ul><p>Examples embedded in mission structure:</p><ul><li><p>Aid civilians → Trust +1, timeline broken</p></li><li><p>Ignore civilians → Trust -1</p></li><li><p>Assault through → Insurgent Activity -1</p></li><li><p>Break contact → Command -1</p></li><li><p>Call fires → Trust -1</p></li></ul><p>War does not reward good decisions. It taxes all decisions.</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "G74hWVrGmCGRoIA1"
+    },
+    {
+      "name": "Armani’s Deployment Journal",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"brown\"><div class=\"handwritten\"><p>Day 12 – Fort Qalat</p><p>As new joins, I arrived at Fort Qalat just after sunrise, when the heat hadn’t yet decided what kind of day it was going to be. The helicopter flared hard over the wire and dumped us into a cloud of dust. As we dismounted, the noise signature was unmistakable, a mechanical roar that demanded immediate tactical consideration.</p><p>The fort looked older than the map said it was; mudbrick walls patched with Hesco and rusted corrugated steel, sandbags stacked like they’d been there since another war. Somewhere inside, a generator coughed and settled into a tired rhythm. No one rushed to greet us. A few soldiers watched from the shade, faces flat, eyes tracking movement out of habit more than curiosity. This wasn’t a place that welcomed arrivals. It absorbed them.</p><p>Mortar impact scars dotted the far edge of the compound like pockmarks. Someone had spray-painted dates on the wall near the bunker entrance, Tuesdays marked with crude circles.</p><p>Outside the wire, the land flattened into fields cut by irrigation ditches and broken roads that led nowhere cleanly. Villages clung to the horizon in low clusters, their edges frayed and indistinct. Civilians watched from a distance, never close enough to talk, never far enough to ignore. Kids stared openly. Adults didn’t. Everyone here had learned the same lesson: visibility cuts both ways. The enemy wore no uniform, but you could feel them.</p><p>They briefed me that night under a bare bulb in a plywood shack that smelled like sweat and instant coffee. Using creative tactics, a patrol last week had taken out the mortar crew that’s been plaguing the fort.</p><p>The success of last week’s mission brought us unwanted attention. A Very Important Person (VIP) was coming - the regional boss, Colonel Bob Vance. Our next mission was to meet Company A at the normal handoff, on the western edge of our Area of Operations (AO). Going there and back would take us through Hadran’s Pass, the insurgents’ traditional stronghold.</p></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 0,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.the-shepherds-transit.core-book.JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.OaqlvECbcJZRNNz5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "gEtbmhjdI6QYiISs"
+    }
+  ],
+  "categories": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

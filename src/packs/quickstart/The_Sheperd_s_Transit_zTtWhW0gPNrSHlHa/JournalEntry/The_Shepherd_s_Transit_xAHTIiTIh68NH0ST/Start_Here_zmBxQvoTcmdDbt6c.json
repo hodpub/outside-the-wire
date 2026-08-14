@@ -1,0 +1,100 @@
+{
+  "folder": "xAHTIiTIh68NH0ST",
+  "name": "Start Here",
+  "_id": "zmBxQvoTcmdDbt6c",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Shepherd's Transit",
+      "type": "text",
+      "_id": "uiCzgYf54ElUFX3v",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n    <p><span class=\"start\">Shepherd's Transit</span> is the introductory scenario to the game Outside the Wire. The scenario is designed to introduce key elements of pressure, restraint, campaign consequences and skirmish rules. This scenario is rules lite - not the full set to allow quick play. GMs can determine information (e.g., the range modifiers, cover, etc.) for Die Roll Modifiers (DRMs).</p>\n    <p>The scenario provides solo play with a base oracle, control sheet, and a flow sheet. The oracle is used to answer yes-or-no questions. The control sheet provides a sheet to track key solo decisions. The flow sheet is designed to provide solo players with a map of events and resolutions to help them learn the game's core concepts.</p>\n    <p>While GMs are welcome to use the flow chart, they are able to adapt the scenario to the goals of the table when combined with the regional description.</p>\n    <p>The sunlight dial and Enemy AI chart provide a means to introduce pressure into decision making.</p>\n    <p>There is a single encounter table provided as a means to introduce civilian dilemmas.</p>\n    <p><strong>This game is about pressure, not victory. </strong>You are not here to defeat the enemy. You are here to manage instability under constraint. Your authority is limited. Your information is incomplete.</p>\n    <p><em>Outside the Wire is a solo and GM-driven modern military RPG about pressure, consequence, and survival.</em></p>\n    <ul>\n        <li>\n            <p>Playable solo or with a GM</p>\n        </li>\n        <li>\n            <p>Combat is fast, lethal, and consequential</p>\n        </li>\n        <li>\n            <p>Campaign pressure persists between missions</p>\n        </li>\n        <li>\n            <p>Quiet success is real success</p>\n        </li>\n    </ul>\n    <div class=\"gray-box var1\">\n        <h2>Tone warning</h2>\n        <p>This game portrays modern asymmetric conflict. It does not reward escalation.</p>\n    </div>\n</div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "sort": 100000,
+      "name": "What This Game Is",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\">\n    <ul>\n        <li>\n            <p>A modern military role-playing game about <strong>decision-making under pressure</strong></p>\n        </li>\n        <li>\n            <p>A game where <strong>restraint is an active skill</strong></p>\n        </li>\n        <li>\n            <p>A campaign where <strong>consequences persist</strong></p>\n        </li>\n        <li>\n            <p>A system where <strong>quiet success matters</strong></p>\n        </li>\n    </ul>\n    <div class=\"gray-box var2\">\n        <div>\n            <p><span class=\"caps-black\">Creator:</span> Derek Roberson</p>\n            <p><span class=\"caps-black\">Design:</span> Justin Oefelein, SPX Multimedia</p>\n            <p><span class=\"caps-black\">Art:</span> Public domain combat photography</p>\n            <p>Sourced at DVIDS with Image stylization and processing by Kazmo Studios</p>\n        </div>\n    </div>\n</div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "OhtSYJU9vHcQJCku"
+    }
+  ],
+  "categories": [],
+  "sort": -50000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}
