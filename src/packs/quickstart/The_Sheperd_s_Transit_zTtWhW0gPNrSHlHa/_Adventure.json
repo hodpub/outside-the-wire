@@ -21,14 +21,19 @@
     "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/The_Shepherd_s_Transit___Adventure_y8277rmkkKRqMqXw.json",
     "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/Start_Here_zmBxQvoTcmdDbt6c.json"
   ],
-  "scenes": [],
+  "scenes": [
+    "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/Outside_the_Wire_MSPzszYpzhC25qmh.json",
+    "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/Region_Map_zc0LlFzB9Nm4OWz2.json",
+    "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/Battle_Map_4kfXNyWIl9gIWnWk.json"
+  ],
   "tables": [],
   "macros": [],
   "cards": [],
   "playlists": [],
   "folders": [
     "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/_Folder.json",
-    "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/_Folder.json"
+    "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/_Folder.json",
+    "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/_Folder.json"
   ],
   "_id": "zTtWhW0gPNrSHlHa",
   "folder": null,
@@ -38,8 +43,8 @@
     "systemId": "outside-the-wire",
     "systemVersion": "0.0.1",
     "createdTime": 1786652011690,
-    "modifiedTime": 1786715011407,
-    "lastModifiedBy": "okbm9y8ms7io6Hb2",
+    "modifiedTime": 1786722495382,
+    "lastModifiedBy": "OQTDMTZIJgbOwEpj",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

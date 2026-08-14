@@ -1,10 +1,10 @@
 {
-  "type": "Actor",
+  "type": "Scene",
   "folder": null,
-  "name": "The Sheperd's Transit",
+  "name": "The Shepherd's Transit",
   "color": "#c5ad83",
   "sorting": "a",
-  "_id": "Y5oLmESOcYsq9BCZ",
+  "_id": "YenwRdLjxS7jYUCa",
   "description": "",
   "sort": 0,
   "flags": {},
