@@ -30,7 +30,8 @@
     "system/outside-the-wire.mjs"
   ],
   "styles": [
-    "css/outside-the-wire.css"
+    "css/outside-the-wire.css",
+    "css/shepherds-transit.css"
   ],
   "languages": [
     {
