@@ -2,7 +2,7 @@
   div {
     margin: 1rem 0;
 
-    // ↱ DEFAULT DIVS CLASSES 
+    // ↱ DEFAULT DIVS CLASSES
     &.toc {
       margin-bottom: 2rem;
 
@@ -11,27 +11,13 @@
       }
 
       p {
-        &.h1 {
-          font-size: 2rem;
-          font-family: "Oswald";
-          margin-top: 0;
-
-          a {
-            color: unset;
-            text-decoration: none;
-            text-underline-offset: none;
-
-            i {
-              color: #57417a;
-            }
-          }
-        }
-
         &.h2 {
-          font-family: "Oswald";
-          text-transform: uppercase;
-          font-size: 1.2rem;
-          margin-bottom: -0.3rem;
+          width: 70%;
+          border-bottom: 1px black solid;
+
+          a i {
+            margin-right: 0.55rem;
+          }
         }
       }
     }
@@ -170,6 +156,9 @@
         text-align: center;
         background-color: #d9c7b2;
         margin-bottom: 0;
+        font-size: 1.7rem;
+        padding: 0.5rem;
+        text-transform: uppercase;
       }
     }
 
