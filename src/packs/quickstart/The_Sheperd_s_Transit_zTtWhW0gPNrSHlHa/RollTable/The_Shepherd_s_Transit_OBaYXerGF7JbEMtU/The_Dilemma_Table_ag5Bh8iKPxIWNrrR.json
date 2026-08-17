@@ -1,0 +1,158 @@
+{
+  "folder": "OBaYXerGF7JbEMtU",
+  "name": "The Dilemma Table",
+  "_id": "ag5Bh8iKPxIWNrrR",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "_id": "z3qaBb9uZV6YgWAQ",
+      "name": "Bleeding Passenger",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<div id=\"tst\" class=\"phase\"><p><strong>Situation: </strong>A civilian pickup has pulled onto the shoulder. Inside is a wounded passenger bleeding heavily from the leg. The driver is frantic. No weapons visible. No obvious IED indicators.</p><p><strong>Pressure:</strong></p><ul><li><p>Stopping delays the VIP timeline</p></li><li><p>Leaving is visible to witnesses</p></li></ul><p><strong>Likely Consequences (GM/Solo):</strong></p></div>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "_id": "Wja4f6yUceDbqUqk",
+      "name": "Blocked Road",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<div id=\"tst\" class=\"phase\"><p><strong>Situation: </strong>A farm vehicle has jackknifed across the MSR. Several civilians are attempting to move it. The road cannot be cleared quickly without assistance or heavy vehicles.</p><p><strong>Pressure:</strong></p><ul><li><p>Clearing it exposes the patrol</p></li><li><p>Forcing through risks of civilian harm</p></li></ul><p><strong>Likely Consequences:</strong></p><ul><li><p>Assist → Trust +1, Sunlight +1</p></li><li><p>Push through → Trust -1</p></li><li><p>Detour → Insurgent Activity +1</p></li></ul></div>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "_id": "KMDgAx5AvfcdwCps",
+      "name": "Injured Child",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<div id=\"tst\" class=\"phase\"><p><strong>Situation: </strong>A child lies wounded near the road, trauma consistent with an IED blast. A man flees as you approach. No immediate threats detected.</p><p><strong>Pressure:</strong></p><ul><li><p>Medical aid breaks mission timing</p></li><li><p>Ignoring causes visible harm</p></li></ul><p><strong>Likely Consequences:</strong></p><ul><li><p>Aid → Trust +1, VIP missed</p></li><li><p>Ignore → Trust -1</p></li><li><p>Secure &amp; call locals → +1 Trust</p></li></ul><h2></h2></div>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "_id": "QYJBLAfSYTNOKPVZ",
+      "name": "Civilian Mob",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<div id=\"tst\" class=\"phase\"><p><strong>Situation: </strong>A growing group of civilians moves toward the patrol, shouting and gesturing at the road ahead. Emotions are high. You cannot tell if the anger is directed at you or something beyond the bend.</p><p><strong>Pressure:</strong></p><ul><li><p>Stopping risks loss of control</p></li><li><p>Pushing through risks escalation</p></li></ul><p><strong>Likely Consequences:</strong></p><ul><li><p>De-escalate → Trust +1, Delay</p></li><li><p>Force movement → Command +0, Trust -1</p></li><li><p>Withdraw → Insurgent Activity +1</p></li></ul><h2></h2></div>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "_id": "yJFPkWpetAnMTfA4",
+      "name": "Flaming Donkey",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<div id=\"tst\" class=\"phase\"><p><strong>Situation: </strong>A teen is holding an upset donkey by the reins in the middle of the road. Behind them lay an overturned cart with its contents of vegetables splayed across the road. Somehow, the donkey’s tail is on fire, causing the donkey to buck and scream wildly. In the nearby fields, workers watch the scene.</p><p><strong>Pressure:</strong></p><ul><li><p>Helping diverts manpower</p></li><li><p>Ignoring undermines legitimacy</p></li></ul><p><strong>Likely Consequences:</strong></p><ul><li><p>Assist → Trust +1, Sunlight +1</p></li><li><p>Ignore → Trust -1, Command +0</p></li></ul></div>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d10"
+}

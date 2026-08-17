@@ -197,7 +197,7 @@
       "name": "V. Consequence Environment",
       "text": {
         "format": 1,
-        "content": "<div id=\"tst\" class=\"phase\"><p>Track shifts in:</p><ul><li><p><strong>Local Trust</strong> (civilian handling)</p></li><li><p><strong>Insurgent Activity</strong> (enemy confidence)</p></li><li><p><strong>Command</strong> (scrutiny &amp; oversight)</p></li></ul><p>Examples embedded in mission structure:</p><ul><li><p>Aid civilians → Trust +1, timeline broken</p></li><li><p>Ignore civilians → Trust -1</p></li><li><p>Assault through → Insurgent Activity -1</p></li><li><p>Break contact → Command -1</p></li><li><p>Call fires → Trust -1</p></li></ul><p>War does not reward good decisions. It taxes all decisions.</p></div>"
+        "content": "<div id=\"tst\" class=\"phase\"><p>Track shifts in:</p><ul><li><p><strong>Local Trust</strong> (civilian handling)</p></li><li><p><strong>Insurgent Activity</strong> (enemy confidence)</p></li><li><p><strong>Command</strong> (scrutiny &amp; oversight)</p></li></ul><p>Examples embedded in mission structure:</p><ul><li><p>Aid civilians → [[/tracker trust +1]]{Trust +1}, timeline broken</p></li><li><p>Ignore civilians → [[/tracker trust -1]]{Trust -1}</p></li><li><p>Assault through →[ [/tracker insurgency -1]]{Insurgent Activity -1}</p></li><li><p>Break contact → [ [/tracker command -1]]{Command -1}</p></li><li><p>Call fires → [ [/tracker trust -1]]{Trust -1}</p></li></ul><p>War does not reward good decisions. It taxes all decisions.</p></div>"
       },
       "title": {
         "level": 1,

@@ -1,0 +1,26 @@
+{
+  "name": "Roll The Dilemma Rolltable",
+  "type": "script",
+  "_id": "0gItG585Lvxnmy04",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "await (await fromUuid(\"RollTable.ag5Bh8iKPxIWNrrR\")).draw({rollMode: CONST.DICE_ROLL_MODES.PRIVATE});",
+  "folder": "kJwMIoxJxJ3J6bhc",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "author": "OQTDMTZIJgbOwEpj"
+}
