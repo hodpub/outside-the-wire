@@ -34,6 +34,12 @@ jobs:
         source: ./scss/${{ env.package_id }}.scss
         destination: ./css/${{ env.package_id }}.css
 
+    - name: Compile CSS from SCSS files (Quickstart)
+      uses: gha-utilities/sass-build@v0.6.0
+      with:
+        source: ./qs-scss/shepherds-transit.scss
+        destination: ./css/shepherds-transit.css
+
     - name: Install Foundry VTT Cli and pack the source
       run: |
         npm install @foundryvtt/foundryvtt-cli --save-dev
