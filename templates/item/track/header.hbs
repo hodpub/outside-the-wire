@@ -1,0 +1,13 @@
+<header class='sheet-header'>
+  <img class='profile-img' src='{{item.img}}' data-edit='img' data-action='onEditImage'
+    data-tooltip='{{item.name}}' />
+  <div class='header-fields'>
+    <label class="title">{{localize (concat "TYPES.Item." item.type)}}</label>
+
+    {{#if isGM}}
+    <button data-action="addTrack" type="button">Add Track</button>
+    {{/if}}
+  </div>
+
+
+</header>

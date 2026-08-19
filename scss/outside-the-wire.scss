@@ -22,6 +22,7 @@
 @use 'components/sheets-item';
 @use 'components/sheets-creator';
 @use 'components/automations';
+@use 'components/track';
 
 
 /* Styles limited to invincible sheets */
@@ -35,4 +36,5 @@
   @include sheets-item.sheets;
   @include sheets-creator.sheets;
   @include automations.automations;
+  @include track.track;
 }

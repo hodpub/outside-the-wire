@@ -1,22 +1,23 @@
 {
-  "type": "RollTable",
-  "folder": null,
+  "type": "Macro",
+  "folder": "kJwMIoxJxJ3J6bhc",
   "name": "The Shepherd's Transit",
-  "color": "#c5ad83",
+  "color": "#b3986b",
   "sorting": "a",
-  "_id": "OBaYXerGF7JbEMtU",
+  "_id": "fP8dngbEbaX7nsoy",
   "description": "",
-  "sort": 100000,
+  "sort": 0,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "outside-the-wire",
     "systemVersion": "0.0.1",
-    "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "createdTime": 1787163504514,
+    "modifiedTime": 1787163504514,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
-  }
+  },
+  "_key": "!folders!fP8dngbEbaX7nsoy"
 }

@@ -27,7 +27,7 @@
     "editor.wordWrapColumn": 100,
     "editor.rulers": [
       {
-        "column": 125,
+        "column": 100,
         "color": "#ff00ff9a"
       }
     ]
@@ -48,7 +48,7 @@
   "js/ts.format.insertSpaceAfterCommaDelimiter": true,
   "js/ts.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
   "js/ts.suggest.enabled": true,
-  "html.format.wrapLineLength": 125,
+  "html.format.wrapLineLength": 100,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },

@@ -1,0 +1,46 @@
+@mixin track {
+  div.track {
+    border: 1px solid var(--otw-c-dark);
+    padding: 6px;
+
+    &.visibility-0 {
+      display: none;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    a.delete-track {
+      float: right;
+    }
+
+    div.track-panel {
+
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+      flex-wrap: balance;
+
+      label {
+        flex-basis: 30px;
+        text-align: center;
+      }
+
+      div {
+        border: 1px solid var(--otw-c-dark);
+        flex: 1 20px;
+        text-align: center;
+
+        &[data-action] {
+          cursor: pointer;
+        }
+
+        &.filled {
+          background-color: var(--otw-c-dark);
+          color: var(--otw-c-white);
+        }
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "_id": "4kfXNyWIl9gIWnWk",
   "navigation": true,
   "navOrder": 0,
-  "thumb": "worlds/the-shepherds-transit/assets/scenes/thumb-BXnLiJxJ5Wzs9qCuNd1y5A.webp",
+  "thumb": "systems/outside-the-wire/assets/maps/thumbs/thumb-8DznVSceIaPLI-5YZH7VLA.webp",
   "width": 1920,
   "height": 1484,
   "padding": 0,
@@ -131,7 +131,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.365",
+    "coreVersion": "14.367",
     "systemId": "outside-the-wire",
     "systemVersion": "0.0.1",
     "createdTime": null,

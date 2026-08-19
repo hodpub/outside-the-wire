@@ -6,6 +6,7 @@ export default function registerHandlebarsHelpers() {
     add,
     has,
     getRanks,
+    createBar,
   });
 }
 
@@ -44,6 +45,17 @@ export function getRanks(nationality, serviceBranch, initialRank) {
     options.push(`<option value="${value}" ${selected}>${element}</option>`);
   }
   options.push("</optgroup>");
+  const stringOptions = options.join("");
+  return new Handlebars.SafeString(stringOptions);
+}
+
+export function createBar(track, isGM) {
+  const options = [];
+  for (let index = track.min; index <= track.max; index++) {
+    let css = index <= track.current ? "filled" : "";
+    const action = isGM ? `data-action="updateValue" data-track-id="${track.id}" data-target-value="${index}"` : "";
+    options.push(`<div class="${css}" ${action}>${index}</div>`);
+  }
   const stringOptions = options.join("");
   return new Handlebars.SafeString(stringOptions);
 }

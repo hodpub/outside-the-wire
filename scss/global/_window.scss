@@ -93,3 +93,11 @@ h4.divider {
   text-wrap: auto;
   text-align: center;
 }
+
+select[name="type"] option[value="track"] {
+  display: none;
+}
+
+li.entry.document.item:has(img[alt="Tracks & Clocks"]) {
+  display: none !important;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Roll IED Ambush Rolltable",
+  "type": "script",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "await (await fromUuid(\"Compendium.outside-the-wire.rolltables.RollTable.WjbEqIL2U4f0rxtS\")).draw({rollMode: CONST.DICE_ROLL_MODES.PRIVATE});",
+  "folder": "fP8dngbEbaX7nsoy",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "nQmIXU80hyUxyc9v": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787163399373,
+    "modifiedTime": 1787163510466,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "dTM0GJXXQA7VrId8",
+  "author": "nQmIXU80hyUxyc9v",
+  "_key": "!macros!dTM0GJXXQA7VrId8"
+}

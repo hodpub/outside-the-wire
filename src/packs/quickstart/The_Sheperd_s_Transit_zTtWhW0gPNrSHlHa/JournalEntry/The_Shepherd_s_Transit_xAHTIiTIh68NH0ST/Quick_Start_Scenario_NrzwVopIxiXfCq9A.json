@@ -7,7 +7,7 @@
       "name": "Quick Start Scenario",
       "text": {
         "format": 1,
-        "content": "<div id=\"tst\" class=\"chapter brown\"><div class=\"scenario\"><p>Quick Start Scenario</p><div class=\"title\"><img style=\"float:left;width:40%;margin:0 -230px 0 0px;float:left\" src=\"systems/outside-the-wire/assets/quickstart/art/there2.webp\"><p>The<br><strong>Shepherd's</strong><br><span>Transit</span></p></div><div class=\"infos\"><div><p class=\"table-header\">Mission Type</p><p>Route Security / VIP Escort</p></div><div><p class=\"table-header\">Environment</p><p>Semi-rural MSR, agricultural fields, low compounds</p></div><div><p class=\"table-header\">Timeframe</p><p>Early Morning <span class=\"table-body\">→</span> Midday (2010)</p></div><div><p class=\"table-header\">Tone</p><p>Pressure, ambiguity, consequence</p></div><div><p class=\"table-header\">Session Length</p><p>1 Sandbox Turn (single session)</p></div><div><p class=\"table-header\">Players</p><p>2–4 PCs + NPC patrol or Solo</p></div></div></div></div>"
+        "content": "<div id=\"tst\" class=\"chapter brown\"><div class=\"scenario\"><p>Quick Start Scenario</p><div class=\"title\"><img style=\"width:40%;margin:0 -230px 0 0px;float:left\" src=\"systems/outside-the-wire/assets/quickstart/art/there2.webp\"><p>The<br><strong>Shepherd's</strong><br><span>Transit</span></p></div><div class=\"infos\"><div><p class=\"table-header\">Mission Type</p><p>Route Security / VIP Escort</p></div><div><p class=\"table-header\">Environment</p><p>Semi-rural MSR, agricultural fields, low compounds</p></div><div><p class=\"table-header\">Timeframe</p><p>Early Morning <span class=\"table-body\">→</span> Midday (2010)</p></div><div><p class=\"table-header\">Tone</p><p>Pressure, ambiguity, consequence</p></div><div><p class=\"table-header\">Session Length</p><p>1 Sandbox Turn (single session)</p></div><div><p class=\"table-header\">Players</p><p>2–4 PCs + NPC patrol or Solo</p></div></div></div></div>"
       },
       "title": {
         "level": 1,
@@ -121,7 +121,7 @@
       "name": "Execution",
       "text": {
         "format": 1,
-        "content": "<div id=\"tst\"><div class=\"plain-box\"><p class=\"h1\">Execution</p><p>This mission is <strong>not scripted</strong>. Events will unfold based on:</p><ul><li><p>Patrol movement</p></li><li><p>Timing</p></li><li><p>Player decisions</p></li><li><p>Enemy reactions</p></li></ul><p>The Game Master should <strong>prepare events, not outcomes</strong>. Enemy forces operate independently and will exploit hesitation, predictability, and escalation. Quiet success is real success.</p></div><img src=\"systems/outside-the-wire/assets/quickstart/art/img10.webp\"></div>"
+        "content": "<div id=\"tst\"><div class=\"plain-box\"><p class=\"h1\">Execution</p><p>This mission is <strong>not scripted</strong>. Events will unfold based on:</p><ul><li><p>Patrol movement</p></li><li><p>Timing</p></li><li><p>Player decisions</p></li><li><p>Enemy reactions</p></li></ul><p>The Game Master should <strong>prepare events, not outcomes</strong>. Enemy forces operate independently and will exploit hesitation, predictability, and escalation. Quiet success is real success.</p></div><img style=\"margin:auto\" src=\"systems/outside-the-wire/assets/quickstart/art/img10.webp\"></div>"
       },
       "title": {
         "level": 1,

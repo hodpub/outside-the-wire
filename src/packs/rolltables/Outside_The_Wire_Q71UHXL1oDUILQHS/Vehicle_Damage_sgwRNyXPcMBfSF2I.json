@@ -1,0 +1,165 @@
+{
+  "name": "Vehicle Damage",
+  "_id": "sgwRNyXPcMBfSF2I",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "_id": "csOhNBI62vKX9nkE",
+      "name": "Glancing Hit",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Morale Check for passengers. Paint scratch.</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787147309852,
+        "modifiedTime": 1787147344217,
+        "lastModifiedBy": "ewXZGhunomoYQJt6",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!sgwRNyXPcMBfSF2I.csOhNBI62vKX9nkE"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "_id": "ObYT13XbVwGWZ79l",
+      "name": "Mobility / Comm Kill",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Tires/Tracks blown. Vehicle on run flats</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787147310192,
+        "modifiedTime": 1787147354503,
+        "lastModifiedBy": "ewXZGhunomoYQJt6",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!sgwRNyXPcMBfSF2I.ObYT13XbVwGWZ79l"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        6,
+        7
+      ],
+      "_id": "AQxuPQhqRsATo0Jb",
+      "name": "Mission Kill",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Main Gun or Comms destroyed.</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787147310399,
+        "modifiedTime": 1787147364319,
+        "lastModifiedBy": "ewXZGhunomoYQJt6",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!sgwRNyXPcMBfSF2I.AQxuPQhqRsATo0Jb"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        8,
+        9
+      ],
+      "_id": "JyEUrkfKgdsPICJA",
+      "name": "Catastrophic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Engine fire. Crew must Bail Out (1 round).</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787147311700,
+        "modifiedTime": 1787147373711,
+        "lastModifiedBy": "ewXZGhunomoYQJt6",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!sgwRNyXPcMBfSF2I.JyEUrkfKgdsPICJA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "WO4PGUIYUfMSz479",
+      "name": "K-Kill",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Explodes. All occupants take Blast Damage.</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787147313039,
+        "modifiedTime": 1787147393589,
+        "lastModifiedBy": "ewXZGhunomoYQJt6",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!sgwRNyXPcMBfSF2I.WO4PGUIYUfMSz479"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Q71UHXL1oDUILQHS",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "ewXZGhunomoYQJt6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787147304366,
+    "modifiedTime": 1787163485681,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "_key": "!tables!sgwRNyXPcMBfSF2I"
+}

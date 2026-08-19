@@ -164,6 +164,23 @@
           "quantity.label": "Rounds",
           "attachments.label": "Attachments"
         }
+      },
+      "Track": {
+        "FIELDS": {
+          "tracks.element": {
+            "min.label": "Min Value",
+            "max.label": "Max Value",
+            "current.label": "Current Value",
+            "rollTableUuid.label": "Rollable Table",
+            "visibility": {
+              "label": "Visibility",
+              "hidden.label": "Hidden (only gm sees)",
+              "showOnlyName.label": "Only name",
+              "visible.label": "Visible"
+            }
+          }
+        },
+        "deleteConfirmation": "You are deleting this track. Are you sure you want to proceed? This operation cannot be undone."
       }
     },
     "Effect": {
@@ -172,6 +189,18 @@
       "Temporary": "Temporary Effects",
       "Passive": "Passive Effects",
       "Inactive": "Inactive Effects"
+    },
+    "Enrichers": {
+      "Track": {
+        "adjustValue": "Adjust {name} by {value}",
+        "gmOnly": "Only a GM can update tracks.",
+        "notFound": "No track named {name} was found.",
+        "invalidValue": "{value} is not a valid track value."
+      }
+    },
+    "Controls": {
+      "openTracks": "Open Tracks & Clocks",
+      "tracksNotFound": "The Tracks & Clocks item could not be found."
     },
     "Chat": {},
     "Creator": {
@@ -225,7 +254,8 @@
       "background": "Background",
       "equipment": "Equipment",
       "weapon": "Weapon",
-      "explosive": "Grenades"
+      "explosive": "Grenades",
+      "track": "Tracks & Clocks"
     }
   }
 }

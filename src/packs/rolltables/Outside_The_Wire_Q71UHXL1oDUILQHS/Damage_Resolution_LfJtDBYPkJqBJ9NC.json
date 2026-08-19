@@ -223,8 +223,8 @@
   ],
   "replacement": true,
   "displayRoll": true,
-  "folder": null,
-  "sort": 0,
+  "folder": "Q71UHXL1oDUILQHS",
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "BDvzKkO2QU6Ny6CT": 3
@@ -235,8 +235,8 @@
     "systemId": "outside-the-wire",
     "systemVersion": "0.0.1",
     "createdTime": 1786603680609,
-    "modifiedTime": 1786603844598,
-    "lastModifiedBy": "BDvzKkO2QU6Ny6CT",
+    "modifiedTime": 1787163487081,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

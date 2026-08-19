@@ -47,6 +47,11 @@
     i.fa-solid {
       font-family: "Font Awesome 7 Pro";
       width: 10px;
+      margin-right: 0.5rem;
+
+      &::before {
+        vertical-align: middle;
+      }
     }
   }
 

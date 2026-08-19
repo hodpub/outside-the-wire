@@ -1,0 +1,23 @@
+{
+  "type": "RollTable",
+  "folder": "Q71UHXL1oDUILQHS",
+  "name": "The Shepherd's Transit",
+  "color": "#b3986b",
+  "sorting": "a",
+  "_id": "OBaYXerGF7JbEMtU",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787139711824,
+    "modifiedTime": 1787163493807,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!OBaYXerGF7JbEMtU"
+}

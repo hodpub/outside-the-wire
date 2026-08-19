@@ -18,10 +18,13 @@ import { registerCreatorSettings } from "./applications/dialog/creator.mjs";
 import { registerSettings } from "./helpers/settings.mjs";
 import OtwRoll from "./documents/roll.mjs";
 import { registerStatusEffects } from "./config/statusEffects.mjs";
+import { registerEnricherActions, registerEnrichers, updateTrackByName } from "./helpers/enrichers.mjs";
+import { openTrackSheet, registerSceneControls } from "./helpers/scene-controls.mjs";
 
 import { HodLogger } from "../lib/hod-logger/logger.mjs";
 import OtwCombatant from "./documents/combatant.mjs";
 import OtwCombat from "./documents/combat.mjs";
+import { OutsideTheWireItemTrackSheet } from "./sheets/item-track-sheet.mjs";
 
 const collections = foundry.documents.collections;
 const sheets = foundry.appv1.sheets;
@@ -40,6 +43,10 @@ globalThis.outsideTheWire = {
   applications: {
     OutsideTheWireActorSheet,
     OutsideTheWireItemSheet,
+  },
+  actions: {
+    openTrackSheet,
+    updateTrackByName,
   },
   utils: {
     rollItemMacro,
@@ -88,6 +95,7 @@ Hooks.once('init', function() {
     equipment: models.OutsideTheWireItemEquipment,
     weapon: models.OutsideTheWireItemWeapon,
     explosive: models.OutsideTheWireItemExplosive,
+    track: models.OutsideTheWireItemTrack,
   };
 
   CONFIG.ChatMessage.documentClass = OutsideTheWireChatMessage;
@@ -106,8 +114,16 @@ Hooks.once('init', function() {
     label: 'OUTSIDE_THE_WIRE.SheetLabels.Item',
   });
 
+  foundry.documents.collections.Items.registerSheet('outside-the-wire', OutsideTheWireItemTrackSheet, {
+    makeDefault: true,
+    types: ["track"],
+    label: 'OUTSIDE_THE_WIRE.SheetLabels.Item',
+  });
+
   registerSettings();
   registerCreatorSettings();
+  registerEnrichers();
+  registerSceneControls();
 });
 
 /* -------------------------------------------- */
@@ -122,9 +138,11 @@ registerHandlebarsHelpers();
 
 Hooks.once('ready', function() {
   registerStatusEffects();
+  registerEnricherActions();
   // Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
   Hooks.on('hotbarDrop', (bar, data, slot) => createDocMacro(data, slot));
   // adventureImport();
+  models.OutsideTheWireItemTrack.checkIfHasTrack();
 });
 
 // const quickstartAdventureUuid = "Compendium.invincible.basic-data.Adventure.UPXxPs1B06jTxXq6";

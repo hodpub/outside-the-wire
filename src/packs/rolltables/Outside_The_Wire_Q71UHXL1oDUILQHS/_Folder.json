@@ -1,0 +1,23 @@
+{
+  "type": "RollTable",
+  "folder": null,
+  "name": "Outside The Wire",
+  "color": "#c5ad83",
+  "sorting": "a",
+  "_id": "Q71UHXL1oDUILQHS",
+  "description": "",
+  "sort": 300000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787163477342,
+    "modifiedTime": 1787163479492,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!Q71UHXL1oDUILQHS"
+}

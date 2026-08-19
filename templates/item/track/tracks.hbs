@@ -1,0 +1,35 @@
+<section class='tab scrollable {{tab.cssClass}}' data-group='primary' data-tab='tracks'>
+  {{#each tracks as | track id |}}
+  <div class="track">
+    {{#if (and @root.isGM @root.system.editMode)}}
+    {{#unless track.disabled}}
+    <a class='delete-track' data-action='deleteTrack' data-track-id="{{id}}"
+      data-tooltip='{{localize "DOCUMENT.Delete" type=' Track'}}'>
+      <i class='fas fa-trash'></i>
+    </a>
+    {{/unless}}
+    <h3><input name="system.tracks.{{id}}.name" value="{{track.name}}" {{#if track.disabled}}disabled{{/if}}></h3>
+
+    {{formGroup @root.systemFields.tracks.element.fields.visibility value=track.visibility
+    name=(concat "system.tracks." id ".visibility") disabled=track.disabled localize=true}}
+    {{formGroup @root.systemFields.tracks.element.fields.min value=track.min name=(concat
+    "system.tracks." id ".min") disabled=track.disabled}}
+    {{formGroup @root.systemFields.tracks.element.fields.max value=track.max name=(concat
+    "system.tracks." id ".max") disabled=track.disabled}}
+    {{formGroup @root.systemFields.tracks.element.fields.current value=track.current name=(concat
+    "system.tracks." id ".current") disabled=track.disabled}}
+    {{formGroup @root.systemFields.tracks.element.fields.rollTableUuid value=track.rollTableUuid
+    name=(concat "system.tracks." id ".rollTableUuid") disabled=track.disabled}}
+    {{else if track.showOnlyName}}
+    <h3>{{track.name}}: ???</h3>
+    {{else}}
+    <h3>{{track.name}}:
+      {{track.current}}</h3>
+    <div class="track-panel">
+      {{createBar track @root.isGM}}
+    </div>
+    {{/if}}
+  </div>
+  {{/each}}
+
+</section>

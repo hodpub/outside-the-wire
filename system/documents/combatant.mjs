@@ -2,7 +2,6 @@ import OtwRoll from "./roll.mjs";
 
 export default class OtwCombatant extends foundry.documents.Combatant {
   async rollInitiative(formula) {
-    console.log(this);
     if (this.isNPC)
       return this.update({ initiative: 50 });
 

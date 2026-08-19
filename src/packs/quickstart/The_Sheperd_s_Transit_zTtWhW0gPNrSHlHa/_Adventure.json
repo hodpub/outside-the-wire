@@ -1,8 +1,8 @@
 {
   "name": "The Sheperd's Transit",
-  "img": null,
+  "img": "systems/outside-the-wire/assets/quickstart/art/img4.webp",
   "caption": "",
-  "description": "",
+  "description": "<div id=\"tst\"><p><span class=\"start\">Shepherd's Transit</span> is the introductory scenario to the game Outside the Wire. The scenario is designed to introduce key elements of pressure, restraint, campaign consequences and skirmish rules. This scenario is rules lite - not the full set to allow quick play. GMs can determine information (e.g., the range modifiers, cover, etc.) for Die Roll Modifiers (DRMs).</p><p>The scenario provides solo play with a base oracle, control sheet, and a flow sheet. The oracle is used to answer yes-or-no questions. The control sheet provides a sheet to track key solo decisions. The flow sheet is designed to provide solo players with a map of events and resolutions to help them learn the game's core concepts.</p><p>While GMs are welcome to use the flow chart, they are able to adapt the scenario to the goals of the table when combined with the regional description.</p><p>The sunlight dial and Enemy AI chart provide a means to introduce pressure into decision making.</p><p>There is a single encounter table provided as a means to introduce civilian dilemmas.</p><p><strong>This game is about pressure, not victory. </strong>You are not here to defeat the enemy. You are here to manage instability under constraint. Your authority is limited. Your information is incomplete.</p><p><em>Outside the Wire is a solo and GM-driven modern military RPG about pressure, consequence, and survival.</em></p><ul><li><p>Playable solo or with a GM</p></li><li><p>Combat is fast, lethal, and consequential</p></li><li><p>Campaign pressure persists between missions</p></li><li><p>Quiet success is real success</p></li></ul></div>",
   "sort": 0,
   "actors": [
     "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/Al_Grant_ZbzuPKTUtpGBbKRF.json",
@@ -19,29 +19,22 @@
     "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/Fort_Qalat_Area_of_Operations_X2Z7DCe3KsMR6c7U.json",
     "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/Introduction___Overview_sLgP2YoZ77Uh0mzc.json",
     "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/The_Shepherd_s_Transit___Adventure_y8277rmkkKRqMqXw.json",
-    "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/Start_Here_zmBxQvoTcmdDbt6c.json"
+    "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/Start_Here_zmBxQvoTcmdDbt6c.json",
+    "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/Quickstart_Field_Manual_Rules_cNa7zbVMTKYAqLpB.json"
   ],
   "scenes": [
     "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/Outside_the_Wire_MSPzszYpzhC25qmh.json",
     "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/Region_Map_zc0LlFzB9Nm4OWz2.json",
     "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/Battle_Map_4kfXNyWIl9gIWnWk.json"
   ],
-  "tables": [
-    "RollTable/The_Shepherd_s_Transit_OBaYXerGF7JbEMtU/IED_Ambush_WjbEqIL2U4f0rxtS.json",
-    "RollTable/The_Shepherd_s_Transit_OBaYXerGF7JbEMtU/The_Dilemma_Table_ag5Bh8iKPxIWNrrR.json"
-  ],
-  "macros": [
-    "Macro/The_Shepherd_s_Transit_kJwMIoxJxJ3J6bhc/Roll_The_Dilemma_Rolltable_0gItG585Lvxnmy04.json",
-    "Macro/The_Shepherd_s_Transit_kJwMIoxJxJ3J6bhc/Roll_IED_Ambush_Rolltable_dTM0GJXXQA7VrId8.json"
-  ],
+  "tables": [],
+  "macros": [],
   "cards": [],
   "playlists": [],
   "folders": [
     "Actor/The_Sheperd_s_Transit_Y5oLmESOcYsq9BCZ/_Folder.json",
     "JournalEntry/The_Shepherd_s_Transit_xAHTIiTIh68NH0ST/_Folder.json",
-    "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/_Folder.json",
-    "Macro/The_Shepherd_s_Transit_kJwMIoxJxJ3J6bhc/_Folder.json",
-    "RollTable/The_Shepherd_s_Transit_OBaYXerGF7JbEMtU/_Folder.json"
+    "Scene/The_Shepherd_s_Transit_YenwRdLjxS7jYUCa/_Folder.json"
   ],
   "_id": "zTtWhW0gPNrSHlHa",
   "folder": null,
@@ -51,8 +44,8 @@
     "systemId": "outside-the-wire",
     "systemVersion": "0.0.1",
     "createdTime": 1786652011690,
-    "modifiedTime": 1786978332951,
-    "lastModifiedBy": "OQTDMTZIJgbOwEpj",
+    "modifiedTime": 1787163728568,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

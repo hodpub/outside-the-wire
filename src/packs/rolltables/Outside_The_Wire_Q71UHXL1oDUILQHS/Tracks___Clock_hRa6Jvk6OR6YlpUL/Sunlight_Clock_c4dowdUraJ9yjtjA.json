@@ -1,0 +1,138 @@
+{
+  "name": "Sunlight Clock",
+  "_id": "c4dowdUraJ9yjtjA",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "_id": "PN6xcrcRugU43EBy",
+      "name": "Sunrise",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Visibility -1, Cooler</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.366",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787093567927,
+        "modifiedTime": 1787093593985,
+        "lastModifiedBy": "PNnzSrJ3LZ4I7QPR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!c4dowdUraJ9yjtjA.PN6xcrcRugU43EBy"
+    },
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        4,
+        6
+      ],
+      "_id": "poAp5Y6ABgggYhUn",
+      "name": "Late Morning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Full Visibility, foot traffic</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.366",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787093595535,
+        "modifiedTime": 1787093608892,
+        "lastModifiedBy": "PNnzSrJ3LZ4I7QPR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!c4dowdUraJ9yjtjA.poAp5Y6ABgggYhUn"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "_id": "oy3w0axbqAsH0Rqf",
+      "name": "Noon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Full visibility, Hot, quiet</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.366",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787093613917,
+        "modifiedTime": 1787093652738,
+        "lastModifiedBy": "PNnzSrJ3LZ4I7QPR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!c4dowdUraJ9yjtjA.oy3w0axbqAsH0Rqf"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "_id": "L73r2Yf2iHoxi9GS",
+      "name": "Afternoon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>Mission Failure if not with the VIP</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.366",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787093636573,
+        "modifiedTime": 1787093652739,
+        "lastModifiedBy": "PNnzSrJ3LZ4I7QPR",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!c4dowdUraJ9yjtjA.L73r2Yf2iHoxi9GS"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "hRa6Jvk6OR6YlpUL",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "PNnzSrJ3LZ4I7QPR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787093566194,
+    "modifiedTime": 1787139743826,
+    "lastModifiedBy": "eKNgSQMvFffg0s4L",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "_key": "!tables!c4dowdUraJ9yjtjA"
+}

@@ -1,0 +1,138 @@
+{
+  "folder": "OBaYXerGF7JbEMtU",
+  "name": "IED Ambush",
+  "_id": "WjbEqIL2U4f0rxtS",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        1,
+        3
+      ],
+      "_id": "njkcHGvtOagOSJis",
+      "name": "Lead Vehicle Hit",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787139711833,
+        "modifiedTime": 1787139711833,
+        "lastModifiedBy": "eKNgSQMvFffg0s4L",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!WjbEqIL2U4f0rxtS.njkcHGvtOagOSJis"
+    },
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        4,
+        6
+      ],
+      "_id": "XxyDUY3L2FzooS0y",
+      "name": "Lead + Second Vehicle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787139711833,
+        "modifiedTime": 1787139711833,
+        "lastModifiedBy": "eKNgSQMvFffg0s4L",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!WjbEqIL2U4f0rxtS.XxyDUY3L2FzooS0y"
+    },
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        7,
+        9
+      ],
+      "_id": "F1dcYAPGU1TwiDm9",
+      "name": "Lead, Second, + Third",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787139711833,
+        "modifiedTime": 1787139711833,
+        "lastModifiedBy": "eKNgSQMvFffg0s4L",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!WjbEqIL2U4f0rxtS.F1dcYAPGU1TwiDm9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "jITXy2J6J0hWzZz0",
+      "name": "All Vehicles Hit",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787139711833,
+        "modifiedTime": 1787139711833,
+        "lastModifiedBy": "eKNgSQMvFffg0s4L",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!WjbEqIL2U4f0rxtS.jITXy2J6J0hWzZz0"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eKNgSQMvFffg0s4L": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787139711833,
+    "modifiedTime": 1787139711833,
+    "lastModifiedBy": "eKNgSQMvFffg0s4L",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "_key": "!tables!WjbEqIL2U4f0rxtS"
+}

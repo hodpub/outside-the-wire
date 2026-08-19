@@ -1,0 +1,138 @@
+{
+  "name": "Insurgent Activity",
+  "_id": "r6WMpT3voDcFEv9b",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        0,
+        3
+      ],
+      "_id": "JKHnFMHtV6Bi9EYL",
+      "name": "DEGRADED",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>tactics +2, scattered</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787059707202,
+        "modifiedTime": 1787059732414,
+        "lastModifiedBy": "OQTDMTZIJgbOwEpj",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!r6WMpT3voDcFEv9b.JKHnFMHtV6Bi9EYL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        6
+      ],
+      "_id": "PaMFHq7td9zzsag7",
+      "name": "DEGRADED",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>hit-and-run only</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787059707360,
+        "modifiedTime": 1787059742839,
+        "lastModifiedBy": "OQTDMTZIJgbOwEpj",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!r6WMpT3voDcFEv9b.PaMFHq7td9zzsag7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "_id": "fFwx3NO0xs1nPOy9",
+      "name": "ACTIVE",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>-2 tactics</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787059707950,
+        "modifiedTime": 1787059784287,
+        "lastModifiedBy": "OQTDMTZIJgbOwEpj",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!r6WMpT3voDcFEv9b.fFwx3NO0xs1nPOy9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "_id": "U7p774VaTDdySNIX",
+      "name": "CONTROLS AO",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>-5 tactics, adaptation</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": 1787059708124,
+        "modifiedTime": 1787059793489,
+        "lastModifiedBy": "OQTDMTZIJgbOwEpj",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!r6WMpT3voDcFEv9b.U7p774VaTDdySNIX"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "hRa6Jvk6OR6YlpUL",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "OQTDMTZIJgbOwEpj": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787059705497,
+    "modifiedTime": 1787139741928,
+    "lastModifiedBy": "eKNgSQMvFffg0s4L",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "",
+  "_key": "!tables!r6WMpT3voDcFEv9b"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Roll Vehicle Damage Rolltable",
+  "type": "script",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "await (await fromUuid(\"Compendium.outside-the-wire.rolltables.RollTable.sgwRNyXPcMBfSF2I\")).draw({rollMode: CONST.DICE_ROLL_MODES.PRIVATE});",
+  "folder": "kJwMIoxJxJ3J6bhc",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "nQmIXU80hyUxyc9v": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787163399372,
+    "modifiedTime": 1787163399372,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "IbdPwIw4JBkJlTUU",
+  "author": "nQmIXU80hyUxyc9v",
+  "_key": "!macros!IbdPwIw4JBkJlTUU"
+}

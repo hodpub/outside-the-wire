@@ -1,0 +1,491 @@
+{
+  "name": "Quickstart Field Manual Rules",
+  "_id": "cNa7zbVMTKYAqLpB",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Shepherd's Transit",
+      "type": "text",
+      "_id": "uiCzgYf54ElUFX3v",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p><span class=\"start\">Shepherd's Transit</span> is the introductory scenario to the game Outside the Wire. The scenario is designed to introduce key elements of pressure, restraint, campaign consequences and skirmish rules. This scenario is rules lite - not the full set to allow quick play. GMs can determine information (e.g., the range modifiers, cover, etc.) for Die Roll Modifiers (DRMs).</p><p>The scenario provides solo play with a base oracle, control sheet, and a flow sheet. The oracle is used to answer yes-or-no questions. The control sheet provides a sheet to track key solo decisions. The flow sheet is designed to provide solo players with a map of events and resolutions to help them learn the game's core concepts.</p><p>While GMs are welcome to use the flow chart, they are able to adapt the scenario to the goals of the table when combined with the regional description.</p><p>The sunlight dial and Enemy AI chart provide a means to introduce pressure into decision making.</p><p>There is a single encounter table provided as a means to introduce civilian dilemmas.</p><p><strong>This game is about pressure, not victory. </strong>You are not here to defeat the enemy. You are here to manage instability under constraint. Your authority is limited. Your information is incomplete.</p><p><em>Outside the Wire is a solo and GM-driven modern military RPG about pressure, consequence, and survival.</em></p><ul><li><p>Playable solo or with a GM</p></li><li><p>Combat is fast, lethal, and consequential</p></li><li><p>Campaign pressure persists between missions</p></li><li><p>Quiet success is real success</p></li></ul><div class=\"gray-box var1\"><h2>Tone warning</h2><p>This game portrays modern asymmetric conflict. It does not reward escalation.</p></div><h1>What This Game Is</h1><ul><li><p>A modern military role-playing game about <strong>decision-making under pressure</strong></p></li><li><p>A game where <strong>restraint is an active skill</strong></p></li><li><p>A campaign where <strong>consequences persist</strong></p></li><li><p>A system where <strong>quiet success matters</strong></p></li></ul><div class=\"gray-box var2\"><div><p><span class=\"caps-black\">Creator:</span> Derek Roberson</p><p><span class=\"caps-black\">Design:</span> Justin Oefelein, SPX Multimedia</p><p><span class=\"caps-black\">Art:</span> Public domain combat photography</p><p>Sourced at DVIDS with Image stylization and processing by Kazmo Studios</p></div></div><h1>Quiet Success</h1><p>A mission that ends:</p><ul><li><p>without contact</p></li><li><p>without civilian harm</p></li><li><p>without compromise</p></li></ul><p>…is often the <strong>best possible outcome</strong>.</p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "The Basics",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"chapter\"><img src=\"systems/outside-the-wire/assets/quickstart/elements/quickstart-3.webp\"><p class=\"h1\">The Basics</p><ul><li><p><span class=\"caps-black\">The System:</span> <em>Outside the Wire</em> (OTW) – 2d10 Operations System. This is a standalone Quickstart; all necessary lite mechanics, combat rules, and character sheets are located in this packet.</p></li><li><p><span class=\"caps-black\">Need to play:</span> 2 D10 dice (A third is best for a sunlight dial); pen and paper; color print maps; for skirmish play, mini model list on page 51); and solo play print the flowsheet and control sheet.</p></li><li><p><span class=\"caps-black\">The Setting: </span>This scenario takes place within a modern asymmetric conflict. Players are deployed on a counterinsurgency mission in a semi-rural district characterized by mud-brick homes, scattered farmland, and minimal civilian infrastructure, lacking reliable power, communications networks, and formal government services. All player actions unfold under the persistent observation of the local civilian population, where perception and conduct carry operational consequences.</p></li><li><p><span class=\"caps-black\">Lethality:</span> Grounded, lethal, and vulnerable. Players portray a standard military squad (1st Squad). They are heavily armed but operate under strict constraints. Combat is fast and deadly.</p></li><li><p><span class=\"caps-black\">Main Focus &amp; Theme:</span> Tension, pressure, and consequence. This is <em>not</em> a combat-optimization puzzle or a \"clear the map\" game. The core theme is decision-making under extreme ambiguity, where restraint is an active skill and escalation creates future problems.</p></li><li><p><span class=\"caps-black\">How to Run This: </span>Procedural and pressure-driven. Do not railroad the players into outcomes, but strictly enforce time constraints and consequences. For solo play, enemies act on procedural logic.</p></li><li><p><span class=\"caps-black\">Special Rules:</span> * <strong>Campaign Tracks (Trust, Insurgent Activity, Command):</strong> Tracked dynamically throughout the session (@UUID[JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.C6JkrNpFt02pxkHx]{Sandbox Campaign System}).</p><ul><li><p><strong>Civilian Friction Dilemmas:</strong> High-stakes, timed moral choices <br>(@UUID[JournalEntry.y8277rmkkKRqMqXw.JournalEntryPage.fuU2FWljYo9JKHsb]{Phase 5 – The Trap Springs}).</p></li><li><p><strong>The Sunlight Clock:</strong> For solo play pacing and AI tracking <br>(@UUID[JournalEntry.sLgP2YoZ77Uh0mzc.JournalEntryPage.bXOasUsPwVWpQVAS]{Solo Variant: Sunlight Clock &amp; AI}).</p></li></ul></li></ul></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": false
+      },
+      "type": "text",
+      "sort": -100000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "_id": "OaqlvECbcJZRNNz5",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Sandbox Campaign System",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>The core element of Outside the Wire is a sandbox design where the ecosystem follows from session to session.</p><h3>Gamemaster's Role</h3><p>As the Game Master, you are not guiding players down a pre-written path to a final boss fight. Instead, you manage a living ecosystem of pressure, politics, and violence.</p><div style=\"padding:0.5rem 1rem;border:1px #cdbfac solid\"><h3>Tracks</h3><p>The campaign dynamics revolve around three main tracks that players must navigate: Local Trust, Insurgent Activity, and Command Confidence. Each decision impacts these tracks, shaping the unfolding narrative. Each track goes from 0-10.</p></div><div class=\"tracks\"><ul><li><p><strong>Local Trust</strong> – the willingness of the population to cooperate, tolerate presence, or remain neutral. Low Trust means villagers may mislead or refuse assistance to patrols, while high Trust could lead to providing crucial intel or safe passage.</p></li><li><p><strong>Insurgent Activity</strong> – the ability of armed groups to operate, recruit, and adapt.High Insurgent Activity can lead to frequent ambushes or increased IED threats, while low might result in fewer attacks and easier patrol routes.</p></li><li><p><strong>Command Confidence</strong> – the degree to which higher headquarters tolerates risk, ambiguity, and restraint. Low Command Confidence might restrict resources and support, such as airstrikes or artillery, whereas high confidence ensures ample support and authority to carry out missions effectively.</p></li></ul></div><div><h3>Quick Reference Summary (With DRM)</h3><div id=\"Num-076\" class=\"ref\"><div><p><span class=\"ref-header\">LOCAL TRUST <br></span><strong>(0-10)</strong></p><p><strong>0-3: HOSTILE <br></strong>(-5 Social, shelters enemy)</p><p><strong>4-6: SUSPICIOUS<br></strong>(-2 Social, misleads)</p><p><strong>7-8: NEUTRAL <br></strong>(cautious cooperation)</p><p><strong>9-10: FRIENDLY <br></strong>(+2 Social, early warning)</p></div><div><p><span class=\"ref-header\">INSURGENT ACTIVITY <br></span><strong>(0-10)</strong></p><p><strong>0-3: DEGRADED <br></strong>(tactics +2, scattered)</p><p><strong>4-6: DEGRADED <br></strong>(hit-and-run only)</p><p><strong>7-8: ACTIVE <br></strong>(-2 tactics)</p><p><strong>9-10: CONTROLS AO <br></strong>(-5 tactics, adaptation)</p></div><div><p><span class=\"ref-header\">COMMAND CONFIDENCE <br></span><strong>(0-10)</strong></p><p><strong>0-3: RIP IMMINENT <br></strong>(no assets)</p><p><strong>4-6: LOW <br></strong>(basic only, no air/artillery)</p><p><strong>7-8: GOOD <br></strong>(mortars, standard support)</p><p><strong>9-10: PRIORITY <br></strong>(armor/air unlocked)</p></div></div></div></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 200000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "_id": "C6JkrNpFt02pxkHx",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "The Solo Play Loop",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>Every solo session follows the same loop:</p><ol><li><p><strong>Brief the Mission<br></strong>What are you trying to accomplish, and under what constraints?</p></li><li><p><strong>Move Through the Map<br></strong>Advance cautiously. Movement creates exposure.</p></li><li><p><strong>Resolve Contact<br></strong>Use Enemy AI and combat rules when opposition appears.</p></li><li><p><strong>Draw Events When Friction Occurs<br></strong>Hesitation, noise, or escalation invites complications.</p></li><li><p><strong>Adjust Campaign Tracks<br></strong>Your actions change Trust, Insurgent Activity, and Command Pressure.</p></li><li><p><strong>Extract, De-escalate, or Escalate<br></strong>You may always withdraw. Staying longer is a choice.</p></li></ol><p>As each event is resolved, repeat this loop as the players issue new goals (missions) and move between locations on the map.</p><div class=\"gray-box var2\"><div class=\"gray-box var1\"><h2>The Most Important Rule</h2><p><strong>If you are unsure what happens next, ask the Oracle.</strong></p></div></div><img src=\"systems/outside-the-wire/assets/quickstart/art/img2.webp\"><h1>Solo - Core Oracles</h1><p><strong>Ask when unsure:</strong></p><ul><li><p>Is the area under observation?</p></li><li><p>Do insurgents escalate or observe?</p></li><li><p>Are civilians present?</p></li><li><p>Does Command pressure increase? Answer using:</p><ul><li><p>Insurgent Track</p></li><li><p>Local Trust Track</p></li><li><p>Command Track</p></li></ul></li></ul><p>It answers <strong>Yes / No</strong> questions with consequences.</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 300000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "_id": "hSM2PQRLXpJe1pyB",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Solo Variant: Sunlight Clock & AI",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\">\n    <p>The sunlight clock serves to increase pressure on player actions. The Insurgent Activity AI card directly relates to each number on the sunlight die. While GMs have complete ability to act as the insurgents, the Insurgent Activity card provides solo play with a measured opponent.</p>\n    <table id=\"table-007\" class=\"red-header ai-card\">\n        <tbody>\n            <tr>\n                <td>\n                    <p>THE INSURGENT ACTIVITY AI CARD</p>\n                    <p>Do not roll the Oracle to see what the enemy does. Use this behavior logic.</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p>STATE: <strong>PASSIVE </strong><span class=\"grey\">(Sunlight 1-3)</span></p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><strong>• If you are LOUD</strong> (Shooting/Vehicle): They place a “Spotter” token on your flank. [[/tracker \"insurgent activity\" +1]]{+1 Insurgent Activity}.</p>\n                    <p><strong>• If you are QUIET:</strong> They remain hidden. You find only “Signs of passage” (footprints, casings).</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p>STATE: <strong>ALERT </strong><span class=\"grey\">(Sunlight 4-8 OR After First Contact)</span></p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><strong>• If you HOLD POSITION:</strong> They Flank. (Spawn 1d10 Militia on your side/rear)</p>\n                    <p><strong>• If you ADVANCE:</strong> They Ambush. Attack from cover. They possess Initiative.</p>\n                    <p><strong>• If you WITHDRAW:</strong> They Harass. (Sniper fire from distance, but they do not pursue)</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p>STATE: <strong>AGGRESSIVE </strong><span class=\"grey\">(Sunlight 9-10)</span></p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p>• <strong>ALL ACTIONS:</strong> They launch a complex attack (Mortars + Small Arms). <strong>They want to pin you in the dark.</strong></p>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n    <p>Loud actions are Player-initiated Gunfire or Explosions inside the patrol zone. Insertion vehicles do not count unless brought into the village</p>\n    <table class=\"sunlight\">\n        <tbody>\n            <tr>\n                <td>\n                    <p><strong>THE SUNLIGHT CLOCK</strong></p>\n                    <p>You do not have a GM to tell you when the sun goes down.</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p>Place a d10 on the table set to <span style=\"font-weight:bold;color:rgb(243, 157, 19)\"><strong>1</strong></span>. This is the <span style=\"font-weight:bold;color:rgb(243, 157, 19)\"><strong>Sunlight Die.</strong></span></p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><span style=\"font-weight:bold;color:rgb(243, 157, 19)\"><strong>1-3: </strong></span><strong>SUNRISE</strong> Visibility -1, Cooler</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><span style=\"font-weight:bold;color:rgb(230, 126, 57)\"><strong>4-6: </strong></span><strong>LATE</strong> MORNING Full Visibility, foot traffic</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><span style=\"font-weight:bold;color:rgb(142, 68, 175)\"><strong>7-8: </strong></span><strong>NOON</strong> Full visibility, Hot, quiet</p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><span style=\"font-weight:bold;color:rgb(192, 57, 104)\"><strong>9-10: AFTERNON Mission Failure if not with the VIP</strong></span></p>\n                </td>\n            </tr>\n            <tr>\n                <td>\n                    <p><strong>[[/tracker \"sunlight clock\" +1]]{ADVANCE THE SUNLIGHT} DIE BY +1 WHEN:</strong></p>\n                    <p><strong>1.</strong> You move between major terrain features (e.g., crossing the wadi to the village)</p>\n                    <p><strong>2.</strong> You spend time interacting with locals</p>\n                    <p><strong>3.</strong> You engage in combat for more than 3 rounds</p>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n    <h1>Solo Procedure: Advancing The Sunlight Clock</h1>\n    <h3>Purpose:</h3>\n    <p>The Sunlight Clock advances based on time spent, player tempo, and friction, not strict real-time tracking. A way for the battlefield to evolve without strict timekeeping. While created for solo play, GM's use allows the scenario to gain a sense of urgency.</p>\n    <h3>Starting State:</h3>\n    <p>Sunlight Clock begins at Morning (Full Light)</p>\n    <h3>Movement Between Locations</h3>\n    <p>Players spend extended time in one area (searching, overwatch)</p>\n    <p>A delay occurs (casualty care, EOD, civilian interaction, negotiation)</p>\n    <p>After major contact or disruption</p>\n</div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 500000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "bXOasUsPwVWpQVAS"
+    },
+    {
+      "name": "Mission Briefing",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p><span class=\"caps-black\">(Read To Players)</span></p><p>Your chief, Captain Mayers, enters the tent. He’s in mid 30-s, bald and shaved, with a scar from fire on his neck. With a low and commanding voice, he says…</p><div class=\"dialogues\"><div class=\"dialogue-box\"><p>“Tomorrow evening, the Colonel will transit through our AO. Company A will escort him to Checkpoint 2 along the MSR.”</p></div><div class=\"dialogue-box\"><p>“Your mission is to clear the MSR of mines, insert a sniper overwatch team, and link up with Company A to escort the Colonel back to the FOB.”</p></div><div class=\"dialogue-box\"><p>“You will depart at 0300 with four armored vehicles. Proceed to CP1, insert the sniper team, then continue to CP2.”</p></div><div class=\"dialogue-box\"><p>“Company A will arrive at CP2 by 1200 local.”</p></div><div class=\"dialogue-box\"><p>“Fire support is limited. CASEVAC is 30 minutes. No ISR. Clear weather.”</p></div><div class=\"dialogue-box\"><p>“Success equals escorting the VIP safely back to base.”</p></div><div class=\"dialogue-box\"><p>“Any questions?”</p></div></div><img src=\"systems/outside-the-wire/assets/quickstart/art/img11.webp\"></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 700000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "4h4v2WigRBfoZLDX"
+    },
+    {
+      "name": "Pre-Mission Phase",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><p>Pre-Mission Phase <br><span class=\"caps-black\">(Player Agency)</span></p><p>Before departure, allow players to:</p><ul><li><p>Assign vehicles and seating.</p></li><li><p>Choose gunner positions.</p></li><li><p>Decide sniper distribution.</p></li><li><p>Conduct PCCs / PCIs.</p></li><li><p>Rehearse contingencies.</p></li></ul><h2>Vehicle Layout:</h2><p>Where players sit matters later. Who rides where determines exposure, casualties, and chaos.</p><img src=\"systems/outside-the-wire/assets/quickstart/art/img12.webp\"><p>Reward preparation with <strong>minor bonuses</strong> (reduced DRMs, initiative edge, extra intel).</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 800000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "VVueLDB5ZyCVunTA"
+    },
+    {
+      "sort": 450000,
+      "name": "Quickstart Field Manual Rules",
+      "type": "text",
+      "_id": "rrCncEx95GM4fP7R",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\"><h1>1. THE CORE MECHANIC (2D10 SYSTEM)</h1><p>The Golden Rule: To succeed, you must roll BELOW your Ability Score.</p><p class=\"green-color\">The Roll: 2d10 +/- Difficulty Modifier</p><p>• <strong>Success</strong>: The total is <strong>EQUAL TO or LESS THAN</strong> your Ability Score.</p><p>• <strong>Failure</strong>: The total is <strong>HIGHER</strong> than your Ability Score.</p><p>• <strong>Critical Failure (SNAFU)</strong>: Rolling a <strong>Natural 20</strong> (two 10s) is always a failure.</p><p>• <strong>Outstanding Success</strong>: Beating the target number by 5 or more (e.g., needing a 14 and rolling a 9).</p><h2>DIE ROLL MODIFIERS (DRM)</h2><p>The GM applies these numbers to your <strong>Dice Roll</strong> (making the number higher and harder to roll under).</p><p>• <strong>Very Easy</strong>: -5 (Point blank range, routine task)</p><p>• <strong>Easy</strong>: -2 (Stationary target, assisted task)</p><p>• <strong>Average</strong>: 0 (Standard combat range, under stress)</p><p>• <strong>Tricky</strong>: +2 (Target in cover, complex repair)</p><p>• <strong>Hard</strong>: +5 (Long range, moving target, defusing IED)</p><p>• <strong>Formidable</strong>: +10 (Extreme range, shooting from moving vehicle)</p><h1>2. ATTRIBUTES &amp; ABILITIES</h1><p>Your Operator is defined by four Attributes (1–10 Scale) which are combined with Skills to create <strong>Ability Scores</strong> (The number you roll against).</p><h2>ATTRIBUTES</h2><p>1. <strong>Strength (STR)</strong>: Physical power and endurance.</p><p>2. <strong>Agility (AGI)</strong>: Reflexes, balance, and speed.</p><p>3. <strong>Combat Wisdom (CW)</strong>: Abstract reasoning, “Battle Sense,” and intuition.</p><p>4. <strong>Combat Knowledge (CK)</strong>: Alertness, technical training, and streetwise smarts.</p><h2>DERIVED ABILITIES (THE NUMBERS YOU USE)</h2><p>• <strong>Prowess</strong> (STR + Training + Combat XP): Used for athletics, melee, throwing grenades, and movement.</p><p>• <strong>Tactics</strong> (CK + Training + Combat XP): Used for Initiative, avoiding ambushes, and leadership.</p><p>• <strong>Instincts</strong> (CW + Training + Combat XP): Used for spotting hidden enemies, sensing IEDs, and reactiosn speed.</p><p>• <strong>Shooting</strong> (Small Arms Skill + AGI + Combat XP): Used for firing rifles and pistols.</p><p>• <strong>Trained Skills</strong> (Skill Level + CW + Combat XP): Used for specific jobs like First Aid, Comms, or Demolitions.</p><h1>3. COMBAT SEQUENCE</h1><h3>PHASE 1</h3><p>1. <strong>Roll Initiative</strong>: roll <strong>2d10</strong> vs <strong>Tactics</strong>.</p><p>2. <strong>Declare Actions</strong>: 1 Move/Task / Attack, and 1 Communication per character.</p><p>3. <strong>Resolve Movement</strong>: Movement tasks (Driving, Climbing) use <strong>Tactics (driving)</strong> or <strong>Prowess (move in meters)</strong>.</p><h3>PHASE 2</h3><p>4. <strong>Resolve Attacks</strong>: Resolve shooting and melee attacks.</p><h3>PHASE 3</h3><p>5. <strong>Damage Resolution</strong>: Apply damage effects immediately.</p><p>Combat turns are deadly and fast. There are no Hit Points (HP). Damage is location-based.</p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "name": "Phase 1: Initiative (Tatics)",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>• <strong>The Roll</strong>: Player rolls 2d10 against their Tactics.</p><p>• <strong>The Winner</strong>: If the player rolls under their tactics, they go first.</p><p>□ <em>Example</em>: Player has Tactics 10 and rolls a 13. The enemy acts first.</p><p>□ Delcare Actions. Players can each conduct on move / task/ attack and one communication per turn.</p><p>□ Task include but not limited to: reloading, self aid, applying first aid, deploying smoke, calling an aircraft, a physical activity (breaking a door / window etc).</p><p>□ Communications includes giving commands to NPCs and other players.</p><p>□ Players movement inlcudes moving a vehicle ( a tactics challenge) or physically moving ( a prowess challenge). Limit die</p><p>rolls for success to major activites (diving through a window, catching a fleeing suspect, etc.).</p><p></p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 475000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "vedo8ZEIt0b2OiyY"
+    },
+    {
+      "name": "Phase 2: Engagement (Resolving Attacks)",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>• Melee attacks are based on successfully rolling against the players or NPCs prowess.</p><p>• Shooting attacks are based on either small arms or heavy weapons abilities.</p><p>• <strong>Declare Target &amp; Modifier</strong>: GM assigns a DRM based on range and cover.</p><p>□ Example: Enemy is 200m away in partial cover (+2 Tricky).</p><p class=\"green-color\">The Check: Roll 2d10 + DRM.</p><p>□ If the result below <strong>Shooting Ability</strong>, you hit.</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 475000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "bhKOUUWceHH7rOvZ"
+    },
+    {
+      "name": "Phase 3: Damage Resolution",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>If you hit, roll <strong>1d10</strong> immediately to determine the injury. Apply the <strong>Damage Table</strong>: @UUID[Compendium.outside-the-wire.macros.Macro.LebTJVKUTw0nAEjE]{Roll Damage Resolution Rolltable}</p><p><strong>HITS ON ARMOR</strong> put the person out of action for a turn. Note, armor only counts if they are wearing a helmet or plates.</p><p><strong>INSTANT DOWN</strong> reflects the character is unconscious or semiconscious and is in need of immediate medical evacuation to survive.</p><p><strong>SEVERE</strong> reflects requiring medical care to get back in the fight.</p><div class=\"plain-box\"><h2>CRITICAL INJURY:</h2><p><strong>FIRST DOWN RULE</strong>. To prevent the immediate, premature loss of a Player Character (PC), the first instance in any mission where a PC suffers an effect that would normally result in ‘Instant Down’ or ‘Death’ is instead treated as a <strong>Critical Injury</strong>. The PC is immediately <strong>Out of Action</strong>, but not dead. The character must be stabilized by a successful First Aid task resolution within <strong>1D10</strong> game turns. If stabilized, the Critical Injury is logged and carries a persistent penalty until the PC is treated back at the FOB. If stabilization fails or a PC is reduced to ‘Instant Down’ a second time in the same mission, they are killed in action.</p></div><h2>VEHICLE DAMAGE</h2><p><strong>Vehicle Damage</strong> results are similarly resolved by a 1D10. It is essential to consider various outcomes that add tactical depth to vehicle combat. Damage to vehicles can result not only in destruction but also in partial effects that impact gameplay.</p><p>For example, a vehicle could become immobilized, preventing further movement, or be weapon-disabled, reducing its offensive capabilities. These partial damage outcomes create more dynamic scenarios and force players to make strategic decisions about how to proceed under changed conditions. On the hit chart, armored vehicles can reduce the effects on the crew. Hits on vehicle armor can cause personnel inside to be injured, such as experiencing concussions, broken bones, or eardrum damage. Moreover, armored vehicles feature run-flat tires, allowing them to continue for up to 10 minutes with damaged tires.</p><p>Small Arms (Rifles/LMGs) cannot damage Armored Vehicles. Heavy Weapons (HMGs, RPGs, IEDs) roll on the Vehicle Damage Table</p><p><strong>MRAP Armor</strong>: RPGs DRM -2 (Mitigates blast). Heavy Machine Guns DRM -3.</p><p>@UUID[Compendium.outside-the-wire.macros.Macro.IbdPwIw4JBkJlTUU]{Roll Vehicle Damage Rolltable}</p><p><strong>Vehicle K-Kill Destroyed</strong>: The vehicle is a total loss; all characters must roll on the casualty table. All characters are stunned for 1 turn but must leave the vehicle within 1D10 turns or be killed by ammunition cooking off.</p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 475000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "QfN7IkkXABgBfUJ2"
+    },
+    {
+      "name": "Phase 4: Mission Flow Example",
+      "text": {
+        "format": 1,
+        "content": "<div id=\"tst\" class=\"phase\"><p>Briefing: “Intel reports an IED maker is hiding in the ‘Red Compound’ 1km North. Move to the target, secure the HVT (High Value Target), and RTB (Return to Base). Watch for mines.”</p><h2> STARTING LOCATION: FORT QALAT.</h2><h3>ENCOUNTER 1: THE APPROACH (INSTINCT CHECK)</h3><h3>•\tAs the squad moves, have the Point Man (Armani) roll against <strong>Instincts (12).</strong></h3><p>•\t<strong>Roll 2d10</strong>:</p><p>□\t<em>Result</em> 10: <strong>Pass</strong>. Armani spots a disturbed patch of dirt (IED) and halts the team.</p><p>□\t<em>Result</em> 15: <strong>Fail</strong>. Armani walks past. The GM rolls 1d10 for a Random Event or triggers the mine (Damage 1d10 to legs).</p><p>□\t<strong>Option: if found, have Axe attempt to disarm, roll against their Explosives.</strong></p><h3>ENCOUNTER 2: CONTACT (COMBAT)</h3><p>•\tTwo insurgents appear on a rooftop (200m, Cover).</p><p>•\t<strong>Initiative</strong>: Armani rolls vs Tactics (14). Winner shoots first.</p><p>•\t<strong>Attack</strong>: Mack and Torres suppress the roof.</p><p>□\tAction: Roll vs Shooting (16). <strong>Modifier</strong>: +2 (Tricky/Cover). Target is 17.</p><p>□\tRoll: 14 + 2 = 16. Hit.</p><p>•\t<strong>Damage</strong>: Each rolls 1d10—result: <strong>3 (Torso - Severe) and 6 (arm</strong>). One insurgent is down, the other wounded, and flees. </p><h3>ENCOUNTER 3: THE BREACH</h3><p>•\tArmani orders Axe to breach the door. Mack rolls <strong>Explosives (10 +2 breach kit).</strong></p><p>□ Roll: 4 (Outstanding Success).</p><p>The door flies off its hinges, shocking the target inside.</p><p>•\t<strong>Capture</strong>: Armani rolls <strong>Prowess</strong> (8) to intimidate/secure the HVT before he grabs a weapon.</p><p></p></div>"
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "sort": 475000,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "s9aGlsJk8k0NJ35d": 3,
+        "ewXZGhunomoYQJt6": 3
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "QXUDBFQycpi6MJm0"
+    }
+  ],
+  "folder": "xAHTIiTIh68NH0ST",
+  "categories": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

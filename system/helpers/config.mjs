@@ -2,8 +2,13 @@ export function createListAndChoices(obj, name, constants, label, { plural = und
   plural ??= `${name}S`;
   obj[plural] = Object.keys(constants);
   obj[`${name}_CHOICES`] = Object.assign(
-    ...Object.keys(constants).map(it => ({
-      [it]: `${label}.${it}.label`
-    }))
+    ...Object.keys(constants).map(it => {
+      let key = it;
+      if (constants[it] != key)
+        key = constants[it];
+      return ({
+        [key]: `${label}.${it}.label`
+      });
+    })
   );
 }

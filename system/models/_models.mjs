@@ -13,3 +13,5 @@ export { default as OutsideTheWireItemBackground } from "./items/item-background
 export { default as OutsideTheWireItemEquipment } from "./items/item-equipment.mjs";
 export { default as OutsideTheWireItemWeapon } from "./items/item-weapon.mjs";
 export { default as OutsideTheWireItemExplosive } from "./items/item-explosive.mjs";
+
+export { default as OutsideTheWireItemTrack } from "./items/item-track.mjs";

@@ -1,35 +1,35 @@
 {
-  "folder": "OBaYXerGF7JbEMtU",
-  "name": "IED Ambush",
-  "_id": "WjbEqIL2U4f0rxtS",
+  "name": "Command Confidence",
+  "_id": "wkMJesD5GDhchKpn",
   "img": "icons/svg/d20-grey.svg",
   "description": "",
   "results": [
     {
       "type": "text",
-      "weight": 3,
+      "weight": 4,
       "range": [
-        1,
+        0,
         3
       ],
-      "_id": "njkcHGvtOagOSJis",
-      "name": "Lead Vehicle Hit",
+      "_id": "mkUj0oh1HasSciWL",
+      "name": "RIP IMMINENT",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>no assets</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "14.365",
         "systemId": "outside-the-wire",
         "systemVersion": "0.0.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "createdTime": 1787059806289,
+        "modifiedTime": 1787165290092,
+        "lastModifiedBy": "nQmIXU80hyUxyc9v",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
-      "documentUuid": null
+      "documentUuid": null,
+      "_key": "!tables.results!wkMJesD5GDhchKpn.mkUj0oh1HasSciWL"
     },
     {
       "type": "text",
@@ -38,95 +38,101 @@
         4,
         6
       ],
-      "_id": "XxyDUY3L2FzooS0y",
-      "name": "Lead + Second Vehicle",
+      "_id": "fuu1BvntvxfDGuth",
+      "name": "LOW",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>basic only, no air/artillery</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "14.365",
         "systemId": "outside-the-wire",
         "systemVersion": "0.0.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "createdTime": 1787059806439,
+        "modifiedTime": 1787165290094,
+        "lastModifiedBy": "nQmIXU80hyUxyc9v",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
-      "documentUuid": null
+      "documentUuid": null,
+      "_key": "!tables.results!wkMJesD5GDhchKpn.fuu1BvntvxfDGuth"
     },
     {
       "type": "text",
-      "weight": 3,
+      "weight": 2,
       "range": [
         7,
-        9
+        8
       ],
-      "_id": "F1dcYAPGU1TwiDm9",
-      "name": "Lead, Second, + Third",
+      "_id": "P3bGhCh73lBy51db",
+      "name": "GOOD",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>mortars, standard support</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "14.365",
         "systemId": "outside-the-wire",
         "systemVersion": "0.0.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "createdTime": 1787059806583,
+        "modifiedTime": 1787165290095,
+        "lastModifiedBy": "nQmIXU80hyUxyc9v",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
-      "documentUuid": null
+      "documentUuid": null,
+      "_key": "!tables.results!wkMJesD5GDhchKpn.P3bGhCh73lBy51db"
     },
     {
       "type": "text",
-      "weight": 1,
+      "weight": 2,
       "range": [
-        10,
+        9,
         10
       ],
-      "_id": "jITXy2J6J0hWzZz0",
-      "name": "All Vehicles Hit",
+      "_id": "LmIFPhP4SsekoLkj",
+      "name": "PRIORITY",
       "img": "icons/svg/d20-black.svg",
-      "description": "",
+      "description": "<p>armor/air unlocked</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "14.365",
         "systemId": "outside-the-wire",
         "systemVersion": "0.0.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "createdTime": 1787059806771,
+        "modifiedTime": 1787165290096,
+        "lastModifiedBy": "nQmIXU80hyUxyc9v",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
-      "documentUuid": null
+      "documentUuid": null,
+      "_key": "!tables.results!wkMJesD5GDhchKpn.LmIFPhP4SsekoLkj"
     }
   ],
   "replacement": true,
   "displayRoll": true,
-  "sort": 0,
+  "folder": "hRa6Jvk6OR6YlpUL",
+  "sort": 100000,
   "ownership": {
-    "default": 0
+    "default": 0,
+    "OQTDMTZIJgbOwEpj": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "outside-the-wire",
     "systemVersion": "0.0.1",
-    "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "createdTime": 1787059804650,
+    "modifiedTime": 1787165290091,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "formula": "1d10"
+  "formula": "1d11",
+  "_key": "!tables!wkMJesD5GDhchKpn"
 }

@@ -1,0 +1,23 @@
+{
+  "type": "RollTable",
+  "folder": "Q71UHXL1oDUILQHS",
+  "name": "Tracks & Clock",
+  "color": "#b3986b",
+  "sorting": "a",
+  "_id": "hRa6Jvk6OR6YlpUL",
+  "description": "",
+  "sort": 200000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "outside-the-wire",
+    "systemVersion": "0.0.1",
+    "createdTime": 1787139737171,
+    "modifiedTime": 1787163484395,
+    "lastModifiedBy": "nQmIXU80hyUxyc9v",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!hRa6Jvk6OR6YlpUL"
+}

@@ -92,20 +92,45 @@
   }
 }
 
-// div.adventure-importer:has(div#tst) {
-//   .window-content {
-//     .adventure-header {
-//       margin: -12px 0 30px;
-//     }
+div.adventure-importer:has(div#tst) {
+  .window-content {
+    .submit {
+      border: 2px groove black;
+    }
 
-//     .adventure-banner {
-//       img {
-//         border: 0;
-//         height: 100%;
-//       }
-//     }
-//   }
-// }
+    h2 {
+      @include headers.defaultHeader;
+      font-size: 1.3rem;
+      border-bottom: 2px black solid;
+      line-height: 1.3rem;
+    }
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.705), rgba(0, 0, 0, 0)),
+    url(/systems/outside-the-wire/assets/quickstart/elements/fundo-1.webp);
+
+    div#tst {
+
+      background-color: #f1f1f2;
+      border: 1px #c2c4c6 solid;
+      padding: 1rem 2rem;
+
+      p.h1 {
+        margin-top: 0;
+      }
+    }
+
+    .adventure-header {
+      display: none;
+    }
+
+    .adventure-banner {
+      img {
+        border: 0;
+        height: 100%;
+      }
+    }
+  }
+}
 
 // div.adventure-importer:has(div#tst) {
 //   .window-content {

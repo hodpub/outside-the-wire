@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "compatibility": {
     "minimum": "14",
-    "verified": "14.365"
+    "verified": "14.366"
   },
   "authors": [
     {
@@ -27,7 +27,8 @@
     }
   ],
   "esmodules": [
-    "system/outside-the-wire.mjs"
+    "system/outside-the-wire.mjs",
+    "module/module-starter.mjs"
   ],
   "styles": [
     "css/outside-the-wire.css",
@@ -44,6 +45,7 @@
     {
       "name": "rolltables",
       "label": "Roll Tables",
+      "banner": "systems/outside-the-wire/assets/quickstart/menus/menu-01.webp",
       "path": "packs/rolltables",
       "type": "RollTable",
       "ownership": {
@@ -53,8 +55,21 @@
       "system": "outside-the-wire"
     },
     {
+      "name": "macros",
+      "label": "Macros",
+      "banner": "systems/outside-the-wire/assets/quickstart/menus/menu-02.webp",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "outside-the-wire"
+    },
+    {
       "name": "quickstart",
       "label": "Quickstart",
+      "banner": "systems/outside-the-wire/assets/quickstart/menus/menu-03.webp",
       "path": "packs/quickstart",
       "type": "Adventure",
       "ownership": {
@@ -69,7 +84,9 @@
       "sorting": "m",
       "color": "#7b620a",
       "packs": [
-        "quickstart"
+        "rolltables",
+        "quickstart",
+        "macros"
       ]
     }
   ],
@@ -136,7 +153,8 @@
         "htmlFields": [
           "description"
         ]
-      }
+      },
+      "track": {}
     }
   },
   "flags": {
