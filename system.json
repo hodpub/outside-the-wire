@@ -2,7 +2,7 @@
   "id": "outside-the-wire",
   "title": "Outside the Wire",
   "description": "The official Outside the Wire system for FoundryVTT!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
