@@ -2,16 +2,20 @@
   "id": "outside-the-wire",
   "title": "Outside the Wire",
   "description": "The official Outside the Wire system for FoundryVTT!",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "14",
-    "verified": "14.366"
+    "verified": "14"
   },
   "authors": [
     {
       "name": "Cussa Mitre [Hod Publishing]",
       "url": "https://hodpub.com/",
       "discord": "CussaMitre"
+    },
+    {
+      "name": "Angelo Grola [Hod Publishing]",
+      "url": "https://hodpub.com/"
     }
   ],
   "url": "https://github.com/hodpub/outside-the-wire",
