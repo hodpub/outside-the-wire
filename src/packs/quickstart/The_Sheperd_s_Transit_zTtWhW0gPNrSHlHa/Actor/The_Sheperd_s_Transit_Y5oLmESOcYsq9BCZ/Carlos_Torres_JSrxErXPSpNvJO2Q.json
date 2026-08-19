@@ -286,104 +286,6 @@
       }
     },
     {
-      "folder": "bdzIqRbrxhmnKZtc",
-      "name": "Sniper",
-      "type": "specialty",
-      "_id": "7yJ7PkeGN9MovjD3",
-      "img": "systems/outside-the-wire/assets/icons/specialty.svg",
-      "system": {
-        "description": "<p>Snipers are elite riflemen selected for patience, discipline, and exceptional marksmanship—the few who can turn a single well-placed round into a decisive tactical outcome. They operate at the edges of the battlefield, unseen, unheard, and often alone or paired with a spotter, shaping missions not through volume of fire, but through information dominance and surgical strikes. Snipers excel at reconnaissance, target interdiction, and overwatch, making them invaluable for players who prefer precision over brute force.</p>",
-        "combatExperience": {
-          "value": 0
-        },
-        "trainingExperience": {
-          "value": 0
-        },
-        "rank": {
-          "value": 0
-        },
-        "attributes": {
-          "strength": {
-            "value": 0
-          },
-          "agility": {
-            "value": 0
-          },
-          "wisdom": {
-            "value": 0
-          },
-          "knowledge": {
-            "value": 0
-          }
-        },
-        "abilities": {
-          "prowess": {
-            "value": 0
-          },
-          "shooting": {
-            "value": 0
-          },
-          "instincts": {
-            "value": 0
-          },
-          "tactics": {
-            "value": 0
-          }
-        },
-        "skills": {
-          "smallArms": {
-            "value": 4
-          },
-          "heavyArms": {
-            "value": 0
-          },
-          "firstAid": {
-            "value": 0
-          },
-          "communications": {
-            "value": 1
-          },
-          "civilAffairs": {
-            "value": 0
-          },
-          "spying": {
-            "value": 0
-          },
-          "fires": {
-            "value": 0
-          },
-          "signalsIntel": {
-            "value": 0
-          },
-          "explosives": {
-            "value": 0
-          }
-        },
-        "initial": true,
-        "hookTable": null,
-        "active": true,
-        "usedHook": false
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "BDvzKkO2QU6Ny6CT": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.365",
-        "systemId": "outside-the-wire",
-        "systemVersion": "0.0.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      }
-    },
-    {
       "name": "Deployment #1 to Afghanistan",
       "type": "deployment",
       "_id": "58vkM2ZjxGXyCtiO",
@@ -435,7 +337,7 @@
             "value": 0
           },
           "firstAid": {
-            "value": 1
+            "value": 0
           },
           "communications": {
             "value": 0
@@ -3286,6 +3188,104 @@
         "usable": true,
         "quantity": 0,
         "test": "skills.explosives.total"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BDvzKkO2QU6Ny6CT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "outside-the-wire",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "folder": "bdzIqRbrxhmnKZtc",
+      "name": "Sniper",
+      "type": "specialty",
+      "_id": "7yJ7PkeGN9MovjD3",
+      "img": "systems/outside-the-wire/assets/icons/specialty.svg",
+      "system": {
+        "description": "<p>Snipers are elite riflemen selected for patience, discipline, and exceptional marksmanship—the few who can turn a single well-placed round into a decisive tactical outcome. They operate at the edges of the battlefield, unseen, unheard, and often alone or paired with a spotter, shaping missions not through volume of fire, but through information dominance and surgical strikes. Snipers excel at reconnaissance, target interdiction, and overwatch, making them invaluable for players who prefer precision over brute force.</p>",
+        "combatExperience": {
+          "value": 0
+        },
+        "trainingExperience": {
+          "value": 0
+        },
+        "rank": {
+          "value": 0
+        },
+        "attributes": {
+          "strength": {
+            "value": 0
+          },
+          "agility": {
+            "value": 0
+          },
+          "wisdom": {
+            "value": 0
+          },
+          "knowledge": {
+            "value": 0
+          }
+        },
+        "abilities": {
+          "prowess": {
+            "value": 0
+          },
+          "shooting": {
+            "value": 0
+          },
+          "instincts": {
+            "value": 0
+          },
+          "tactics": {
+            "value": 0
+          }
+        },
+        "skills": {
+          "smallArms": {
+            "value": 5
+          },
+          "heavyArms": {
+            "value": 0
+          },
+          "firstAid": {
+            "value": 1
+          },
+          "communications": {
+            "value": 1
+          },
+          "civilAffairs": {
+            "value": 0
+          },
+          "spying": {
+            "value": 0
+          },
+          "fires": {
+            "value": 0
+          },
+          "signalsIntel": {
+            "value": 0
+          },
+          "explosives": {
+            "value": 0
+          }
+        },
+        "initial": true,
+        "hookTable": null,
+        "active": true,
+        "usedHook": false
       },
       "effects": [],
       "sort": 0,
